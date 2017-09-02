@@ -33,7 +33,7 @@ define("_MI_WFL_INDEXPAGE","Главная страница");
 define("_MI_WFL_MCATEGORY","Категории");
 define("_MI_WFL_MLINKS","Управление ссылками");
 define("_MI_WFL_MUPLOADS","Загрузка изображений");
-define("_MI_WFL_PERMISSIONS","Настройки прав доступа");
+define("_MI_WFL_PERMISSIONS","Права доступа");
 define("_MI_WFL_BLOCKADMIN","Настройки блока");
 define("_MI_WFL_MVOTEDATA","Голосование");
 
@@ -326,6 +326,9 @@ define('_MI_WFL_HELP_HEADER', __DIR__.'/help/helpheader.tpl');
 define('_MI_WFL_BACK_2_ADMIN', 'Назад к администрации ');
 define('_MI_WFL_OVERVIEW', 'Обзор');
 define('_MI_WFL_HELP', 'Помощь');
+define('_MI_WFL_HELP_DISCLAIMER', 'Disclaimer');
+define('_MI_WFL_HELP_LICENSE', 'License');
+define('_MI_WFL_HELP_SUPPORT', 'Support');
 // Links
 define('_MI_WFL_MLINKS_DESC', 'Используйте для создания, модификации и удаления ссылок.');
 define('_MI_WFL_HELP_LINKS_DESCRIPTION', '
@@ -675,4 +678,11 @@ define('_MI_WFL_HELP_UPDATE_DESCRIPTION', '
     <li>Восстановите таблицу базы данных из пункта 1</li>
     <li><strong>Обновить</strong> WF-Links из Администрирования модулей.</li>
     </ol>
+');
+// Support
+define('_MI_WFL_SUPPORT_DESC', '');
+define('_MI_WFL_HELP_SUPPORT_DESCRIPTION', '
+    <span style="font-family: Arial, sans-serif; font-size: larger;  text-decoration: underline;">Для поддержки посетите наш форум:</span><br><br>
+    <p><span style="font-family: Arial, sans-serif; font-size: 172%; "><a href="https://xoops.org/modules/newbb/viewforum.php?forum=28/" target="_blank">https://xoops.org/modules/newbb/</a><br></span>
+    </p>
 ');

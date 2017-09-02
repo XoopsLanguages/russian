@@ -10,9 +10,9 @@
  * Format: UTF-8
  */
 
-define("_AM_WFL_WARNINSTALL1","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <u>Каталог</u> %s существует на Вашем сервере. <br />Удалите этот каталог из соображений безопасности.");
-define("_AM_WFL_WARNINSTALL2","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <u>Файл</u> %s существует на Вашем сервере. <br />Удалите этот файл из соображений безопасности.");
-define("_AM_WFL_WARNINSTALL3","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <u>Папка</u> %s на Вашем сервере не существует. <br />Эта папка требуется WF-Links.");
+define("_AM_WFL_WARNINSTALL1","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <span style='text-decoration: underline;'>Каталог</span> %s существует на Вашем сервере. <br />Удалите этот каталог из соображений безопасности.");
+define("_AM_WFL_WARNINSTALL2","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <span style='text-decoration: underline;'>Файл</span> %s существует на Вашем сервере. <br />Удалите этот файл из соображений безопасности.");
+define("_AM_WFL_WARNINSTALL3","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <span style='text-decoration: underline;'>Папка</span> %s на Вашем сервере не существует. <br />Эта папка требуется WF-Links.");
 
 define("_AM_WFL_MODULE_NAME","WF-Links");
 
@@ -487,3 +487,12 @@ define("_AM_WFL_NOSELECTION","Не выбрано");
 define("_AM_WFL_NOFILESELECT","Не выбран файл");
 
 define( "_AM_WFL_MODULEADMIN_MISSING", 'Ошибка: отсутствует класс ModuleAdmin. Установите модуль ModuleAdmin в /Frameworks (информация /docs/readme.txt)');
+
+//1.11
+define('_AM_WFL_UPGRADEFAILED0', "Ошибка обновления - не удалось переименовать поле '%s'");
+define('_AM_WFL_UPGRADEFAILED1', "Ошибка обновления - не удалось добавить новые поля");
+define('_AM_WFL_UPGRADEFAILED2', "Ошибка обновления - не удалось переименовать таблицу '%s'");
+define('_AM_WFL_ERROR_COLUMN', 'Не удалось создать столбец в базе данных : %s');
+define('_AM_WFL_ERROR_BAD_XOOPS', 'Этот модуль требует XOOPS %s+ (%s установлено)');
+define('_AM_WFL_ERROR_BAD_PHP', 'Для этого модуля требуется версия PHP %s+ (%s установлено)');
+define('_AM_WFL_ERROR_TAG_REMOVAL', 'Не удалось удалить теги из модуля тегов');
