@@ -208,7 +208,7 @@ define('_MI_WFL_COPYRIGHT2','Авторские права');
 define('_MI_WFL_COPYRIGHTIMAGE',"Если не указано иное, этот модуль (WF-Links) и его изображения являются авторскими правами команды WF-Projects.<br /><br />У Вас есть разрешение на копирование, редактирование и изменение WF-Links в соответствии с вашими личными требованиями. Вы соглашаетесь не изменять, не адаптировать и не распространять исходный код Программного обеспечения без прямого разрешения команды WF-Projects.<br /><br />PageRank является товарным знаком Google Inc.");
 
 define('_MI_WFL_SELECTFORUM',"Выберите форум:");
-define('_MI_WFL_SELECTFORUMDSC',"Выберите форум, который вы установили, и будете использовать WF-Links.");
+define('_MI_WFL_SELECTFORUMDSC',"Выберите форум, который Вы установили, и будете использовать с WF-Links.");
 
 define('_MI_WFL_DISPLAYFORUM1',"Newbb (all)");
 define('_MI_WFL_DISPLAYFORUM2',"IPB Forum");
@@ -294,7 +294,7 @@ define("_MI_WFL_COUNTRY_D","Страна (D)");
 
 // Admin Summary
 //define("_MI_WFL_SCATEGORY","Категория");
-define("_MI_WFL_SNEWFILESVAL","Отправлено");
+define("_MI_WFL_SNEWFILESVAL","Ожидающие проверки");
 define("_MI_WFL_SMODREQUEST","Модифицированные");
 //define("_MI_WFL_SREVIEWS","Отзывы: ");
 define("_MI_WFL_SBROKENSUBMIT","Сломанные");
@@ -313,6 +313,9 @@ define('_MI_WFL_HELP_INDEXPAGE', "Главная страница");
 define('_MI_WFL_HELP_CATEGORY', "Управление категориями");
 define('_MI_WFL_HELP_PERMISSION', "Права доступа");
 define('_MI_WFL_HELP_LINKS', "Управление ссылками");
+
+//1.11 Beta 2
+define('_MI_WFL_DISPLAYFORUM5',"X-Forum");
 
 // The Directory of this module
 define('_MI_WFL_DIRNAME', basename(dirname(dirname(dirname(__FILE__)))));

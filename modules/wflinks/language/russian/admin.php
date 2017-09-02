@@ -51,7 +51,7 @@ define("_AM_WFL_ABOUT","О модуле");
 // Admin Summary
 define("_AM_WFL_SCATEGORY","Категорий:  <strong>%s</strong> ");
 define("_AM_WFL_SFILES","Ссылки:  <strong>%s</strong> ");
-define("_AM_WFL_SNEWFILESVAL","Отправлено:  <strong>%s</strong> ");
+define("_AM_WFL_SNEWFILESVAL","Ожидают проверки:  <strong>%s</strong> ");
 define("_AM_WFL_SMODREQUEST","Изменено:  <strong>%s</strong> ");
 define("_AM_WFL_SREVIEWS","Отзывы: ");
 
@@ -160,12 +160,12 @@ define("_AM_WFL_MINDEX_EXPIRED","Истекшие ссылки:");
 define("_AM_WFL_MINDEX_OFFLINELINK","Офлайн-ссылки:");
 define("_AM_WFL_MINDEX_ID","ID");
 define("_AM_WFL_MINDEX_TITLE","Название ссылки");
-define("_AM_WFL_MINDEX_POSTER","Плакат");
+define("_AM_WFL_MINDEX_POSTER","Отправил");
 define("_AM_WFL_MINDEX_ONLINE","Статус");
 define("_AM_WFL_MINDEX_ONLINESTATUS","Статус онлайн");
 define("_AM_WFL_MINDEX_PUBLISH","Опубликовано");
 define("_AM_WFL_MINDEX_PUBLISHED","Опубликовано");
-define("_AM_WFL_MINDEX_EXPIRE","Истекший");
+define("_AM_WFL_MINDEX_EXPIRE","Истекает");
 define("_AM_WFL_MINDEX_NOTSET","Дата не задана");
 define("_AM_WFL_MINDEX_SUBMITTED","Дата отправки");
 
@@ -425,7 +425,7 @@ define("_AM_WFL_BANNERIDDSC","Если Вы выбрали клиента в ф�
 define("_AM_WFL_VAT","НДС Reg Non");
 define("_AM_WFL_VATWIKI","Для получения дополнительной информации см. <a href='http://en.wikipedia.org/wiki/Value_added_tax_identification_number' target='_blank'>Wikipedia</a>");
 define("_AM_WFL_EMAIL","E-Mail");
-define("_AM_WFL_ICO_EXPIRE","Истекший");
+define("_AM_WFL_ICO_EXPIRE","Истекает");
 define("_AM_WFL_LINK_NORESPONSE", 'Нет ответа');
 define("_AM_WFL_LINK_CREATEADDRESS", '&nbsp;<b>Подробное описание</b>');
 define("_AM_WFL_LINK_MISCLINKSETTINGS", '&nbsp;<b>Другие настройки ссылок</b>');
