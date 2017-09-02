@@ -10,9 +10,9 @@
  * Format: UTF-8
  */
 
-define("_AM_WFL_WARNINSTALL1","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <u>Каталог</u> %s существует на Вашем сервере. <br />Удалите этот каталог из соображений безопасности.");
-define("_AM_WFL_WARNINSTALL2","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <u>Файл</u> %s существует на Вашем сервере. <br />Удалите этот файл из соображений безопасности.");
-define("_AM_WFL_WARNINSTALL3","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <u>Папка</u> %s на Вашем сервере не существует. <br />Эта папка требуется WF-Links.");
+define("_AM_WFL_WARNINSTALL1","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <span style='text-decoration: underline;'>Каталог</span> %s существует на Вашем сервере. <br />Удалите этот каталог из соображений безопасности.");
+define("_AM_WFL_WARNINSTALL2","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <span style='text-decoration: underline;'>Файл</span> %s существует на Вашем сервере. <br />Удалите этот файл из соображений безопасности.");
+define("_AM_WFL_WARNINSTALL3","<b>ПРЕДУПРЕЖДЕНИЕ:</b> <span style='text-decoration: underline;'>Папка</span> %s на Вашем сервере не существует. <br />Эта папка требуется WF-Links.");
 
 define("_AM_WFL_MODULE_NAME","WF-Links");
 
@@ -51,7 +51,7 @@ define("_AM_WFL_ABOUT","О модуле");
 // Admin Summary
 define("_AM_WFL_SCATEGORY","Категорий:  <strong>%s</strong> ");
 define("_AM_WFL_SFILES","Ссылки:  <strong>%s</strong> ");
-define("_AM_WFL_SNEWFILESVAL","Отправлено:  <strong>%s</strong> ");
+define("_AM_WFL_SNEWFILESVAL","Ожидают проверки:  <strong>%s</strong> ");
 define("_AM_WFL_SMODREQUEST","Изменено:  <strong>%s</strong> ");
 define("_AM_WFL_SREVIEWS","Отзывы: ");
 
@@ -160,12 +160,12 @@ define("_AM_WFL_MINDEX_EXPIRED","Истекшие ссылки:");
 define("_AM_WFL_MINDEX_OFFLINELINK","Офлайн-ссылки:");
 define("_AM_WFL_MINDEX_ID","ID");
 define("_AM_WFL_MINDEX_TITLE","Название ссылки");
-define("_AM_WFL_MINDEX_POSTER","Плакат");
+define("_AM_WFL_MINDEX_POSTER","Отправил");
 define("_AM_WFL_MINDEX_ONLINE","Статус");
 define("_AM_WFL_MINDEX_ONLINESTATUS","Статус онлайн");
 define("_AM_WFL_MINDEX_PUBLISH","Опубликовано");
 define("_AM_WFL_MINDEX_PUBLISHED","Опубликовано");
-define("_AM_WFL_MINDEX_EXPIRE","Истекший");
+define("_AM_WFL_MINDEX_EXPIRE","Истекает");
 define("_AM_WFL_MINDEX_NOTSET","Дата не задана");
 define("_AM_WFL_MINDEX_SUBMITTED","Дата отправки");
 
@@ -425,7 +425,7 @@ define("_AM_WFL_BANNERIDDSC","Если Вы выбрали клиента в ф�
 define("_AM_WFL_VAT","НДС Reg Non");
 define("_AM_WFL_VATWIKI","Для получения дополнительной информации см. <a href='http://en.wikipedia.org/wiki/Value_added_tax_identification_number' target='_blank'>Wikipedia</a>");
 define("_AM_WFL_EMAIL","E-Mail");
-define("_AM_WFL_ICO_EXPIRE","Истекший");
+define("_AM_WFL_ICO_EXPIRE","Истекает");
 define("_AM_WFL_LINK_NORESPONSE", 'Нет ответа');
 define("_AM_WFL_LINK_CREATEADDRESS", '&nbsp;<b>Подробное описание</b>');
 define("_AM_WFL_LINK_MISCLINKSETTINGS", '&nbsp;<b>Другие настройки ссылок</b>');
@@ -487,3 +487,12 @@ define("_AM_WFL_NOSELECTION","Не выбрано");
 define("_AM_WFL_NOFILESELECT","Не выбран файл");
 
 define( "_AM_WFL_MODULEADMIN_MISSING", 'Ошибка: отсутствует класс ModuleAdmin. Установите модуль ModuleAdmin в /Frameworks (информация /docs/readme.txt)');
+
+//1.11
+define('_AM_WFL_UPGRADEFAILED0', "Ошибка обновления - не удалось переименовать поле '%s'");
+define('_AM_WFL_UPGRADEFAILED1', "Ошибка обновления - не удалось добавить новые поля");
+define('_AM_WFL_UPGRADEFAILED2', "Ошибка обновления - не удалось переименовать таблицу '%s'");
+define('_AM_WFL_ERROR_COLUMN', 'Не удалось создать столбец в базе данных : %s');
+define('_AM_WFL_ERROR_BAD_XOOPS', 'Этот модуль требует XOOPS %s+ (%s установлено)');
+define('_AM_WFL_ERROR_BAD_PHP', 'Для этого модуля требуется версия PHP %s+ (%s установлено)');
+define('_AM_WFL_ERROR_TAG_REMOVAL', 'Не удалось удалить теги из модуля тегов');
