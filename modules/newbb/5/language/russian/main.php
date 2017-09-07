@@ -242,7 +242,7 @@ define('_MD_NEWBB_RE', 'Re');
 define('_MD_NEWBB_EDITNOTALLOWED', 'Вам не разрешено редактировать этот пост!');
 define('_MD_NEWBB_EDITEDBY', 'Отредактировано');
 define('_MD_NEWBB_ANONNOTALLOWED', 'Анонимные пользователи не могут публиковать сообщения.<br />Пожалуйста, зарегистрируйтесь.');
-define('_MD_NEWBB_THANKSSUBMIT', 'Спасибо за заявку!');
+define('_MD_NEWBB_THANKSSUBMIT', 'Спасибо за сообщение!');
 define('_MD_NEWBB_REPLYPOSTED', 'Ответ на Вашу тему опубликован.');
 define('_MD_NEWBB_HELLO', 'Здравствуйте %s,');
 define('_MD_NEWBB_URRECEIVING', 'Вы получили это электронное письмо, на которое было отправлено сообщение, отправленно на форуме %s ');// %s is your site name
@@ -388,7 +388,7 @@ define('_MD_NEWBB_MENU_SELECT', 'Выбрать');
 define('_MD_NEWBB_MENU_HOVER', 'Завесить');
 define('_MD_NEWBB_MENU_CLICK', 'Нажмите');
 define('_MD_NEWBB_WELCOME_SUBJECT', '%s присоединился к форуму');
-define('_MD_NEWBB_WELCOME_MESSAGE', 'Здравствуй, %s присоединился к Вам. Давайте начнем ...');
+define('_MD_NEWBB_WELCOME_MESSAGE', 'Здравствуй, %s !!!<br />Рады приветствовать тебя на форуме! Давай начнем ...');
 define('_MD_NEWBB_VIEWNEWPOSTS', 'Просмотр новых публикаций');
 define('_MD_NEWBB_INVALID_SUBMIT', 'Неверное отправление. Вы могли превысить время сеанса. Повторно отправьте или сделайте резервную копию своего сообщения и логина, чтобы при необходимости повторно отправить его.');
 define('_MD_NEWBB_ACCOUNT', 'Аккаунт');
@@ -505,3 +505,8 @@ define('_MD_NEWBB_REPLIED', 'Ответов в теме');
 define('_MD_NEWBB_READ', 'Читать темы');
 define('_MD_NEWBB_POLL_POLL', 'Голосование');
 define('_MD_NEWBB_PAGENAV_DISPLAY', 'Отображение навигации');
+
+// Automatic forum creation during registration
+define('_MD_NEWBB_AUTO_CREATE_EMAIL', 'Email');
+define('_MD_NEWBB_AUTO_CREATE_AVATARS', 'Ваш аватар');
+define('_MD_NEWBB_AUTO_CREATE_ABOUT', '');
