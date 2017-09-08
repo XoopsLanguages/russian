@@ -510,3 +510,4 @@ define('_MD_NEWBB_PAGENAV_DISPLAY', 'Отображение навигации')
 define('_MD_NEWBB_AUTO_CREATE_EMAIL', 'Email');
 define('_MD_NEWBB_AUTO_CREATE_AVATARS', 'Ваш аватар');
 define('_MD_NEWBB_AUTO_CREATE_ABOUT', '');
+define('_MD_NEWBB_NO_SELECTION', 'Необходимо выбрать элемент');
