@@ -246,7 +246,7 @@ define('_MI_NEWBB_PAGENAV_NUMBER', 'как числа');
 define('_MI_NEWBB_PAGENAV_IMAGE', 'как маленькие изображения');
 define('_MI_NEWBB_PAGENAV_SELECT', 'в качестве окна выбора');
 define('_MI_NEWBB_ADVERTISING', 'Показать рекламу');
-define('_MI_NEWBB_ADVERTISING_DESC', 'показывает коммерческий блок после 2-ой темы');
+define('_MI_NEWBB_ADVERTISING_DESC', 'показывает коммерческий блок после 2-ого сообщения. <a href="/modules/system/admin.php?fct=banners">Управление баннерами</a>');
 define('_MI_NEWBB_USERATTACH_ENABLE', 'Отображать вложения только для зарегистрированных пользователей');
 define('_MI_NEWBB_USERATTACH_ENABLE_DESC', 'показывает вложения на форуме только после входа в систему.');
 // 4.3
