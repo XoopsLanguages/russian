@@ -257,7 +257,7 @@ define('_MI_NEWBB_POLL_MODULE_DESC', 'XoopsPoll или клон. Оставьт�
 
 //Help
 define('_MI_NEWBB_DIRNAME', basename(dirname(dirname(__DIR__))));
-define('_MI_NEWBB_HELP_HEADER', __DIR__.'/help/helpheader.html');
+define('_MI_NEWBB_HELP_HEADER', __DIR__.'/help/helpheader.tpl');
 define('_MI_NEWBB_BACK_2_ADMIN', 'Назад к Администрации ');
 define('_MI_NEWBB_OVERVIEW', 'Обзор');
 
