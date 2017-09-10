@@ -77,8 +77,8 @@ define('_AM_SYSTEM_USERS_SHOWMAILOK', 'Тип пользователей, что
 define('_AM_SYSTEM_USERS_MAILOK', 'Только пользователи, которые принимают email');
 define('_AM_SYSTEM_USERS_MAILNG', "Только пользователи, которые не принимают email");
 define('_AM_SYSTEM_USERS_SHOWTYPE', 'Тип пользователей, чтобы показать');
-define('_AM_SYSTEM_USERS_ACTIVE', 'Только активные пользователи');
-define('_AM_SYSTEM_USERS_INACTIVE', 'Только неактивных пользователей');
+define('_AM_SYSTEM_USERS_ACTIVE', 'Активированные пользователи');
+define('_AM_SYSTEM_USERS_INACTIVE', 'Неактивные пользователи');
 define('_AM_SYSTEM_USERS_BOTH', 'Все пользователи');
 define('_AM_SYSTEM_USERS_SENDMAIL', 'Отправить email');
 define('_AM_SYSTEM_USERS_ADD2GROUP', 'Добавить пользователя в %s группу');
