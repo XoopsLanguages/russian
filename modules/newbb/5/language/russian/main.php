@@ -409,7 +409,7 @@ define('_MD_NEWBB_DBUPDATED', 'Обновлена ​​база данных!')
 define('_MD_NEWBB_SUSPEND_SUBJECT', 'Пользователь %s приостанавливается в течение %d дней');
 define('_MD_NEWBB_SUSPEND_TEXT', 'Пользователь %s приостанавливается в течение %d дней из-за:<br />[quote]%s[/quote]<br /><br />Блокировка действительна до %s');
 define('_MD_NEWBB_SUSPEND_UID', 'Псевдоним/ID пользователя');
-define('_MD_NEWBB_SUSPEND_IP', 'Заблокированный IP(сетевой адрес адрес/сетевая маска)');
+define('_MD_NEWBB_SUSPEND_IP', 'Заблокировать по IP(адрес сети/маска сети)');
 define('_MD_NEWBB_SUSPEND_DURATION', 'Продолжительность блокировки (дни)');
 define('_MD_NEWBB_SUSPEND_DESC', 'Причина блокировки');
 define('_MD_NEWBB_SUSPEND_LIST', 'Список блокировок');
