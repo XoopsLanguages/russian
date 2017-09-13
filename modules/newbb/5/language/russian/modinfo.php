@@ -202,7 +202,7 @@ define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYCAP', 'Уведомить меня о
 define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYDSC', 'Получать полное текстовое уведомление при публикации любого нового сообщения.');
 define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} автообновление: Новое сообщение (полный текст)');
 define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFY', 'Интересное');
-define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYCAP', 'Сообщите мне о публикации.');
+define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYCAP', 'Сообщать мне о интересных публикациях.');
 define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYDSC', 'Получить уведомление о интересном.');
 define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} автообновление: Интересный пост');
 // FOR installation
