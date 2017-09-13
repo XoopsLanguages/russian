@@ -109,7 +109,7 @@ define('_MI_NEWBB_SHOW_PERMISSIONTABLE', 'Показать таблицу раз
 define('_MI_NEWBB_SHOW_PERMISSIONTABLE_DESC', 'Установите Да чтобы показать права пользователя');
 define('_MI_NEWBB_EMAIL_DIGEST', 'Интересные посты по Email');
 define('_MI_NEWBB_EMAIL_DIGEST_DESC', 'Установите период времени для отправки почтовой рассылки интересного пользователям');
-define('_MI_NEWBB_EMAIL_NONE', 'Нет Email');
+define('_MI_NEWBB_EMAIL_NONE', 'Отключено');
 define('_MI_NEWBB_EMAIL_DAILY', 'Ежедневно');
 define('_MI_NEWBB_EMAIL_WEEKLY', 'Еженедельно');
 define('_MI_NEWBB_SHOW_IP', 'Показать IP пользователя');
