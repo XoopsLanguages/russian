@@ -43,7 +43,7 @@ define('_AM_ADV_LINK_TO_PREFIXMAN', 'Перейти к менеджеру пре
 define('_AM_ADV_MAINUNPATCHED', 'Вы должны отредактировать свой файл mainfile.php, как указано в README.');
 define('_AM_ADV_DBFACTORYPATCHED', 'Ваша база данных готова для DBLayer Trapping ant-SQL-Injection');
 define('_AM_ADV_DBFACTORYUNPATCHED', 'Ваша база данных не готова для использования DBLayer Trapping ant-SQL-Injection. Требуются некоторые исправления.');
-define('_AM_ADV_SUBTITLECHECK', 'Проверьте, если протектор хорошо работает');
+define('_AM_ADV_SUBTITLECHECK', 'Проверьте, работу протектора');
 define('_AM_ADV_CHECKCONTAMI', 'Контаминация');
 define('_AM_ADV_CHECKISOCOM', 'Изолированные комментарии');
 //XOOPS 2.5.4

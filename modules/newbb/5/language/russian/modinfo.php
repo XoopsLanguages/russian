@@ -11,8 +11,8 @@ define('_MI_NEWBB_NAME', 'Форум');
 // A brief description of this module
 define('_MI_NEWBB_DESC', 'Форум сообщества XOOPS');
 // Names of blocks for this module (Not all module has blocks)
-define('_MI_NEWBB_BLOCK_TOPIC_POST', 'Последние ответы. Они опускаются (используйте предварительный блок рендеринга темы)'); // irmtfan
-define('_MI_NEWBB_BLOCK_TOPIC', 'Последние темы. Они опускаются (используйте предварительный блок рендеринга темы)'); // irmtfan
+define('_MI_NEWBB_BLOCK_TOPIC_POST', 'Последние ответы. По убыванию (используйте предварительный блок рендеринга темы)'); // irmtfan
+define('_MI_NEWBB_BLOCK_TOPIC', 'Последние темы. По убыванию (используйте предварительный блок рендеринга темы)'); // irmtfan
 define('_MI_NEWBB_BLOCK_POST', 'Недавние посты');
 define('_MI_NEWBB_BLOCK_AUTHOR', 'Авторы');
 define('_MI_NEWBB_BLOCK_TAG_CLOUD', 'Облако тегов');
@@ -171,7 +171,7 @@ define('_MI_NEWBB_USERMODERATE', 'Включить модерацию польз
 define('_MI_NEWBB_USERMODERATE_DESC', 'Модератор форума может заблокировать конкретного пользователя на определенный период времени на форуме');
 // RMV-NOTIFY
 // Notification event descriptions and mail templates
-define('_MI_NEWBB_THREAD_NOTIFY', 'Нить');
+define('_MI_NEWBB_THREAD_NOTIFY', 'Тема');
 define('_MI_NEWBB_THREAD_NOTIFYDSC', 'Параметры уведомления, которые применяются к текущей теме.');
 define('_MI_NEWBB_FORUM_NOTIFY', 'Форум');
 define('_MI_NEWBB_FORUM_NOTIFYDSC', 'Параметры уведомления, которые применяются к текущему форуму.');
