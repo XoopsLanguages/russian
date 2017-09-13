@@ -217,7 +217,7 @@ define('_MI_NEWBB_INSTALL_POST_TEXT', '
 
     Если у Вас есть какие-либо вопросы относительно использования NewBB, посетите сайт местной поддержки или [url=http://xoops.org/modules/newbb/]XOOPS Support Site[/url].
     ');
-define('_MI_NEWBB_ADMENU_GROUPMOD', 'Группа модераторов');
+define('_MI_NEWBB_ADMENU_GROUPMOD', 'Модераторы форума');
 //define('_MI_NEWBB_SUBJECT_PREFIX', 'Добавить префикс к теме');
 //define('_MI_NEWBB_SUBJECT_PREFIX_DESC', 'Устанавливает префикс, например [РЕШЕНА] в начале темы. Для получения дополнительных параметров используйте ', ' как разделитель. NONE не является префиксом.');
 //define('_MI_NEWBB_SUBJECT_PREFIX_DEFAULT',

@@ -36,7 +36,7 @@ define('_MB_NEWBB_TIME', 'Временной период: ');
 define('_MB_NEWBB_TIME_DESC', 'Положительный для дней и отрицательный в течение нескольких часов<br />');
 define('_MB_NEWBB_TITLE', 'Заглавие');
 define('_MB_NEWBB_AUTHOR', 'Автор');
-define('_MB_NEWBB_COUNT', 'Подсчитывать');
+define('_MB_NEWBB_COUNT', 'Сообщений');
 define('_MB_NEWBB_INDEXNAV', 'Показать навигатор: ');
 define('_MB_NEWBB_TITLE_LENGTH', 'Заголовок/длина сообщения: ');
 // 4.3
