@@ -162,7 +162,7 @@ define('_MD_NEWBB_QUICKREPLY', 'Быстрый ответ');
 define('_MD_NEWBB_POSTREPLY', 'Ответить');
 define('_MD_NEWBB_PRINTTOPICS', 'Печать темы');
 define('_MD_NEWBB_PRINT', 'Распечатать');
-define('_MD_NEWBB_REPORT', 'Отчет');
+define('_MD_NEWBB_REPORT', 'Пожаловаться');
 define('_MD_NEWBB_PM', 'PM');
 define('_MD_NEWBB_EMAIL', 'Email');
 define('_MD_NEWBB_WWW', 'WWW');
@@ -320,7 +320,7 @@ define('_MD_NEWBB_POSTSDELETED', 'Выбранный пост и все его �
 define('_MD_NEWBB_POSTDELETED', 'Выбранный пост удален.');
 define('_MD_NEWBB_POSTFIRSTWITHREPLYNODELETED', 'Начальная публикация не может быть удалена, если уже есть ответы<br />удалите всю тему.');
 // definitions moved from global.
-define('_MD_NEWBB_THREAD', 'Нить');
+define('_MD_NEWBB_THREAD', 'Тема');
 define('_MD_NEWBB_FROM', 'Из');
 define('_MD_NEWBB_JOINED', 'Регистрация');
 define('_MD_NEWBB_ONLINE', 'Online');
@@ -372,9 +372,9 @@ define('_MD_NEWBB_POLL_RESET', 'Сбросить все журналы для э
 define('_MD_NEWBB_POLL_ADDPOLL', 'Добавить опрос');
 define('_MD_NEWBB_POLLMODULE_ERROR', 'Модуль xoopspoll недоступен для использования');
 //report.php
-define('_MD_NEWBB_REPORTED', 'Спасибо за сообщение об этом сообщении/нитке! Модератор заглянет в Ваш отчет в ближайшее время.');
+define('_MD_NEWBB_REPORTED', 'Спасибо за сообщение об этом сообщении/ветке! Модератор заглянет в Ваш отчет в ближайшее время.');
 define('_MD_NEWBB_REPORT_ERROR', 'При отправке отчета произошла ошибка.');
-define('_MD_NEWBB_REPORT_TEXT', 'Отчет о сообщении:');
+define('_MD_NEWBB_REPORT_TEXT', 'Что не так в сообщении:');
 define('_MD_NEWBB_PDF', 'Создать PDF из сообщения');
 define('_MD_NEWBB_PDF_PAGE', 'Страница %s');
 //print.php
@@ -441,7 +441,7 @@ define('_MD_NEWBB_DELEDEDMSG_BODY', 'Здравствуйте %s,
 %s
 %s');
 define('_MD_NEWBB_FORUMHOME', 'Список форумов');
-define('_MD_NEWBB_SEEWAITREPORT', "Было <span style='color:red;'> <strong>%s</strong> Сообщено о взносах </span>");
+define('_MD_NEWBB_SEEWAITREPORT', "Было <span style='color:red;'><strong>%s</strong> сообщение(я) о нарушении </span>");
 define('_MD_NEWBB_PDF_SUBJECT', 'Заглавие: ');
 define('_MD_NEWBB_PDF_TOPIC', 'Пост: ');
 define('_MD_NEWBB_PDF_AUTHOR', 'Автор: ');
