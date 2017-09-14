@@ -40,7 +40,7 @@ define('_MD_NEWBB_TOSTART', 'Для просмотра сообщений выб
 define('_MD_NEWBB_TOTALTOPICSC', 'Всего тем: ');
 define('_MD_NEWBB_TOTALPOSTSC', 'Всего сообщений: ');
 define('_MD_NEWBB_TOTALUSER', 'Всего пользователей: ');
-define('_MD_NEWBB_TIMENOW', 'Время пришло %s');
+define('_MD_NEWBB_TIMENOW', 'Текущее время: %s');
 define('_MD_NEWBB_USER_LASTVISIT', 'Ваш последний визит: %s');
 define('_MD_NEWBB_USER_LASTPOST', 'Ваше последнее сообщение: %s');
 define('_MD_NEWBB_USER_NOLASTPOST', 'Вы еще не разместили');
@@ -57,7 +57,7 @@ define('_MD_NEWBB_SUBFORUMS', 'Подфорумы');
 define('_MD_NEWBB_MAINFORUMOPT', 'Основные параметры');
 define('_MD_NEWBB_PENDING_POSTS_FOR_AUTH', 'Сообщения ожидающие утверждения:');
 define('_MD_NEWBB_TODAYTOPICSC', 'Темы сегодня: ');
-define('_MD_NEWBB_TODAYPOSTSC', 'Сообщения сегодня: ');
+define('_MD_NEWBB_TODAYPOSTSC', 'Сообщений сегодня: ');
 define('_MD_NEWBB_TOTALDIGESTSC', 'Всего интересных: ');
 //page_header.php
 define('_MD_NEWBB_MODERATEDBY', 'Модераторы');
