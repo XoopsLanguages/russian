@@ -109,7 +109,7 @@ define('_MI_NEWBB_SHOW_PERMISSIONTABLE', 'Показать таблицу раз
 define('_MI_NEWBB_SHOW_PERMISSIONTABLE_DESC', 'Установите Да чтобы показать права пользователя');
 define('_MI_NEWBB_EMAIL_DIGEST', 'Интересные посты по Email');
 define('_MI_NEWBB_EMAIL_DIGEST_DESC', 'Установите период времени для отправки почтовой рассылки интересного пользователям');
-define('_MI_NEWBB_EMAIL_NONE', 'Нет Email');
+define('_MI_NEWBB_EMAIL_NONE', 'Отключено');
 define('_MI_NEWBB_EMAIL_DAILY', 'Ежедневно');
 define('_MI_NEWBB_EMAIL_WEEKLY', 'Еженедельно');
 define('_MI_NEWBB_SHOW_IP', 'Показать IP пользователя');
@@ -202,7 +202,7 @@ define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYCAP', 'Уведомить меня о
 define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYDSC', 'Получать полное текстовое уведомление при публикации любого нового сообщения.');
 define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} автообновление: Новое сообщение (полный текст)');
 define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFY', 'Интересное');
-define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYCAP', 'Сообщите мне о публикации.');
+define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYCAP', 'Сообщать мне о интересных публикациях.');
 define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYDSC', 'Получить уведомление о интересном.');
 define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} автообновление: Интересный пост');
 // FOR installation
@@ -217,7 +217,7 @@ define('_MI_NEWBB_INSTALL_POST_TEXT', '
 
     Если у Вас есть какие-либо вопросы относительно использования NewBB, посетите сайт местной поддержки или [url=http://xoops.org/modules/newbb/]XOOPS Support Site[/url].
     ');
-define('_MI_NEWBB_ADMENU_GROUPMOD', 'Группа модераторов');
+define('_MI_NEWBB_ADMENU_GROUPMOD', 'Модераторы форума');
 //define('_MI_NEWBB_SUBJECT_PREFIX', 'Добавить префикс к теме');
 //define('_MI_NEWBB_SUBJECT_PREFIX_DESC', 'Устанавливает префикс, например [РЕШЕНА] в начале темы. Для получения дополнительных параметров используйте ', ' как разделитель. NONE не является префиксом.');
 //define('_MI_NEWBB_SUBJECT_PREFIX_DEFAULT',
