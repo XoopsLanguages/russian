@@ -269,7 +269,7 @@ define('_AM_NEWBB_TYPE_ORDER', 'Порядок');
 define('_AM_NEWBB_TYPE_LIST', 'Список типов');
 define('_AM_NEWBB_TODEL_TYPE', 'Вы действительно хотите удалить типы: [%s]?');
 define('_AM_NEWBB_TYPE_EDITFORUM_DESC', 'Данные еще не сохранены. Вы должны нажать на \'Отправить\', чтобы сохранить.');
-define('_AM_NEWBB_TYPE_ORDER_DESC', 'Чтобы активировать типы для форума, требуется значение больше 0 для \'type_order\'. Другими словами, тип будет неактивным, если \'type_order\' будет иметь значение 0.');
+define('_AM_NEWBB_TYPE_ORDER_DESC', 'Установите порядок шаблонов. Если установлен 0, то шаблон неактивен и его невозможно будет использовать.');
 // admin_synchronization.php
 define('_AM_NEWBB_SYNC_TYPE_FORUM', 'Данные форума');
 define('_AM_NEWBB_SYNC_TYPE_TOPIC', 'Данные темы');
