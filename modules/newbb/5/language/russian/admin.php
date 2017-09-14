@@ -258,12 +258,12 @@ define('_AM_NEWBB_VOTE_DELETEDSC', '<strong>Удалить</strong> выбран
 // admin_type_manager.php
 define('_AM_NEWBB_TYPE_ADD', 'Добавить типы');
 define('_AM_NEWBB_TYPE_ADD_ERR', 'Ошибка. Добавьте типы');
-define('_AM_NEWBB_TYPE_TEMPLATE', 'Тип шаблона');
-define('_AM_NEWBB_TYPE_TEMPLATE_ERR', 'Ошибка. Установите порядок шаблона');
+define('_AM_NEWBB_TYPE_TEMPLATE', 'Шаблоны типов');
+define('_AM_NEWBB_TYPE_TEMPLATE_ERR', 'Ошибка. Установите порядок шаблонов');
 define('_AM_NEWBB_TYPE_TEMPLATE_APPLY', 'Применить шаблон');
-define('_AM_NEWBB_TYPE_FORUM', 'Тип для форума');
+define('_AM_NEWBB_TYPE_FORUM', 'Выбрать тип для форума');
 define('_AM_NEWBB_TYPE_FORUM_ERR', 'Ошибка. Необходимо выбрать форум а не категорию.');
-define('_AM_NEWBB_TYPE_NAME', 'Название типа');
+define('_AM_NEWBB_TYPE_NAME', 'Наименование типа');
 define('_AM_NEWBB_TYPE_COLOR', 'Цвет');
 define('_AM_NEWBB_TYPE_DESCRIPTION', 'Описание');
 define('_AM_NEWBB_TYPE_ORDER', 'Порядок');
@@ -271,6 +271,7 @@ define('_AM_NEWBB_TYPE_LIST', 'Список типов');
 define('_AM_NEWBB_TODEL_TYPE', 'Вы действительно хотите удалить типы: [%s]?');
 define('_AM_NEWBB_TYPE_EDITFORUM_DESC', 'Данные еще не сохранены. Вы должны нажать на \'Отправить\', чтобы сохранить.');
 define('_AM_NEWBB_TYPE_ORDER_DESC', 'Установите порядок шаблонов. Если установлен 0, то шаблон неактивен и его невозможно будет использовать.');
+define('_AM_NEWBB_TYPE_HELP', 'Позволяет создать \'Типы\' форумов, для выделения тем форума. Например: <strong style="color:blue;">[Важное]</strong>, <strong style="color:red;">[ВНИМАНИЕ]</strong> и т.д.');
 // admin_synchronization.php
 define('_AM_NEWBB_SYNC_TYPE_FORUM', 'Данные форума');
 define('_AM_NEWBB_SYNC_TYPE_TOPIC', 'Данные темы');
