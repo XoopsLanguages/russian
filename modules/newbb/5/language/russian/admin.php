@@ -259,6 +259,7 @@ define('_AM_NEWBB_VOTE_DELETEDSC', '<strong>Удалить</strong> выбран
 define('_AM_NEWBB_TYPE_ADD', 'Добавить типы');
 define('_AM_NEWBB_TYPE_ADD_ERR', 'Ошибка. Добавьте типы');
 define('_AM_NEWBB_TYPE_TEMPLATE', 'Тип шаблона');
+define('_AM_NEWBB_TYPE_TEMPLATE_ERR', 'Ошибка. Установите порядок шаблона');
 define('_AM_NEWBB_TYPE_TEMPLATE_APPLY', 'Применить шаблон');
 define('_AM_NEWBB_TYPE_FORUM', 'Тип для форума');
 define('_AM_NEWBB_TYPE_FORUM_ERR', 'Ошибка. Необходимо выбрать форум а не категорию.');
