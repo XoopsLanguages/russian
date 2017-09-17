@@ -185,6 +185,9 @@ define('_AM_NEWBB_PERM_TEMPLATE_ERROR', 'Ошибка при создании ш
 define('_AM_NEWBB_PERM_TEMPLATEAPP', 'Применить права доступа по умолчанию');
 define('_AM_NEWBB_PERM_TEMPLATE_APPLIED', 'Права доступа по умолчанию были применены к форумам');
 define('_AM_NEWBB_PERM_ACTION', 'Установка прав доступа');
+define('_AM_NEWBB_PERM_ACTION_HELP', 'Позволяет установить права доступа для каждой функции и группы');
+define('_AM_NEWBB_PERM_ACTION_HELP_TEMPLAT', 'Позволяет создать шаблон прав доступ для автоматической установки при создании форума.');
+define('_AM_NEWBB_PERM_ACTION_HELP_APPLY', 'Позволяет применить шаблон прав доступа к уже созданным форумам.');
 define('_AM_NEWBB_PERM_SETBYGROUP', 'Установка прав доступа непосредственно по группам');
 // admin_forum_prune.php
 define('_AM_NEWBB_PRUNE_RESULTS_TITLE', 'Очистить результаты');
