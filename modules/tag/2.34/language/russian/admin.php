@@ -82,7 +82,7 @@ define('_AM_TAG_ABOUT_DESCRIPTION', "Описание: ");
 define('_AM_TAG_ADMIN_FOOTER', "<div class='right smallsmall italic pad5'><b>" . $GLOBALS['xoopsModule']->getVar("name") . "</b> поддерживается <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS сообществом</a></div>");
 
 //ModuleAdmin
-define('_AM_MODULEADMIN_MISSING', "Ошибка: Класс ModuleAdmin отсутствует. Пожалуйста, установите ModuleAdmin Class (see /docs/readme.txt)");
+//define('_AM_MODULEADMIN_MISSING', "Ошибка: Класс ModuleAdmin отсутствует. Пожалуйста, установите ModuleAdmin Class (see /docs/readme.txt)");
 
 //define('_AM_TAG_MISSING','Error: The ModuleAdmin class is missing. Please install the ModuleAdmin Class into /Frameworks (see /docs/readme.txt)');
 
