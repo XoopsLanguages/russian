@@ -108,7 +108,7 @@ define('_MI_NEWBB_SHOW_JUMPBOX_DESC', 'Если включено, выпадаю
 define('_MI_NEWBB_SHOW_PERMISSIONTABLE', 'Показать таблицу разрешений');
 define('_MI_NEWBB_SHOW_PERMISSIONTABLE_DESC', 'Установите Да чтобы показать права пользователя');
 define('_MI_NEWBB_EMAIL_DIGEST', 'Интересные посты по Email');
-define('_MI_NEWBB_EMAIL_DIGEST_DESC', 'Установите период времени для отправки почтовой рассылки интересного пользователям');
+define('_MI_NEWBB_EMAIL_DIGEST_DESC', 'Установите период времени для отправки почтовой рассылки интересного пользователям<br><strong>Примечание:</strong> Для включения данной функции ознакомьтесь с <a href="/modules/newbb/admin/admin_digest.php">рекомендациями</a> по настройке.');
 define('_MI_NEWBB_EMAIL_NONE', 'Отключено');
 define('_MI_NEWBB_EMAIL_DAILY', 'Ежедневно');
 define('_MI_NEWBB_EMAIL_WEEKLY', 'Еженедельно');
