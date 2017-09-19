@@ -102,7 +102,7 @@ define('_MD_NEWBB_BEGINNING', 'С начала');
 define('_MD_NEWBB_SEARCHTHISFORUM', 'Поиск по форуму');
 define('_MD_NEWBB_TOPIC_SUBJECTC', 'Префикс тем:');
 define('_MD_NEWBB_RATINGS', 'Рейтинг');
-/*
+//Pemission table
 define('_MD_NEWBB_CAN_ACCESS', 'Вы <strong>можете</strong> получить доступ к форуму.<br>');
 define('_MD_NEWBB_CANNOT_ACCESS', 'Вы <strong>не можете</strong> получить доступ к форуму.<br>');
 define('_MD_NEWBB_CAN_POST', 'Вы <strong>можете</strong> начать новую тему.<br>');
@@ -131,7 +131,11 @@ define('_MD_NEWBB_CAN_UPLOAD', 'Вы <strong>можете</strong> загруз�
 define('_MD_NEWBB_CANNOT_UPLOAD', 'Вы <strong>не можете</strong> загрузить.<br>');
 define('_MD_NEWBB_CAN_SIGNATURE', 'Вы <strong>можете</strong> использовать подпись.<br>');
 define('_MD_NEWBB_CANNOT_SIGNATURE', 'Вы <strong>не можете</strong> использовать подпись.<br>');
-*/
+define('_MD_NEWBB_CAN_PDF', 'Вы <strong>можете</strong> создавать PDF-файлы.<br>');
+define('_MD_NEWBB_CANNOT_PDF', 'Вы <strong>не можете</strong> создавать PDF-файлы.<br>');
+define('_MD_NEWBB_CAN_PRINT', 'Вы <strong>можете</strong> распечатать.<br>');
+define('_MD_NEWBB_CANNOT_PRINT', 'Вы <strong>не можете</strong> распечатать.<br>');
+/*
 define('_MD_NEWBB_CAN_ACCESS', '<img title="Вы можете получить доступ к форуму." src="/modules/newbb/assets/images/icons/accept.png"> ');
 define('_MD_NEWBB_CANNOT_ACCESS', '<img title="Вы не можете получить доступ к форуму." src="/modules/newbb/assets/images/icons/cancel.png"> ');
 define('_MD_NEWBB_CAN_POST', '<img title="Вы можете начать новую тему." src="/modules/newbb/assets/images/icons/application_add.png"> ');
@@ -160,6 +164,11 @@ define('_MD_NEWBB_CAN_UPLOAD', '<img title="Вы можете загрузить
 define('_MD_NEWBB_CANNOT_UPLOAD', '<img title="Вы не можете загрузить." src="/modules/newbb/assets/images/icons/drive_delete.png"> ');
 define('_MD_NEWBB_CAN_SIGNATURE', '<img title="Вы можете использовать подпись." src="/modules/newbb/assets/images/icons/report_add.png"> ');
 define('_MD_NEWBB_CANNOT_SIGNATURE', '<img title="Вы не можете использовать подпись." src="/modules/newbb/assets/images/icons/report_delete.png"> ');
+define('_MD_NEWBB_CAN_PDF', '<img title="Вы можете создавать PDF-файлы." src="/modules/newbb/assets/images/icons/page_white_acrobat.png"> ');
+define('_MD_NEWBB_CANNOT_PDF', '<img title="Вы не можете создавать PDF-файлы." src="/modules/newbb/assets/images/icons/page_white_delete.png"> ');
+define('_MD_NEWBB_CAN_PRINT', '<img title="Вы можете распечатать." src="/modules/newbb/assets/images/icons/printer_add.png"> ');
+define('_MD_NEWBB_CANNOT_PRINT', '<img title="Вы не можете распечатать." src="/modules/newbb/assets/images/icons/printer_delete.png"> ');
+*/
 define('_MD_NEWBB_IMTOPICS', 'Важные темы');
 define('_MD_NEWBB_NOTIMTOPICS', 'Темы форума');
 define('_MD_NEWBB_FORUMOPTION', 'Опции форума');
@@ -519,16 +528,6 @@ define('_MD_NEWBB_SELECT_LENGTH', 'Длина выделенного текст�
 define('_MD_NEWBB_SELECT_HTML', 'Снять все html с результата?');
 define('_MD_NEWBB_SELECT_EXCLUDE', 'Исключить эти теги:');
 define('_MD_NEWBB_SELECT_TAG', 'Тег');
-/*
-define('_MD_NEWBB_CAN_PDF', 'Вы <strong>можете</strong> создавать PDF-файлы.<br>');
-define('_MD_NEWBB_CANNOT_PDF', 'Вы <strong>не можете</strong> создавать PDF-файлы.<br>');
-define('_MD_NEWBB_CAN_PRINT', 'Вы <strong>можете</strong> распечатать.<br>');
-define('_MD_NEWBB_CANNOT_PRINT', 'Вы <strong>не можете</strong> распечатать.<br>');
-*/
-define('_MD_NEWBB_CAN_PDF', '<img title="Вы можете создавать PDF-файлы." src="/modules/newbb/assets/images/icons/page_white_acrobat.png"> ');
-define('_MD_NEWBB_CANNOT_PDF', '<img title="Вы не можете создавать PDF-файлы." src="/modules/newbb/assets/images/icons/page_white_delete.png"> ');
-define('_MD_NEWBB_CAN_PRINT', '<img title="Вы можете распечатать." src="/modules/newbb/assets/images/icons/printer_add.png"> ');
-define('_MD_NEWBB_CANNOT_PRINT', '<img title="Вы не можете распечатать." src="/modules/newbb/assets/images/icons/printer_delete.png"> ');
 define('_MD_NEWBB_NORIGHTTOPDF', 'У Вас нет права создавать PDF-файлы на этом форуме.');
 define('_MD_NEWBB_NORIGHTTOPRINT', 'Вы не имеете права печатать на этом форуме.');
 // irmtfan for new block system
