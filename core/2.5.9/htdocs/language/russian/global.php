@@ -201,7 +201,7 @@ define('_MONTH', '1 месяц');
 define('_DATESTRING', 'Y/n/j G:i:s');
 define('_MEDIUMDATESTRING', 'Y/n/j G:i');
 //define('_SHORTDATESTRING','n/j/Y');
-define('_SHORTDATESTRING', 'd/m/Y');
+define('_SHORTDATESTRING', 'm/d/Y');
 /**
  * The following characters are recognized in the format string:
  * a - 'am' or 'pm'
