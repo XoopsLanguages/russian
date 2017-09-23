@@ -9,7 +9,7 @@
  */
 
 // Navigation
-define("_AM_SYSTEM_MODULES_ADMIN","Администрирование модулей" );
+define("_AM_SYSTEM_MODULES_ADMIN","Администрирование модуля" );
 define("_AM_SYSTEM_MODULES_LIST","Список модулей");
 define("_AM_SYSTEM_MODULES_TOINSTALL","Установка модулей" );
 define("_AM_SYSTEM_MODULES_VALIDATE","Подтверждение изменений" );
