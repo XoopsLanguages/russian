@@ -131,7 +131,7 @@ define('_CLONE', 'Клон');
  */
 define('_UPLOAD', 'Загрузить');
 define('_SELECTFILES', 'Выбрать файлы');
-define('_DROPFILESHERE', 'Упавшие файлы');
+define('_DROPFILESHERE', 'Файлы для загрузки');
 define('_RETRY', 'Повторить');
 define('_OK', 'Ok');
 define('_FORMATPROGRESS', '{percent}% из {total_size}');
