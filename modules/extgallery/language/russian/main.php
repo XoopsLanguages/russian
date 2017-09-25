@@ -14,9 +14,9 @@ define("_MD_EXTGALLERY_RSS","RSS галереи");
 define("_MD_EXTGALLERY_ALBUMRSS","RSS альбома");
 
 // Album page
-define("_MD_EXTGALLERY_HITS","Хиты");
+define("_MD_EXTGALLERY_HITS","Хита(ов)");
 define("_MD_EXTGALLERY_COMMENTS","Комментарии");
-define("_MD_EXTGALLERY_RATING_SCORE","Рейтинговая оценка");
+define("_MD_EXTGALLERY_RATING_SCORE","Оценка рейтинга");
 define("_MD_EXTGALLERY_INFODATE","Дата:");
 
 // Photo page
@@ -30,7 +30,7 @@ define("_MD_EXTGALLERY_PIXELS","pixels");
 define("_MD_EXTGALLERY_VIEW","Просмотров");
 define("_MD_EXTGALLERY_FILE_SIZE","Размер файла");
 define("_MD_EXTGALLERY_ADDED","Добалено");
-define("_MD_EXTGALLERY_SCORE","Score");
+define("_MD_EXTGALLERY_SCORE","Оценка");
 define("_MD_EXTGALLERY_VOTES","голосов");
 define("_MD_EXTGALLERY_DOWNLOAD_ORIG","Скачать оригинал");
 define("_MD_EXTGALLERY_DOWNLOADS","загрузок");
@@ -45,7 +45,7 @@ define("_MD_EXTGALLERY_FROM_NAME","От имени");
 define("_MD_EXTGALLERY_FROM_EMAIL","От email");
 define("_MD_EXTGALLERY_TO_NAME","На имя");
 define("_MD_EXTGALLERY_TO_EMAIL","На email");
-define("_MD_EXTGALLERY_GREETINGS","Приветствия");
+define("_MD_EXTGALLERY_GREETINGS","Приветствие");
 define("_MD_EXTGALLERY_SECURITY","Проверка безопасности");
 
 // View eCard page and mail
@@ -55,7 +55,7 @@ define("_MD_EXTGALLERY_ECARD_TITLE","Открытка от %s для Вас");
 // Public upload page
 define("_MD_EXTGALLERY_PUBLIC_UPLOAD","Загрузить фото");
 define("_MD_EXTGALLERY_PHOTO","Фото");
-define('_MD_EXTGALLERY_NOT_AN_ALBUM',"Вы должны выбрать правильный альбом");
+define('_MD_EXTGALLERY_NOT_AN_ALBUM',"Вы должны выбрать существующий альбом");
 define('_MD_EXTGALLERY_UPLOAD_ERROR',"Ошибка во время загрузки");
 
 // Applet upload page
@@ -64,24 +64,24 @@ define('_MD_EXTGALLERY_UPLOAD_ERROR',"Ошибка во время загруз�
 define('_MD_EXTGALLERY_APPLET_LANG',"ru");
 
 // Public modification page
-define("_MD_EXTGALLERY_MODIFY_PHOTO","Изменить фото");
+define("_MD_EXTGALLERY_MODIFY_PHOTO","Редактировать фотографию");
 define("_MD_EXTGALLERY_CATEGORY","Категория");
 define("_MD_EXTGALLERY_PHOTO_UPDATED","Фотография обновлена");
 
 // Public rating page
 define("_MD_EXTGALLERY_VOTE_THANKS","Спасибо за Ваш голос");
-define("_MD_EXTGALLERY_ALREADY_VOTED","Спасибо, но вы уже голосовали за эту фотографию");
+define("_MD_EXTGALLERY_ALREADY_VOTED","Спасибо, но Вы уже голосовали за эту фотографию");
 
 // Public send eCard page
 define("_MD_EXTGALLERY_ECARD_SENT","Ваша открытка была отправлена");
-define("_MD_EXTGALLERY_CAPTCHA_ERROR","Код безопасности неправильно. Пожалуйста, повторите попытку.");
+define("_MD_EXTGALLERY_CAPTCHA_ERROR","Неверно введен код безопасности. Пожалуйста, повторите попытку.");
 
 // Public Upload photo page
 define("_MD_EXTGALLERY_PHOTO_UPLOADED","Фотография загружена. Спасибо.");
-define("_MD_EXTGALLERY_PHOTO_PENDING","Ваша фотография должна быть одобрена администратором. Спасибо.");
+define("_MD_EXTGALLERY_PHOTO_PENDING","Ваша фотография будет проверена и одобрена администратором. Спасибо.");
 
 // Public user's album
-define("_MD_EXTGALLERY_USERS_SUB_PHOTO_ALBUM","'s представленный фотоальбом");
+define("_MD_EXTGALLERY_USERS_SUB_PHOTO_ALBUM"," загрузил в альбомы");
 
 // Public Slideshow
 define("_MD_EXTGALLERY_MOREINFO","Больше");
@@ -90,8 +90,8 @@ define("_MD_EXTGALLERY_GFIC_PLAY","Играть");
 define("_MD_EXTGALLERY_GFIC_PAUSE","Пауза"); 
 define("_MD_EXTGALLERY_GFIC_NEXT","Следующий"); 
 define("_MD_EXTGALLERY_GFIC_PREVIOUS","Предыдущий"); 
-define("_MD_EXTGALLERY_GFIC_NEXTP","Next &rsaquo;"); 
-define("_MD_EXTGALLERY_GFIC_PREVIOUSP","&lsaquo; Prev"); 
+define("_MD_EXTGALLERY_GFIC_NEXTP","Следующий &rsaquo;"); 
+define("_MD_EXTGALLERY_GFIC_PREVIOUSP","&lsaquo; Предыдущий"); 
 
 // Public bookmarks
 define("_MD_EXTGALLERY_BOOKMARK_ME","Закладка Me");
@@ -119,15 +119,15 @@ define("_MD_EXTGALLERY_BOOKMARK_TO_GOOGLEREADER","Закладка для Google
 define("_MD_EXTGALLERY_BOOKMARK_TO_GOOGLEBOOKMARKS","Закладка для Google Bookmarks");
 
 // Public order and sort
-define("_MD_EXTGALLERY_ORDERBY","На проверку : ");
-define("_MD_EXTGALLERY_ORDERBY_DATEASC","Дата, новые фотографии указаны первыми");
-define("_MD_EXTGALLERY_ORDERBY_DATEDESC","Дата, старые фотографии указаны первыми");
-define("_MD_EXTGALLERY_ORDERBY_TITREASC","Имя, A до Z");
-define("_MD_EXTGALLERY_ORDERBY_TITREDESC","Имя, Z до A");
-define("_MD_EXTGALLERY_ORDERBY_HITSASC","Хиты, самые популярные фотографии указаны первыми");
-define("_MD_EXTGALLERY_ORDERBY_HITSDESC","Хиты, мнее популярные фотографии указаны первыми");
-define("_MD_EXTGALLERY_ORDERBY_NOTEASC","Рейтинг, Best оцененные указаны первыми");
-define("_MD_EXTGALLERY_ORDERBY_NOTEDESC","Рейтинг, Worst первым в списке");
+define("_MD_EXTGALLERY_ORDERBY","Сортировать по: ");
+define("_MD_EXTGALLERY_ORDERBY_DATEASC","Дате, новые фотографии указаны первыми");
+define("_MD_EXTGALLERY_ORDERBY_DATEDESC","Дате, старые фотографии указаны первыми");
+define("_MD_EXTGALLERY_ORDERBY_TITREASC","Имени, A до Z");
+define("_MD_EXTGALLERY_ORDERBY_TITREDESC","Имени, Z до A");
+define("_MD_EXTGALLERY_ORDERBY_HITSASC","Хитам, самые популярные фотографии указаны первыми");
+define("_MD_EXTGALLERY_ORDERBY_HITSDESC","Хитам, менее популярные фотографии указаны первыми");
+define("_MD_EXTGALLERY_ORDERBY_NOTEASC","Рейтингу, лучшие указаны первыми в списке");
+define("_MD_EXTGALLERY_ORDERBY_NOTEDESC","Рейтингу, наихудшие указаны первыми в списке");
 define("_MD_EXTGALLERY_SORTDATE","Дата");
 define("_MD_EXTGALLERY_SORTDATEASC","Старые фотографии указаны первыми");
 define("_MD_EXTGALLERY_SORTDATEDESC","Новые фотографии указаны первыми");
@@ -137,13 +137,13 @@ define("_MD_EXTGALLERY_SORTNAMEDESC","Имя, Z до A");
 define("_MD_EXTGALLERY_SORTHITS","Хиты");
 define("_MD_EXTGALLERY_SORTHITSASC","Менее популярные фотографии указаны первыми");
 define("_MD_EXTGALLERY_SORTHITSDESC","Самые популярные фотографии указаны первыми");
-define("_MD_EXTGALLERY_SORTNOTE","Заметка");
-define("_MD_EXTGALLERY_SORTNOTEASC","Worst первым в списке");
-define("_MD_EXTGALLERY_SORTNOTEDESC","Best первым в списке");
+define("_MD_EXTGALLERY_SORTNOTE","Рейтинг");
+define("_MD_EXTGALLERY_SORTNOTEASC","Наихудший первыми в списке");
+define("_MD_EXTGALLERY_SORTNOTEDESC","Лучший первыми в списке");
 
 //extgallery
 define("_EXT_EXTGALLERY_ALTWMP","Добавить фотографию из Галереи");
-define("_EXT_EXTGALLERY_TEXTID","Идентификатор фотографии, которую вы хотите добавить");      
+define("_EXT_EXTGALLERY_TEXTID","Идентификатор фотографии, которую Вы хотите добавить");      
 define("_EXT_EXTGALLERY_TEXTTITLE","Введите название фотографии");
 
 define('_MD_EXTGALLERY_ORDERBY_DESIGNERASC', 'Идентификатор пользователя, сначала новый');
