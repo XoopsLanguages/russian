@@ -304,7 +304,7 @@ define('_AM_EXTGALLERY_EXTENSION_INFO',"Информация о расширен
 define('_AM_EXTGALLERY_EXTENSION_NOT_INSTALLED',"Расширение не установлено");
 define('_AM_EXTGALLERY_INSTALL_EXTENSION',"Установить расширение");
 define('_AM_EXTGALLERY_EXTENSION_OK',"Расширение установлено");
-define('_AM_EXTGALLERY_EXTENSION_NOTICE',"Это расширение позволяет показать фотографию на страницах Вашего сайта, просто добавив <strong>gallery</strong> тег к тексту. Кнопка (<img src='../assets/images/extgallery-posticon.gif' />) отображается в редакторе XOOPS.");
+define('_AM_EXTGALLERY_EXTENSION_NOTICE',"Это расширение позволяет показать фотографию на страницах Вашего сайта, просто добавив <strong>gallery</strong> тег к тексту. Кнопка ( <button type='button' class='btn btn-default');' onmouseover='style.cursor=\"hand\"' title=''><span class='fa fa-file-image-o' aria-hidden='true'></span><span style='font-size:75%;'> Gallery</span></button> ) отображается в редакторе XOOPS.");
 define('_AM_EXTGALLERY_EXT_FILE_DONT_EXIST',"Файл расширения не существует в репозитории:<br><strong>Сервер : </strong>%s<br><strong>Файл : </strong>%s");
 define('_AM_EXTGALLERY_EXT_FILE_DONT_EXIST_SHORT',"Файл расширения не существует");
 define('_AM_EXTGALLERY_EXTENSION_INSTALLED',"Расширение установлено");
