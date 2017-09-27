@@ -46,7 +46,7 @@ $GLOBALS['formtextdhtml_sizes'] = array(
 define('_XOOPS_FORM_ALT_URL', 'URL');
 define('_XOOPS_FORM_ALT_EMAIL', 'Email');
 define('_XOOPS_FORM_ALT_IMG', 'Изображение');
-define('_XOOPS_FORM_ALT_IMAGE', 'Внутри изображения');
+define('_XOOPS_FORM_ALT_IMAGE', 'Вставить изображение с сервера');
 define('_XOOPS_FORM_ALT_SMILEY', 'Smiley');
 define('_XOOPS_FORM_ALT_CODE', 'Исходный код');
 define('_XOOPS_FORM_ALT_QUOTE', 'Цитата');
