@@ -83,7 +83,6 @@ define('_AM_TAG_ADMIN_FOOTER', "<div class='right smallsmall italic pad5'><b>" .
 
 //ModuleAdmin
 //define('_AM_MODULEADMIN_MISSING', "Ошибка: Класс ModuleAdmin отсутствует. Пожалуйста, установите ModuleAdmin Class (see /docs/readme.txt)");
-
 //define('_AM_TAG_MISSING','Error: The ModuleAdmin class is missing. Please install the ModuleAdmin Class into /Frameworks (see /docs/readme.txt)');
 
 // Text for Admin footer
@@ -91,3 +90,12 @@ define("_AM_TAG_FOOTER", "<div class='center smallsmall italic pad5'>Модул�
 
 //2.32
 define('_AM_TAG_DB_UPDATED', "База данных успешно обновлена");
+
+//2.33
+define('_AM_TAG_UPGRADEFAILED0', "Ошибка обновления - не удалось переименовать поле '%s'");
+define('_AM_TAG_UPGRADEFAILED1', "Ошибка обновления - не удалось добавить новые поля");
+define('_AM_TAG_UPGRADEFAILED2', "Ошибка обновления - не удалось переименовать таблицу '%s'");
+define('_AM_TAG_ERROR_COLUMN', 'Не удалось создать столбец в базе данных: %s');
+define('_AM_TAG_ERROR_BAD_XOOPS', 'Этот модуль требует XOOPS %s+ (%s установлен)');
+define('_AM_TAG_ERROR_BAD_PHP', 'Для этого модуля требуется версия PHP %s+ (%s установлен)');
+define('_AM_TAG_ERROR_TAG_REMOVAL', 'Не удалось удалить теги из модуля тегов');

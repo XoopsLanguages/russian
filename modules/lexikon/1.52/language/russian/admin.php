@@ -10,7 +10,7 @@
 
 define("_AM_LEXIKON_ACTION","Действие");
 define("_AM_LEXIKON_ADMINCATMNGMT","Редактировать категорию");
-define("_AM_LEXIKON_ADMINENTRYMNGMT","Вступление издания");
+define("_AM_LEXIKON_ADMINENTRYMNGMT","Редактирование записи");
 define("_AM_LEXIKON_ALLOWCOMMENTS","Могут ли записи быть прокомментированы?");
 define("_AM_LEXIKON_ANON","Анонимный");
 define("_AM_LEXIKON_AUTHENTRY","Авторизоваться для публикации");
@@ -30,7 +30,7 @@ define("_AM_LEXIKON_CATMODIFIED","Выбранная категория была
 define("_AM_LEXIKON_CATNAME","[*] Название категории");
 define("_AM_LEXIKON_CATPOSIT","[*] Позиция категории");
 define("_AM_LEXIKON_CATS","Категории");
-define("_AM_LEXIKON_CATSHEADER","Категория издания");
+define("_AM_LEXIKON_CATSHEADER","Редактирование категории");
 define("_AM_LEXIKON_CLEAR","Очистить");
 define("_AM_LEXIKON_CREATE","Создать");
 define("_AM_LEXIKON_CREATECAT","Создать категорию");
@@ -62,9 +62,9 @@ define("_AM_LEXIKON_ENTRYISON","Вход онлайн");
 define("_AM_LEXIKON_ENTRYMODIFIED","Определение было изменено успешно!");
 define("_AM_LEXIKON_ENTRYNOTCREATED","Извините. Не удалось создать эту запись!");
 define("_AM_LEXIKON_ENTRYNOTUPDATED","Извините. Не удалось обновить запись!");
-define("_AM_LEXIKON_ENTRYREFERENCE","Справка<span style='font-size: xx-small; font-weight: normal; display: block;'>(Напишите здесь источник Ваши<br />определения, например, книги,<br />статьи, или личное.)</span>");
+define("_AM_LEXIKON_ENTRYREFERENCE","Справка<span style='font-size: xx-small; font-weight: normal; display: block;'>(Напишите здесь источник Ваши<br>определения, например, книги,<br>статьи, или личное.)</span>");
 define("_AM_LEXIKON_ENTRYTERM","[*] Термин");
-define("_AM_LEXIKON_ENTRYURL","Относящиеся сайты<span style='font-size: xx-small; font-weight: normal; display: block;'>(Введите действительный URL с<br />или без префикса HTTP.)</span>");
+define("_AM_LEXIKON_ENTRYURL","Относящиеся сайты<span style='font-size: xx-small; font-weight: normal; display: block;'>(Введите действительный URL с<br>или без префикса HTTP.)</span>");
 define("_AM_LEXIKON_ITEMEXISTS","Термин с таким именем уже существует в словаре. Пожалуйста, выберите другой термин!");
 define("_AM_LEXIKON_FILEEXISTS","Файл с таким именем уже существует на сервере. Пожалуйста, выберите другой!");
 define("_AM_LEXIKON_GOMOD","Перейти к модулю");
@@ -113,8 +113,8 @@ define("_AM_LEXIKON_SHOWOFFLINE","Не активно");
 define("_AM_LEXIKON_INIT","Начальный");
 
 //mondarse
-define("_AM_LEXIKON_IMPORT","Импортировать");
-define("_AM_LEXIKON_IMPORTWARN","Предупреждение!!!:<br />Сделайте резервную копию базы данных, прежде чем продолжить.<BR> Сценарий импорта может привести к повреждению/потере данных.");
+define("_AM_LEXIKON_IMPORT","Импорт");
+define("_AM_LEXIKON_IMPORTWARN","Предупреждение!!!:<br>Сделайте резервную копию базы данных, прежде чем продолжить.<BR> Сценарий импорта может привести к повреждению/потере данных.");
 
 // update. menue
 
@@ -200,15 +200,15 @@ define('_AM_LEXIKON_CATEGORY',"Категория");
 define('_AM_LEXIKON_SELECT_SORT',"Порядок сортировки");
 define("_AM_LEXIKON_ALLITEMS","Все условия в модуле");
 define("_AM_LEXIKON_ALLITEMSMSG","Выберите статус, чтобы увидеть все доступные условия в выбранном состоянии.");
-define("_AM_LEXIKON_ALL_EXP","<b>Все записи</b> : Все записи модуля, независимо от их статуса.");
-define("_AM_LEXIKON_OFFLINE_EXP","<b>Offline термины</b> : Опубликованные термины, которые были введены в автономном режиме, временно или нет. Offline условия не отображаются на пользовательской стороне.");
+define("_AM_LEXIKON_ALL_EXP","<b>Все записи</b>: Все записи модуля, независимо от их статуса.");
+define("_AM_LEXIKON_OFFLINE_EXP","<b>Отключенные термины</b>: Опубликованные термины, которые были введены в автономном режиме, временно или нет. Отключенные не отображаются на пользовательской стороне.");
 define("_AM_LEXIKON_PUBLISHED","Опубликовано");
-define("_AM_LEXIKON_PUBLISHED_EXP","<b>Опубликованные термины</b> : термины, которые были утверждены и отображаются на стороне пользователя.");
+define("_AM_LEXIKON_PUBLISHED_EXP","<b>Опубликованные термины</b>: термины, которые были утверждены и отображаются на стороне пользователя.");
 define("_AM_LEXIKON_REQ","Запросы");
-define("_AM_LEXIKON_REQ_ITEM_EXP","<b>Запрошенные термины</b> : термины, которые были запрошены пользователем, но еще не ответили модератор или пользователь. ");
-define('_AM_LEXIKON_SUBMITTED',"Отправлнно");
+define("_AM_LEXIKON_REQ_ITEM_EXP","<b>Запрошенные термины</b>: термины, которые были запрошены пользователем, но еще на них небыло найдено определение или не были просмотрены модератором или пользователями. ");
+define('_AM_LEXIKON_SUBMITTED',"Отправлено");
 
-define("_AM_LEXIKON_SUBMITTED_EXP","<b>Отправил термины</b> : термины, которые были представлены пользователями. После утверждения, они будут отображаться на пользовательской стороне.");
+define("_AM_LEXIKON_SUBMITTED_EXP","<b>Отправленные термины</b> : термины, которые были представлены пользователями. После утверждения, они будут отображаться на пользовательской стороне.");
 define("_AM_LEXIKON_NOITEMSSEL","Извините. Там нет терминов в выбранном состоянии.");
 
 // Permissions
@@ -236,3 +236,57 @@ define("_AM_LEXIKON_TOTALREQ2","Запрошено данных: <span style='fo
 define("_AM_LEXIKON_BACK","Назад");
 define("_AM_LEXIKON_MODULEWORDBOOKNOTFOUND","Модуль Wordbook не найден на этом сайте.");
 define("_AM_LEXIKON_IMGUPLOAD_DESC","Макс изображения ширина/высота в пикселях: %w<br>Максимальный размер файла в байтах (10485760 = 1 MB): %s");
+
+//1.52
+define('_AM_LEXIKON_NOCATTOEDIT', 'Нет категории для редактирования');
+define('_AM_LEXIKON_NOENTRYTOEDIT', 'Нет записи для редактирования');
+
+define('_AM_AFNOSMILE', 'Автоматический формат (смайлики отключены)');
+define('_AM_AFWSMILE', 'Автоматический формат (смайлики включены)');
+define('_AM_BLKTYPE', 'Тип блока');
+define('_AM_BLOCKTAG1', '%s распечатает %s');
+define('_AM_CBCENTER', 'Центральный блок - центр');
+define('_AM_CBLEFT', 'Центральный блок - левый');
+define('_AM_CBRIGHT', 'Центральный блок - правый');
+define('_AM_CLONEBLOCK', 'Клонировать блок');
+define('_AM_CONTENT', 'Содержание');
+define('_AM_CTYPE', 'Тип содержимого');
+
+define('_AM_CUSTOMHTML', 'Пользовательский блок (HTML)');
+define('_AM_CUSTOMNOSMILE', 'Пользовательский блок (автоматический формат)');
+define('_AM_CUSTOMPHP', 'Пользовательский блок (PHP)');
+define('_AM_CUSTOMSMILE', 'Пользовательский блок (автоматический формат + смайлики)');
+define('_AM_EDITBLOCK', 'Редактировать блок');
+define('_AM_EDITTPL', 'Изменить шаблон');
+define('_AM_HTML', 'HTML');
+define('_AM_MODULECANT', 'Этот блок нельзя удалить напрямую! Если Вы хотите отключить этот блок, отключите модуль.');
+define('_AM_NAME', 'Имя');
+define('_AM_OPTIONS', 'Опции');
+define('_AM_PHP', 'PHP скрипт');
+
+define('_AM_SBLEFT', 'Боковой блок - левый');
+define('_AM_SBRIGHT', 'Боковой блок - правый');
+define('_AM_SYSTEMCANT', 'Системные блоки нельзя удалить!');
+define('_AM_USEFULTAGS', 'Полезные теги:');
+
+// Import Menu
+define("_AM_LEXIKON_IMPORT_MENU","Управление импортом");
+define("_AM_LEXIKON_IMPORT_WORDBOOK","Импорт из Wordbook");
+define("_AM_LEXIKON_IMPORT_DICTIONARY","Импорт из Dictionary");
+define("_AM_LEXIKON_IMPORT_GLOSSAIRE","Импорт из Glossaire");
+define("_AM_LEXIKON_IMPORT_WIWIMOD","Импорт из Wiwimod");
+define("_AM_LEXIKON_IMPORT_XWORDS","Импорт из Xwords");
+define("_AM_LEXIKON_IMPORT_ERROR","Ошибка");
+define("_AM_LEXIKON_IMPORT_OK","OK!");
+define("_AM_LEXIKON_IMPORT_MODULE_ID","ID модуля словаря");
+define("_AM_LEXIKON_IMPORT_MODULE_LEX_ID","ID модуля Lexikon");
+define("_AM_LEXIKON_IMPORT_ERROR_IMPORT_COMMENT","Ошибка импорта комментариев");
+define("_AM_LEXIKON_IMPORT_ERROR_IMPORT_TERM","Не удалось выполнить импорт");
+define("_AM_LEXIKON_IMPORT_ERROR_IMPORT_CAT","Ошибка импорта категий");
+define("_AM_LEXIKON_IMPORT_COMMENT","Импорт комментариев");
+define("_AM_LEXIKON_IMPORT_UPDATE_COUNT","Обновить счетчик пользователя: O.K.!");
+define("_AM_LEXIKON_IMPORT_INCORRECTLY","Неверно");
+define("_AM_LEXIKON_IMPORT_PROCESSED","Обработанно");
+define("_AM_LEXIKON_IMPORT_FINISH","Импорт завершен!");
+define("_AM_LEXIKON_IMPORT_TO_ADMIN","Вернуться в админ панель");
+define("_AM_LEXIKON_IMPORT_ERROR_MODULE","Модуль словарей не найден на этом сайте.");
