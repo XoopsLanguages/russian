@@ -17,7 +17,6 @@
  * @license         {@link http://www.fsf.org/copyleft/gpl.html GNU public license}
  * @author          Taiwen Jiang <phppp@users.sourceforge.net>
  * @since           1.00
- * @version         $Id: modinfo.php 12898 2014-12-08 22:05:21Z zyspec $
  */
 
 defined('XOOPS_ROOT_PATH') || exit('Restricted access');
@@ -48,7 +47,7 @@ define('_MI_TAG_ADMIN_HOME_DESC', "Вернитесь в модуль админ
 define('_MI_TAG_ADMIN_ABOUT', "About");
 define('_MI_TAG_ADMIN_HELP_DESC', "Об этом модуле");
 define('_MI_TAG_HELP_DESC', "Помощь");
-//define('_MI_TAG_ADMIN_HELP', "Help");
+//define('_MI_TAG_ADMIN_HELP', "Помощь");
 
 //2.32
 define('_MI_TAG_INDEX_TPL_DESC', "Главная страница тегов");

@@ -176,7 +176,7 @@ define("_MI_LEXIKON_SHADOWTIPS","Всплывающая подсказка с т
 // Names of admin menu items
 
 define("_MI_LEXIKON_ADMENU0","Главный");
-define("_MI_LEXIKON_ADMENU1","Главная");
+define("_MI_LEXIKON_ADMENU1","Все записи");
 define("_MI_LEXIKON_ADMENU2","Категории");
 define("_MI_LEXIKON_ADMENU3","Записи");
 define("_MI_LEXIKON_ADMENU4","Блоки/Группы");
@@ -184,7 +184,7 @@ define("_MI_LEXIKON_ADMENU5","Перейти к модулю");
 
 //mondarse
 
-define("_MI_LEXIKON_ADMENU6","Импортировать");
+define("_MI_LEXIKON_ADMENU6","Импорт");
 define("_MI_LEXIKON_ADMENU7","Запросы");
 define("_MI_LEXIKON_ADMENU8","Публикации");
 define("_MI_LEXIKON_ADMENU9","Разрешения");
@@ -251,4 +251,11 @@ define('_MI_LEXIKON_TERM_APPROVE_NOTIFYDSC','Получение уведомле
 define('_MI_LEXIKON_TERM_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} автоматически оповещать: Термин утвержден');
 
 //
-define("_MI_LEXIKON_IMPORT","Импортировать");
+define("_MI_LEXIKON_IMPORT","Импорт");
+//1.52
+//Help
+define('_MI_LEXIKON_DIRNAME', basename(dirname(dirname(__DIR__))));
+define('_MI_LEXIKON_HELP_HEADER', __DIR__ . '/help/helpheader.tpl');
+define('_MI_LEXIKON_BACK_2_ADMIN', 'Вернуться в админ панель ');
+define('_MI_LEXIKON_HELP_OVERVIEW', 'Обзор');
+define('_MI_LEXIKON_NAME', 'Lexikon');
