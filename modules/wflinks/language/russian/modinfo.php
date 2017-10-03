@@ -89,11 +89,11 @@ define('_MI_WFL_USETHUMBSDSC', "Поддерживаемые типы ссыло
 define('_MI_WFL_DATEFORMAT', 'Временная метка:');
 define('_MI_WFL_DATEFORMATDSC', 'Марка времени по умолчанию для WF-links.<br />Подробнее <a href="http://jp.php.net/manual/en/function.date.php" target="_blank">PHP manual</a>');
 define('_MI_WFL_SHOWDISCLAIMER', 'Показывать отказ от ответственности перед отправкой пользователем?');
-define('_MI_WFL_SHOWDISCLAIMERDSC', 'Перед тем, как Пользователь может подать ссылку, показать правила входа?');
-define('_MI_WFL_SHOWLINKDISCL', 'Показывать ссылку на отказ от ответственности?');
-define('_MI_WFL_SHOWLINKDISCLDSC', 'Показывать ссылку, чтобы открыть ссылку?');
-define('_MI_WFL_DISCLAIMER', 'Введите текст Отказ от ответственности. Текст:');
-define('_MI_WFL_LINKDISCLAIMER', 'Введите ссылку Отказ от ответственности:');
+define('_MI_WFL_SHOWDISCLAIMERDSC', 'Перед тем, как Пользователь сможет перейти к форме создания ссылки, ему будет предложено прочитать Отказ от ответственности и согласиться с ним или нет.');
+define('_MI_WFL_SHOWLINKDISCL', 'Показывать отказ от ответственности при переходе по ссылке?');
+define('_MI_WFL_SHOWLINKDISCLDSC', 'Текст будет показан при переходе по ссылке, с вариантами выбора, согласиться с переходом или отказаться.');
+define('_MI_WFL_DISCLAIMER', 'Введите текст Отказа от ответственности:');
+define('_MI_WFL_LINKDISCLAIMER', 'Введите текст Отказа от ответственности:');
 define('_MI_WFL_SUBCATS', 'Подкатегории:');
 define('_MI_WFL_SUBMITART', 'Отправить ссылки:');
 define('_MI_WFL_SUBMITARTDSC', 'Выберите группы, которые могут отправлять новые ссылки.');
