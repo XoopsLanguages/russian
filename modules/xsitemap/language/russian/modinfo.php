@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
  * ****************************************************************************
  * xsitemap - MODULE FOR XOOPS CMS
@@ -26,20 +26,20 @@
 define('_MI_XSITEMAP_MANAGER_INDEX', 'Главная');
 define('_MI_XSITEMAP_MANAGER_PLUGIN', 'Плагин');
 
-define('_MI_XSITEMAP_MANAGER_ABOUT', 'About');
+define('_MI_XSITEMAP_MANAGER_ABOUT', 'О модуле');
 define('_MI_XSITEMAP_MANAGER_PREFERENCES', 'Предпочтения');
 define('_MI_XSITEMAP_MANAGER_UPDATE', 'Обновить');
 define('_MI_XSITEMAP_MANAGER_PERMISSIONS', 'Права доступа');
 
 //Config
 define('_MI_XSITEMAP_SHOW_PARENT', 'Подкатегории');
-define('_MI_XSITEMAP_SHOW_PARENT_DESC', 'Отображает подкатегории модуля');
+define('_MI_XSITEMAP_SHOW_PARENT_DESC', 'Будут показаны подкатегории модуля');
 
 define('_MI_XSITEMAP_SHOW_ACTION', 'Ссылки');
-define('_MI_XSITEMAP_SHOW_ACTION_DESC', 'Показывать ссылки действия в шапке модуля (например, «Главная», ...)');
+define('_MI_XSITEMAP_SHOW_ACTION_DESC', 'Будут показаны ссылки действия в шапке модуля (например, «Главная», ...)');
 
 define('_MI_XSITEMAP_DIRNAMES', 'Не показывать модули');
-define('_MI_XSITEMAP_DIRNAMES_DESC', 'Введите имя каталога модуля, которые не хотите видеть на карте сайта, разделяя их запятыми');
+define('_MI_XSITEMAP_DIRNAMES_DESC', 'Введите имя каталога модуля, которые Вы хотите скрыть на карте сайта, разделяя их запятыми');
 
 define('_MI_XSITEMAP_COLS', 'Столбцы');
 define('_MI_XSITEMAP_COLS_DESC', 'Выберите количество столбцов для отображения карты сайта');
@@ -60,7 +60,7 @@ define('_MI_XSITEMAP_DESC', 'Module to visualize Sitemap in a XOOPS website');
 //1.54
 //Help
 define('_MI_XSITEMAP_DIRNAME', basename(dirname(dirname(__DIR__))));
-define('_MI_XSITEMAP_HELP_HEADER', __DIR__.'/help/helpheader.html');
+define('_MI_XSITEMAP_HELP_HEADER', __DIR__.'/help/helpheader.tpl');
 define('_MI_XSITEMAP_BACK_2_ADMIN', 'Вернуться в админ панель ');
 define('_MI_XSITEMAP_OVERVIEW', 'Обзор');
 
