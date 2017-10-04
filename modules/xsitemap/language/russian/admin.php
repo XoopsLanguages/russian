@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
  * ****************************************************************************
  * xsitemap - MODULE FOR XOOPS CMS
@@ -32,8 +32,8 @@ define('_AM_XSITEMAP_THEREARE_PLUGIN', "<span class='bold'>%s</span> всего 
 define('_AM_XSITEMAP_PLUGIN_ONLINE_NAMES', "<span class='bold'>Активных плагинов:</span> %s");
 define('_AM_XSITEMAP_PLUGIN_OFFLINE_NAMES', "<span class='bold'>Неактивных плагинов:</span> %s");
 
-define('_AM_XSITEMAP_MANAGER_ABOUT', 'About');
-define('_AM_XSITEMAP_MANAGER_PREFERENCES', 'Предпочтения');
+define('_AM_XSITEMAP_MANAGER_ABOUT', 'О модуле');
+define('_AM_XSITEMAP_MANAGER_PREFERENCES', 'Настройки');
 define('_AM_XSITEMAP_MANAGER_UPDATE', 'Обновить');
 define('_AM_XSITEMAP_MANAGER_PERMISSIONS', 'Права доступа');
 
@@ -41,35 +41,35 @@ define('_AM_XSITEMAP_MANAGER_PERMISSIONS', 'Права доступа');
 define('_AM_XSITEMAP_MANAGER_PLUGIN', 'Плагины');
 
 //General
-define('_AM_XSITEMAP_BYTES_WRITTEN', '%s байтов, записанных в файл.');
-define('_AM_XSITEMAP_FORMOK', 'Успешно зарегистрировано');
+define('_AM_XSITEMAP_BYTES_WRITTEN', '%s байтов, записано в файл.');
+define('_AM_XSITEMAP_FORMOK', 'Успешно зарегистрирован');
 define('_AM_XSITEMAP_FORMDELOK', 'Успешно устранены');
 define('_AM_XSITEMAP_FORMSUREDEL', "Вы уверены, что хотите удалить: <span style='color: red; font-weight: bold;'> %s </span>");
 define('_AM_XSITEMAP_FORMSURERENEW', "Вы действительно хотите обновить: <span style='color: red; font-weight: bold;'> %s </span>");
 define('_AM_XSITEMAP_FORMUPLOAD', 'Загрузить');
 define('_AM_XSITEMAP_FORMIMAGE_PATH', 'Файлы в %s');
 define('_AM_XSITEMAP_FORMACTION', 'Действие');
-define('_AM_XSITEMAP_OFF', 'Неактивный');
-define('_AM_XSITEMAP_ON', 'Активный');
-define('_AM_XSITEMAP_CLICK_TO', 'Нажмите для %s плагина');
+define('_AM_XSITEMAP_OFF', 'Неактивен');
+define('_AM_XSITEMAP_ON', 'Активен');
+define('_AM_XSITEMAP_CLICK_TO', 'Нажмите для установки статуса плагина: %s');
 define('_AM_XSITEMAP_EDIT', 'Редактировать');
 define('_AM_XSITEMAP_DELETE', 'Удалить');
 define('_AM_XSITEMAP_CREATE_PLUGIN', 'Создать плагин');
 define('_AM_XSITEMAP_CREATE', 'Создать');
 define('_AM_XSITEMAP_PLUGIN_ADD', 'Добавить плагин');
-define('_AM_XSITEMAP_PLUGIN_EDIT', 'Редактирование плагина');
+define('_AM_XSITEMAP_PLUGIN_EDIT', 'Редактировать плагин');
 define('_AM_XSITEMAP_PLUGIN_ID', 'Id');
 define('_AM_XSITEMAP_PLUGIN_NAME', 'Название модуля');
 define('_AM_XSITEMAP_PLUGIN_MOD_VERSION', 'Версия');
-define('_AM_XSITEMAP_PLUGIN_MOD_TABLE', "Таблица категорий модуля (например, для модуля Новостей таблица - 'topics') ");
-define('_AM_XSITEMAP_PLUGIN_CAT_ID', "Поле для основной категории (например, для модуля Новостей поле - 'topic_id')");
-define('_AM_XSITEMAP_PLUGIN_CAT_PID', "Поле для родительской категории (например, для модуля Новостей поле - 'topic_pid')");
-define('_AM_XSITEMAP_PLUGIN_CAT_NAME', "Поле для названия категории (например, для модуля Новостей поле - 'topic_title')");
-define('_AM_XSITEMAP_PLUGIN_WEIGHT', "Сортировать <br> (например, для сортировки по заголовкам категорий модуля Новостей, введите - 'topic_title')");
-define('_AM_XSITEMAP_PLUGIN_CALL', "Вызов (Вызов - это путь, который вызывается ссылкой в ​​карте сайта. Например для модуля Новостей: 'index.php?Storytopic=')");
+define('_AM_XSITEMAP_PLUGIN_MOD_TABLE', "Таблица категорий модуля<br>(например, для модуля Новостей таблица - 'topics') ");
+define('_AM_XSITEMAP_PLUGIN_CAT_ID', "Поле для основной категории<br>(например, для модуля Новостей поле - 'topic_id')");
+define('_AM_XSITEMAP_PLUGIN_CAT_PID', "Поле для родительской категории<br>(например, для модуля Новостей поле - 'topic_pid')");
+define('_AM_XSITEMAP_PLUGIN_CAT_NAME', "Поле для названия категории<br>(например, для модуля Новостей поле - 'topic_title')");
+define('_AM_XSITEMAP_PLUGIN_WEIGHT', "Сортировать<br>(например, для сортировки по заголовкам категорий модуля Новостей, введите - 'topic_title')");
+define('_AM_XSITEMAP_PLUGIN_CALL', "Вызов<br>(Вызов - это путь, который вызывается ссылкой в ​​карте сайта. Например для модуля Новостей: 'index.php?Storytopic=')");
 define('_AM_XSITEMAP_PLUGIN_SUBMITTER', 'Автор');
 define('_AM_XSITEMAP_PLUGIN_DATE_CREATED', 'Создан');
-define('_AM_XSITEMAP_PLUGIN_ONLINE', 'Online');
+define('_AM_XSITEMAP_PLUGIN_ONLINE', 'Включен');
 
 define('_AM_XSITEMAP_PLUGIN_MOD_TABLE_SHORT', 'Таблица категорий');
 define('_AM_XSITEMAP_PLUGIN_CAT_ID_SHORT', 'ID основной категории');
@@ -86,10 +86,10 @@ define('_AM_XSITEMAP_PERMISSIONS_SUBMIT', 'Разрешение на отпра�
 define('_AM_XSITEMAP_ABOUT_RELEASEDATE', 'Дата выпуска');
 define('_AM_XSITEMAP_ABOUT_AUTHOR', 'Автор');
 define('_AM_XSITEMAP_ABOUT_CREDITS', 'Кредиты');
-define('_AM_XSITEMAP_ABOUT_CREDITS_TEXT', "Графика Xsitemap основана на таблице стилей, а изображения, созданны <a href='http://www.astuteo.com'> ASTUTEO </a>");
+define('_AM_XSITEMAP_ABOUT_CREDITS_TEXT', "Графика Xsitemap основана на таблице стилей, а изображения, созданны <a href='http://www.astuteo.com'>ASTUTEO</a>");
 define('_AM_XSITEMAP_ABOUT_TNX', 'Подтверждения');
 define('_AM_XSITEMAP_ABOUT_TNX_TEXT',
-       'Я хотел бы поблагодарить <b>chanoir</ b> и <b>GIJoe</ b> за разработку оригинального модуля SITEMAP, которые вдохновили на новый <b>XSITEMAP</b>. Я также хотел бы поблагодарить <b>trabis</b> и <b>Alessandro</b> за помощь, оказанную на этапах разработки, я также благодарю <b>команду разработчиков Модуля</b> для создания <b>TDMCreate</b> который имеет фундаментальное значение для реализации <b>XSITEMAP</b>');
+       'Я хотел бы поблагодарить <b>chanoir</b> и <b>GIJoe</b> за разработку оригинального модуля SITEMAP, которые вдохновили на новый <b>XSITEMAP</b>. Я также хотел бы поблагодарить <b>trabis</b> и <b>Alessandro</b> за помощь, оказанную на этапах разработки, я также благодарю <b>команду разработчиков Модуля</b> для создания <b>TDMCreate</b> который имеет фундаментальное значение для реализации <b>XSITEMAP</b>');
 define('_AM_XSITEMAP_ABOUT_README', 'Информация');
 define('_AM_XSITEMAP_ABOUT_MANUAL', 'Помощь');
 define('_AM_XSITEMAP_ABOUT_LICENSE', 'Лицензия');
@@ -105,7 +105,7 @@ define('_AM_XSITEMAP_ABOUT_MODULE_INFO', 'О модуле');
 define('_AM_XSITEMAP_ABOUT_AUTHOR_INFO', 'Об авторе');
 define('_AM_XSITEMAP_ABOUT_DISCLAIMER', 'Disclaimer');
 define('_AM_XSITEMAP_ABOUT_DISCLAIMER_TEXT', 'GPL - Нет гарантий');
-define('_AM_XSITEMAP_ABOUT_BY', "Powered by <a href ='http://www.takeaweb.it'> TAKEAWEB </ a>");
+define('_AM_XSITEMAP_ABOUT_BY', "Powered by <a href ='http://www.takeaweb.it'> TAKEAWEB </a>");
 
 //add by urbanspaceman 22/08/2009
 define('_AM_XSITEMAP_ABOUT_TRANSLATION', 'Перевод');
@@ -139,7 +139,7 @@ define('_AM_XSITEMAP_ADMIN_ABOUT', 'About');
 
 // Text for Admin footer
 define('_AM_XSITEMAP_FOOTER',
-       "<div class='center smallsmall italic pad5'>xsitemap поддерживается <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
+       "<div class='center smallsmall italic pad5'>xSitemap поддерживается <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
 
 define('_AM_XSITEMAP_UPGRADEFAILED0', "Ошибка обновления - не удалось переименовать поле '%s'");
 define('_AM_XSITEMAP_UPGRADEFAILED1', "Ошибка обновления - не удалось добавить новые поля");
