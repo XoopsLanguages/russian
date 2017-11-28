@@ -1,9 +1,5 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help:
-        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/content/admin/index.php"
-           title="Back to the administration of MyModule">Сontent</a> <img src="<{xoAdminIcons home.png}>"
-                                                                       alt="Back to the Administration of MyModule"/>
-     </h1>
+    <{include file=$smarty.const._MI_CONTENT_HELP_HEADER}>
     <!-- -----Help Content ---------- -->
 
     <h4 class="odd">Description</h4>
