@@ -59,3 +59,14 @@ define('_MI_CONTENT_POP_DESC', 'Введите 0, чтобы отключить 
 define('_MI_CONTENT_NONE', 'Не установлен');
 define('_MI_CONTENT_BASIC', 'Базовый');
 define('_MI_CONTENT_ADVANCED', 'Расширенный');
+
+//Help
+define('_MI_CONTENT_DIRNAME', basename(dirname(dirname(__DIR__))));
+define('_MI_CONTENT_HELP_HEADER', __DIR__ . '/help/helpheader.tpl');
+define('_MI_CONTENT_BACK_2_ADMIN', 'Обратно к модулю ');
+define('_MI_CONTENT_OVERVIEW', 'Обзор');
+
+//help multi-page
+define('_MI_CONTENT_DISCLAIMER', 'Disclaimer');
+define('_MI_CONTENT_LICENSE', 'License');
+define('_MI_CONTENT_SUPPORT', 'Support');
