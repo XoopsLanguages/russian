@@ -22,7 +22,7 @@ define('_AM_CONTENT_PAGEDESCRIPTION', 'Мета Описание');
 define('_AM_CONTENT_EXTURL', 'Внешний URL');
 define('_AM_CONTENT_STORYID', 'ID');
 define('_AM_CONTENT_VISIBLE', 'Видимый');
-define('_AM_CONTENT_CONTENT', 'Контент');
+define('_AM_CONTENT_CONTENT', 'Контент<span style=\'font-size: xx-small; font-weight: normal; display: block;\'>(Вы можете создавать многостраничные статьи, вставив тег [pagebreak] куда вы хотите поставить разрыв страницы.)</span>');
 define('_AM_CONTENT_YES', 'Да');
 define('_AM_CONTENT_NO', 'Нет');
 define('_AM_CONTENT_URL', 'Выбрать файл');
