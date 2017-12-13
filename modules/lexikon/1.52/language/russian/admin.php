@@ -100,7 +100,7 @@ define("_AM_LEXIKON_SINGLECAT","Модуль имеет единую катег�
 define("_AM_LEXIKON_STATUS","Статус");
 define("_AM_LEXIKON_SUBMITS","Публикации");
 define("_AM_LEXIKON_SUBMITTER","Представивший");
-define("_AM_LEXIKON_SWITCHOFFLINE"," Возьмите запись в автономном режиме?");
+define("_AM_LEXIKON_SWITCHOFFLINE","Отключить запись?");
 define("_AM_LEXIKON_TOTALCATS","Категории доступные: ");
 define("_AM_LEXIKON_TOTALENTRIES","Опубликовано записей: ");
 define("_AM_LEXIKON_TOTALREQ","Запрошенные данные: ");
