@@ -15,6 +15,7 @@ define('_MI_TDMSPOT_PREF', 'Конфигурация');
 
 // pref
 define('_MI_TDMSPOT_NAMES', 'Показывать название "Главных страниц"?');
+define('_MI_TDMSPOT_NAMES_BLOCK', 'Показывать название блоков?');
 define('_MI_TDMSPOT_DISPLAY', 'Стиль эффектов на главной');
 define('_MI_TDMSPOT_MIMEMAX', 'Максимальный размер файла для загрузки');
 define('_MI_TDMSPOT_MIMETYPE', 'Разрешенные расширения файлов, разделенные |');
