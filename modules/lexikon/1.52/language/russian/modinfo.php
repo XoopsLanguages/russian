@@ -26,108 +26,82 @@ define("_MI_LEXIKON_SUB_SMNAME6","Список авторов");
 define("_MI_LEXIKON_SUB_SMNAME7","Для Веб-мастеров");
 
 // module option
-$cf=1;
-
-define("_MI_LEXIKON_MULTICATS","$cf. Включить категории в модуле?");
+define("_MI_LEXIKON_MULTICATS","Включить категории в модуле?");
 define("_MI_LEXIKON_MULTICATSDSC","Если установлено значение «Да», показывает Ваши категории в модуле. Если установлено «Нет», будет установлена одна автоматическая категория.");
 
-define("_MI_LEXIKON_ALLOWSUBMIT","$cf. Могут ли пользователи подавать заявки?");
+define("_MI_LEXIKON_ALLOWSUBMIT","Могут ли пользователи подавать заявки?");
 define("_MI_LEXIKON_ALLOWSUBMITDSC","Если установлено значение «Да», пользователи будут иметь доступ к форме представления.");
 
-$cf++;
-
-define("_MI_LEXIKON_CATSINMENU","$cf. Показывать категории в меню?");
+define("_MI_LEXIKON_CATSINMENU","Показывать категории в меню?");
 define("_MI_LEXIKON_CATSINMENUDSC","Если установлено значение «Да», ссылки категории будут показаны в главном меню.");
 
-define("_MI_LEXIKON_ANONSUBMIT","$cf. Могут ли гости подавать заявки?");
+define("_MI_LEXIKON_ANONSUBMIT","Могут ли гости подавать заявки?");
 define("_MI_LEXIKON_ANONSUBMITDSC","Если установлено значение «Да», гости будут иметь доступ к форме представления.");
 
-$cf++;
-
-define("_MI_LEXIKON_DATEFORMAT","$cf. В каком формате должна быть дата?");
+define("_MI_LEXIKON_DATEFORMAT","В каком формате должна быть дата?");
 define("_MI_LEXIKON_DATEFORMATDSC","Используйте заключительную часть language/english/global.php для выбора стиля. пример: 'd-M-Y H:i' будет показано: '23-May-2011 22:35'");
 
-define("_MI_LEXIKON_ALLOWREQ","$cf. Могут ли гости запросить термины и определения?");
+define("_MI_LEXIKON_ALLOWREQ","Могут ли гости запросить термины и определения?");
 define("_MI_LEXIKON_ALLOWREQDSC","Если установлено значение «Да», гости имеют доступ к форме запроса.");
 
-$cf++;
-
-define("_MI_LEXIKON_PERPAGE","$cf. Количество записей на странице (Admin сторона)?");
+define("_MI_LEXIKON_PERPAGE","Количество записей на странице (Admin сторона)?");
 define("_MI_LEXIKON_PERPAGEDSC","Количество записей, которые будут показаны в таблице, которая показывает активные записи на стороне администратора.");
 
-$cf++;
-
-define("_MI_LEXIKON_PERPAGEINDEX","$cf. Количество записей на странице (со стороны пользователя)?");
+define("_MI_LEXIKON_PERPAGEINDEX","Количество записей на странице (со стороны пользователя)?");
 define("_MI_LEXIKON_PERPAGEINDEXDSC","Количество записей, которые будут показаны на каждой странице для пользователя.");
 
-$cf++;
-
-define("_MI_LEXIKON_BLOCKSPERPAGE","$cf. Количество записей в блоке?");
+define("_MI_LEXIKON_BLOCKSPERPAGE","Количество записей в блоке?");
 define("_MI_LEXIKON_BLOCKSPERPAGEDSC","Сколько записей Вы хотите, чтобы показать в блоке на главной странице? (По умолчанию: 5)");
 
-$cf++;
-
-define("_MI_LEXIKON_AUTOAPPROVE","$cf. Одобрять записи автоматически?");
+define("_MI_LEXIKON_AUTOAPPROVE","Одобрять записи автоматически?");
 define("_MI_LEXIKON_AUTOAPPROVEDSC","Если установлено значение «Да», XOOPS будет публиковать представленные записи без вмешательства администратора.");
 
-$cf++;
-
-define("_MI_LEXIKON_ALLOWADMINHITS","$cf. Хиты администратора включать в счетчик?");
+define("_MI_LEXIKON_ALLOWADMINHITS","Хиты администратора включать в счетчик?");
 define("_MI_LEXIKON_ALLOWADMINHITSDSC","Если установлено значение «Да», будет учитываться каждое посещение администратора.");
 
-$cf++;
-
-define("_MI_LEXIKON_MAILTOADMIN","$cf. Отправить письмо администратору о каждом новом представлении?");
+define("_MI_LEXIKON_MAILTOADMIN","Отправить письмо администратору о каждом новом представлении?");
 define("_MI_LEXIKON_MAILTOADMINDSC","Если установлено значение «Да», администратор получит EMail при каждом представлении записи.");
 
-$cf++;
-define("_MI_LEXIKON_MAILTOSENDER","$cf. Отправить письмо пользователю о новом представлении?");
+define("_MI_LEXIKON_MAILTOSENDER","Отправить письмо пользователю о новом представлении?");
 define("_MI_LEXIKON_MAILTOSENDERDSC","Если установлено значение «Да», пользователь получит подтверждение по EMail для каждого модифицированной, представленной или запрашиваемой записи. Если 'Уведомлять о публикации' включена, пользователь получит подтверждение по EMail о записи.");
-$cf++;
 
-define("_MI_LEXIKON_RANDOMLENGTH","$cf. Длина строки, чтобы показать в случайных определениях?");
+define("_MI_LEXIKON_RANDOMLENGTH","Длина строки, чтобы показать в случайных определениях?");
 define("_MI_LEXIKON_RANDOMLENGTHDSC","Сколько символов Вы хотите показать, как на главной странице так и в блоке? (По умолчанию: 150)");
 
-$cf++;
-define("_MI_LEXIKON_LINKTERMS","$cf. Показать ссылки на другие глоссарии терминов, определений?");
+define("_MI_LEXIKON_LINKTERMS","Показать ссылки на другие глоссарии терминов, определений?");
 define("_MI_LEXIKON_LINKTERMSDSC","Если установлено значение «Да», будет автоматически связывать термины и определения, которые уже есть в Ваших словарях.");
 
-$cf++;
-define("_MI_LEXIKON_FORM_OPTIONS","$cf. Редактор");
+define("_MI_LEXIKON_FORM_OPTIONS","Редактор");
 define("_MI_LEXIKON_FORM_OPTIONSDSC","Какой редактор Вы хотели бы использовать. <BR>Обратите внимание, если Вы выбираете другой редактор, а не Xoops-DHTML-редактор, то он должен быть установлен в class/xoopseditor.");
 
-$cf++;
-define("_MI_LEXIKON_EDIGUEST","$cf. Редактор для гостей");
+define("_MI_LEXIKON_EDIGUEST","Редактор для гостей");
 define("_MI_LEXIKON_EDIGUESTDSC","Могут ли гости выбирать установленные у Вас редакторы?");
 
-define("_MI_LEXIKON_DISPPROL","$cf. Показать автора каждой записи?");
+define("_MI_LEXIKON_DISPPROL","Показать автора каждой записи?");
 define("_MI_LEXIKON_DISPPROLDSC","Если установлено значение '«Да», покажет автора записи.");
 
-$cf++;
-define("_MI_LEXIKON_HEADER","$cf. Вступительный текст на главной странице:");
+define("_MI_LEXIKON_HEADER","Вступительный текст на главной странице:");
 define("_MI_LEXIKON_HEADERDSC","Вы можете использовать это поле для описания, вводного текста и т.д. HTML разрешен.");
 
-$cf++;
-define('_MI_LEXIKON_AUTHORPROFILE', "$cf. Использование профиля автора?");
+define('_MI_LEXIKON_AUTHORPROFILE', "Использование профиля автора?");
 define("_MI_LEXIKON_AUTHORPROFILEDSC","Если установлено значение «Да», податель будет связан с авторами глоссарий-профиля. кроме того, ссылка на список авторов будет отображаться в меню.");
 
-$cf++;
-define("_MI_LEXIKON_SHOWDAT","$cf. Показать даты в блоке последних записей?");
+define("_MI_LEXIKON_SHOWDAT","Показать даты в блоке последних записей?");
 define("_MI_LEXIKON_SHOWDATDSC","Если установлено значение «Да», будет отображаться дата последней записи в блоке.");
-$cf++;
-define("_MI_LEXIKON_SHOWCTR","$cf. Показать счетчик в блоке популярных записей?");
+
+define("_MI_LEXIKON_SHOWCTR","Показать счетчик в блоке популярных записей?");
 define("_MI_LEXIKON_SHOWCTRDSC","Если установлено значение «Да», покажет счетчик популярных записей в блоке.");
-$cf++;
-define("_MI_LEXIKON_CAPTCHA","$cf. Использовать защитный код (Captcha) для представления?");
+
+define("_MI_LEXIKON_CAPTCHA","Использовать защитный код (Captcha) для представления?");
 define("_MI_LEXIKON_CAPTCHADSC","Требуется Xoops Frameworks.");
-$cf++;
-define("_MI_LEXIKON_KEYWORDS_HIGH","$cf. Использовать выделение ключевых слов при поиске?");
+
+define("_MI_LEXIKON_KEYWORDS_HIGH","Использовать выделение ключевых слов при поиске?");
 define("_MI_LEXIKON_KEYWORDS_HIGHDSC"," Если вы установите эту опцию «Да», при поиске ключевые слова будут выделены цветом");
-$cf++;
-define("_MI_LEXIKON_BOOKMARK_ME","$cf. Показать закладки для социальных сетей?");
+
+define("_MI_LEXIKON_BOOKMARK_ME","Показать закладки для социальных сетей?");
 define("_MI_LEXIKON_BOOKMARK_MEDSC","Значки соцсетей будут показаны на страницах");
-$cf++;
-define("_MI_LEXIKON_METANUM","$cf. Максимальное кол-во мета ключевых слов для автоматического создания?");
+
+define("_MI_LEXIKON_METANUM","Максимальное кол-во мета ключевых слов для автоматического создания?");
 define("_MI_LEXIKON_METANUMDSC","Установите здесь максимальное количество для генерации мета ключевых слов.<BR> Если установлен нуль, то модуль будет использовать ключевые слова сайта");
 define("_MI_LEXIKON_METANUM_0","0");
 define("_MI_LEXIKON_METANUM_5","5");
@@ -139,28 +113,27 @@ define("_MI_LEXIKON_METANUM_50","50");
 define("_MI_LEXIKON_METANUM_60","60");
 define("_MI_LEXIKON_METANUM_70","70");
 define("_MI_LEXIKON_METANUM_80","80");
-$cf++;
-define('_MI_LEXIKON_USESHOTS',"$cf. Использовать изображения для категории?");
-define("_MI_LEXIKON_USESHOTSDSC","Если установлено значение «Да», будет отображаться изображение категории.<BR/> <em>Путь к папке для загрузки изображений: modules/lexikon/images/uploads</em>");
-$cf++;
-define('_MI_LEXIKON_LOGOWIDTH',"$cf. Ширина изображений категории в меню:");
-define("_MI_LEXIKON_LOGOWIDTHDSC","Размер миниатюр в меню (по умолчанию:20px)");
-$cf++;
-define('_MI_LEXIKON_IMCATWD',"$cf. Ширина изображений категории в категории:");
-define("_MI_LEXIKON_IMCATWDDSC","Размер миниатюр в режиме просмотра категории (по умолчанию:50px)");
-$cf++;
-define("_MI_LEXIKON_RSS","$cf. Включить RSS для гостей?");
-define("_MI_LEXIKON_RSSDSC","Если вы установите эту опцию «Да», новые записи будут доступны для гостей. Если «Нет» только пользователи будут иметь доступ к RSS.");
-$cf++;
 
-define("_MI_LEXIKON_SYNDICATION","$cf. Включить отслеживание контента в модуле и т.д.?");
+define('_MI_LEXIKON_USESHOTS',"Использовать изображения для категории?");
+define("_MI_LEXIKON_USESHOTSDSC","Если установлено значение «Да», будет отображаться изображение категории.<BR/> <em>Путь к папке для загрузки изображений: modules/lexikon/images/uploads</em>");
+
+define('_MI_LEXIKON_LOGOWIDTH',"Ширина изображений категории в меню:");
+define("_MI_LEXIKON_LOGOWIDTHDSC","Размер миниатюр в меню (по умолчанию:20px)");
+
+define('_MI_LEXIKON_IMCATWD',"Ширина изображений категории в категории:");
+define("_MI_LEXIKON_IMCATWDDSC","Размер миниатюр в режиме просмотра категории (по умолчанию:50px)");
+
+define("_MI_LEXIKON_RSS","Включить RSS для гостей?");
+define("_MI_LEXIKON_RSSDSC","Если вы установите эту опцию «Да», новые записи будут доступны для гостей. Если «Нет» только пользователи будут иметь доступ к RSS.");
+
+define("_MI_LEXIKON_SYNDICATION","Включить отслеживание контента в модуле и т.д.?");
 define("_MI_LEXIKON_SYNDICATIONDSC","Если установить эту опцию в «Да», пользователи будут иметь доступ к синдикации контента.");
 // new configs in version 1.52
-$cf++;
-define("_MI_LEXIKON_IMGUPLOADWD","$cf. Максимальная высота/ширина для загрузки изображения");
+
+define("_MI_LEXIKON_IMGUPLOADWD","Максимальная высота/ширина для загрузки изображения");
 define("_MI_LEXIKON_IMGUPLOADWD_DESC","Определить максимальную высоту/ширину в пикселях для загрузки изображения");
-$cf++;
-define("_MI_LEXIKON_IMGUPLOADSIZE","$cf. Максимальный размер для загрузки изображения");
+
+define("_MI_LEXIKON_IMGUPLOADSIZE","Максимальный размер для загрузки изображения");
 define("_MI_LEXIKON_IMGUPLOADSIZE_DESC","Определите максимальный размер в байтах (10485760 = 1 MB) для загрузки изображения");
 // end new configs in 1.52
 
@@ -259,3 +232,25 @@ define('_MI_LEXIKON_HELP_HEADER', __DIR__ . '/help/helpheader.tpl');
 define('_MI_LEXIKON_BACK_2_ADMIN', 'Вернуться в админ панель ');
 define('_MI_LEXIKON_HELP_OVERVIEW', 'Обзор');
 define('_MI_LEXIKON_NAME', 'Lexikon');
+
+//Lang Symbol
+define('_MI_LEXIKON_LANG_SYMBOL_NAC', 'Включить фильтрацию по национальным символам');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_NAC', 'Добавляет национальные символы в поиск по алфавиту');
+define('_MI_LEXIKON_LANG_SYMBOL_NAC_IN', 'Номер первого символа в таблице символов');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_NAC_IN', 'Номер символа с которого начинается национальный алфавит в таблице UTF8<br>По умолчанию установлен Русский язык<br><a href="https://unicode-table.com/en/" target="_blank">Узнать можно тут</a>');
+define('_MI_LEXIKON_LANG_SYMBOL_NAC_OUT', 'Количество символов');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_NAC_OUT', 'Количество символов в национальном алфавите<br>По умолчанию установлен Русский язык');
+
+define('_MI_LEXIKON_LANG_SYMBOL_NUM', 'Включить фильтрацию по цифрам');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_NUM', 'Добавляет цифры в поиск по алфавиту');
+define('_MI_LEXIKON_LANG_SYMBOL_NUM_IN', 'Номер первого символа в таблице символов');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_NUM_IN', 'Номер символа с которого начинаются цифры в таблице UTF8<br><a href="https://unicode-table.com/en/" target="_blank">Узнать можно тут</a>');
+define('_MI_LEXIKON_LANG_SYMBOL_NUM_OUT', 'Количество символов');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_NUM_OUT', 'Количество символов');
+
+define('_MI_LEXIKON_LANG_SYMBOL_DEF', 'Включить фильтрацию по алфавиту (по умолчанию Английский)');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_DEF', 'Добавляет поиск по алфавиту');
+define('_MI_LEXIKON_LANG_SYMBOL_DEF_IN', 'Номер первого символа в таблице символов');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_DEF_IN', 'Номер символа с которого начинается алфавит в таблице UTF8<br>По умолчанию установлен Английский язык<br><a href="https://unicode-table.com/en/" target="_blank">Узнать можно тут</a>');
+define('_MI_LEXIKON_LANG_SYMBOL_DEF_OUT', 'Количество символов');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_DEF_OUT', 'Количество символов в алфавите<br>По умолчанию установлен Английский язык');
