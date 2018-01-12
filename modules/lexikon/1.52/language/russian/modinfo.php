@@ -233,24 +233,29 @@ define('_MI_LEXIKON_BACK_2_ADMIN', 'Вернуться в админ панел�
 define('_MI_LEXIKON_HELP_OVERVIEW', 'Обзор');
 define('_MI_LEXIKON_NAME', 'Lexikon');
 
+//Menu
+define('_MI_LEXIKON_SHOWSUBMISSIONS', 'Материалы');
+define('_MI_LEXIKON_HOME', 'Главная');
+define('_MI_LEXIKON_ABOUT', 'О модуле');
+
 //Lang Symbol
 define('_MI_LEXIKON_LANG_SYMBOL_NAC', 'Включить фильтрацию по национальным символам');
 define('_MI_LEXIKON_LANG_SYMBOLDSC_NAC', 'Добавляет национальные символы в поиск по алфавиту');
 define('_MI_LEXIKON_LANG_SYMBOL_NAC_IN', 'Номер первого символа в таблице символов');
-define('_MI_LEXIKON_LANG_SYMBOLDSC_NAC_IN', 'Номер символа с которого начинается национальный алфавит в таблице UTF8<br>По умолчанию установлен Русский язык<br><a href="https://unicode-table.com/en/" target="_blank">Узнать можно тут</a>');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_NAC_IN', 'Номер символа с которого начинается национальный алфавит в таблице UTF8<br>По умолчанию установлен Русский язык<br>Узнать можно <a href="https://unicode-table.com/en/" target="_blank">тут</a> или <a href="http://www.utf8-chartable.de/" target="_blank">тут</a>');
 define('_MI_LEXIKON_LANG_SYMBOL_NAC_OUT', 'Количество символов');
 define('_MI_LEXIKON_LANG_SYMBOLDSC_NAC_OUT', 'Количество символов в национальном алфавите<br>По умолчанию установлен Русский язык');
 
 define('_MI_LEXIKON_LANG_SYMBOL_NUM', 'Включить фильтрацию по цифрам');
 define('_MI_LEXIKON_LANG_SYMBOLDSC_NUM', 'Добавляет цифры в поиск по алфавиту');
 define('_MI_LEXIKON_LANG_SYMBOL_NUM_IN', 'Номер первого символа в таблице символов');
-define('_MI_LEXIKON_LANG_SYMBOLDSC_NUM_IN', 'Номер символа с которого начинаются цифры в таблице UTF8<br><a href="https://unicode-table.com/en/" target="_blank">Узнать можно тут</a>');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_NUM_IN', 'Номер символа с которого начинаются цифры в таблице UTF8<br>Узнать можно <a href="https://unicode-table.com/en/" target="_blank">тут</a> или <a href="http://www.utf8-chartable.de/" target="_blank">тут</a>');
 define('_MI_LEXIKON_LANG_SYMBOL_NUM_OUT', 'Количество символов');
 define('_MI_LEXIKON_LANG_SYMBOLDSC_NUM_OUT', 'Количество символов');
 
 define('_MI_LEXIKON_LANG_SYMBOL_DEF', 'Включить фильтрацию по алфавиту (по умолчанию Английский)');
 define('_MI_LEXIKON_LANG_SYMBOLDSC_DEF', 'Добавляет поиск по алфавиту');
 define('_MI_LEXIKON_LANG_SYMBOL_DEF_IN', 'Номер первого символа в таблице символов');
-define('_MI_LEXIKON_LANG_SYMBOLDSC_DEF_IN', 'Номер символа с которого начинается алфавит в таблице UTF8<br>По умолчанию установлен Английский язык<br><a href="https://unicode-table.com/en/" target="_blank">Узнать можно тут</a>');
+define('_MI_LEXIKON_LANG_SYMBOLDSC_DEF_IN', 'Номер символа с которого начинается алфавит в таблице UTF8<br>По умолчанию установлен Английский язык<br>Узнать можно <a href="https://unicode-table.com/en/" target="_blank">тут</a> или <a href="http://www.utf8-chartable.de/" target="_blank">тут</a>');
 define('_MI_LEXIKON_LANG_SYMBOL_DEF_OUT', 'Количество символов');
 define('_MI_LEXIKON_LANG_SYMBOLDSC_DEF_OUT', 'Количество символов в алфавите<br>По умолчанию установлен Английский язык');
