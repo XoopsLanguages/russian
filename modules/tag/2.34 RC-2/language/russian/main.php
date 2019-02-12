@@ -42,15 +42,14 @@ define('_MD_TAG_INVALID', 'Неверный запрос');
 $GLOBALS['_MD_TAG_ADDONS'] = [
     'google' => [
         'title' => 'Google',
-        'link'  => 'http://www.google.com/search?q=%s',
+        'link'  => 'https://www.google.com/search?q=%s',
     ],
     'techno' => [
-        'title' => 'Technorati',
-        'link'  => 'http://technorati.com/tag/%s/',
+        'title' => 'Yandex',
+        'link'  => 'https://www.yandex.ru/search/?text=%s',
     ],
     'flickr' => [
-        'title'    => 'Flickr',
-        'link'     => 'http://www.flickr.com/photos/tags/%s/',
-        'function' => 'utf8_encode',
+        'title'    => 'Rambler',
+        'link'     => 'https://nova.rambler.ru/search?query=%s',
     ],
 ];
