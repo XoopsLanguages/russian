@@ -13,6 +13,6 @@ $supports["english"] = array(
 
 // Support site for Russian
 $supports["russian"] = array(
-    "url"   => "https://www.shmel.org/forums/viewforum.php?forum=8",
+    "url"   => "https://url.shmel.org/xoops",
     "title" => "Русскоязычная поддержка",
 );
