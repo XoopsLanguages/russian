@@ -13,7 +13,7 @@ $supports['english'] = array(
 
 // Support site for Russian
 $supports['russian'] = array(
-    'url' => 'https://www.shmel.org/forums/viewforum.php?forum=8',
+    'url' => 'https://url.shmel.org/xoops',
     'title' => 'Russian support');
 
 // Add extra support sites, use corresponding language folder name as key, for instance:
