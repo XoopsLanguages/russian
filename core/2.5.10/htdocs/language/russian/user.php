@@ -9,7 +9,7 @@ define('_US_LOSTPASSWORD', 'Забыли свой пароль?');
 define('_US_NOPROBLEM', 'Нет проблем. Просто введите e-mail Вашей учетной записи.');
 define('_US_YOUREMAIL', 'Ваш Email: ');
 define('_US_SENDPASSWORD', 'Выслать пароль');
-define('_US_LOGGEDOUT', 'Вы вышли из');
+define('_US_LOGGEDOUT', 'Ваш сеанс закрыт');
 define('_US_THANKYOUFORVISIT', 'Благодарим Вас за посещение нашего сайта!');
 define('_US_INCORRECTLOGIN', 'Неверный логин!');
 define('_US_LOGGINGU', 'Спасибо за визит на наш сайт, %s.');

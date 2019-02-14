@@ -6,10 +6,10 @@
  * _CHARSET     UTF-8
  */
 // Navigation
-define("_AM_SYSTEM_BLOCKS_ADMIN","Администрирование блоков");
+define("_AM_SYSTEM_BLOCKS_ADMIN","Настройка блоков");
 define("_AM_SYSTEM_BLOCKS_MANAGMENT","Управление");
 define("_AM_SYSTEM_BLOCKS_ADDBLOCK","Добавление нового блока");
-define("_AM_SYSTEM_BLOCKS_EDITBLOCK","Редактировать блок");
+define("_AM_SYSTEM_BLOCKS_EDITBLOCK","Редактирование блока");
 define("_AM_SYSTEM_BLOCKS_CLONEBLOCK","Клонировать блок");
 // Forms
 define("_AM_SYSTEM_BLOCKS_CUSTOM","Блок пользователя");
