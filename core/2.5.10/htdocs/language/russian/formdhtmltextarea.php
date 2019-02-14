@@ -76,7 +76,7 @@ define('_XOOPS_FORM_ENTERMP3URL', 'MP3 URL');
 define('_XOOPS_FORM_ALT_CHECKLENGTH', 'Проверить длину текста');
 define('_XOOPS_FORM_ALT_LENGTH', 'Текущая длина содержимого: %s');
 define('_XOOPS_FORM_ALT_LENGTH_MAX', 'Максимальная длина: ');
-define('_XOOPS_FORM_PREVIEW_CONTENT', 'Нажмите кнопку <strong>' . _PREVIEW . '</strong> чтобы увидеть содержание в действии.');
+define('_XOOPS_FORM_PREVIEW_CONTENT', 'Нажмите кнопку <strong>' . _PREVIEW . '</strong>, чтобы увидеть сообщение перед отправлением.');
 define('_XOOPS_FORM_ALTYOUTUBE', 'Youtube');
 define('_XOOPS_FORM_ENTER_SOUNDCLOUD_URL', 'Введите URL-адрес SoundCloud');
 define('_XOOPS_FORM_ALT_SOUNDCLOUD', 'SoundСloud');

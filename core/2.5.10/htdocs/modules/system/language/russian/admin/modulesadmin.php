@@ -6,7 +6,7 @@
  * _CHARSET     UTF-8
  */
 // Navigation
-define("_AM_SYSTEM_MODULES_ADMIN","Администрирование модуля");
+define("_AM_SYSTEM_MODULES_ADMIN","Настройка модуля");
 define("_AM_SYSTEM_MODULES_LIST","Список модулей");
 define("_AM_SYSTEM_MODULES_TOINSTALL","Установка модулей");
 define("_AM_SYSTEM_MODULES_VALIDATE","Подтвердить изменения");
@@ -15,7 +15,7 @@ define("_AM_SYSTEM_MODULES_SUBMITRES","Отправить результат");
 define("_AM_SYSTEM_MODULES_RUSUREINS","Нажмите кнопку для установки этого модуля");
 define("_AM_SYSTEM_MODULES_RUSUREUNINS","Вы действительно хотите удалить этот модуль?");
 define("_AM_SYSTEM_MODULES_RUSUREUPD","Нажмите кнопку для обновления этого модуля");
-define("_AM_SYSTEM_MODULES_BTOMADMIN","Администрирование модуля XOOPS");
+define("_AM_SYSTEM_MODULES_BTOMADMIN","Настройка модулей XOOPS");
 define("_AM_SYSTEM_MODULES_INSTALLING","Установить ");
 define("_AM_SYSTEM_MODULES_DEACTIVATE","Отключить ");
 define("_AM_SYSTEM_MODULES_ACTIVATE","Включить ");
