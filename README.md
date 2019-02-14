@@ -1,7 +1,7 @@
 ![alt XOOPS CMS](http://xoops.org/images/logoXoops4GithubRepository.png)
 ## XOOPS-архив языков для [XOOPS CMS 2.5.x](http://xoops.org)
 
-Место для языков XOOPS, поддерживаемых командой переводчиков XOOPS.
+Место для файлов локализации XOOPS, поддерживаемых командой переводчиков XOOPS.
 
 ** ПРИМЕЧАНИЕ: в настоящее время для переводов мы используем [Transifex](https://www.transifex.com/xoops/)**
 
