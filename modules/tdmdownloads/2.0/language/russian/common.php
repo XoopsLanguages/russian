@@ -86,7 +86,7 @@ define('CO_' . $moduleDirNameUpper . '_' . 'ALL', 'Все');
 define('CO_' . $moduleDirNameUpper . '_' . 'ACCESSRIGHTS', 'Права доступа');
 define('CO_' . $moduleDirNameUpper . '_' . 'ACTION', 'Действие');
 define('CO_' . $moduleDirNameUpper . '_' . 'ACTIVERIGHTS', 'Активные права');
-define('CO_' . $moduleDirNameUpper . '_' . 'BADMIN', 'Настройка блока');
+define('CO_' . $moduleDirNameUpper . '_' . 'BADMIN', 'Настройка блоков');
 define('CO_' . $moduleDirNameUpper . '_' . 'BLKDESC', 'Описание');
 define('CO_' . $moduleDirNameUpper . '_' . 'CBCENTER', 'Центр средний');
 define('CO_' . $moduleDirNameUpper . '_' . 'CBLEFT', 'Центр левый');
@@ -100,8 +100,8 @@ define('CO_' . $moduleDirNameUpper . '_' . 'VISIBLEIN', 'Видимый в');
 define('CO_' . $moduleDirNameUpper . '_' . 'WEIGHT', 'Вес');
 
 define('CO_' . $moduleDirNameUpper . '_' . 'PERMISSIONS', 'Права доступа');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS', 'Администратор блоков');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_DESC', 'Администратор Блоков/Групп');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS', 'Настройка блоков');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_DESC', 'Настройка Блоков/Групп');
 
 define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_MANAGMENT', 'Управление');
 define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADDBLOCK', 'Добавить новый блок');
@@ -111,7 +111,7 @@ define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_CLONEBLOCK', 'Клониро�
 //myblocksadmin
 define('CO_' . $moduleDirNameUpper . '_' . 'AGDS', 'Административные группы');
 define('CO_' . $moduleDirNameUpper . '_' . 'BCACHETIME', 'Время кэширования');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADMIN', 'Администратор блоков');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADMIN', 'Настройка блоков');
 
 //Template Admin
 define('CO_' . $moduleDirNameUpper . '_' . 'TPLSETS', 'Управление шаблонами');
