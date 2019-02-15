@@ -10,7 +10,7 @@ define('_MD_NEWBB_SELFORUM', 'Выберите форум');
 define('_MD_NEWBB_THIS_FILE_WAS_ATTACHED_TO_THIS_POST', 'Прикрепленный файл:');
 define('_MD_NEWBB_ALLOWED_EXTENSIONS', 'Разрешенные расширения');
 define('_MD_NEWBB_MAX_FILESIZE', 'Максимальный размер файла');
-define('_MD_NEWBB_ATTACHMENT', 'Прикрепленные файлы');
+define('_MD_NEWBB_ATTACHMENT', 'Прикрепить файлы');
 define('_MD_NEWBB_FILESIZE', 'Размер');
 define('_MD_NEWBB_HITS', 'Хиты');
 define('_MD_NEWBB_GROUPS', 'Группы:');
@@ -36,14 +36,14 @@ define('_MD_NEWBB_NEWPOSTS', 'Новые сообщения');
 define('_MD_NEWBB_NONEWPOSTS', 'Нет новых сообщений');
 define('_MD_NEWBB_PRIVATEFORUM', 'Неактивный форум');
 define('_MD_NEWBB_BY', 'от');// Posted by
-define('_MD_NEWBB_TOSTART', 'Для просмотра сообщений выберите раздел, который вы хотите посетить, из списка ниже.');
+define('_MD_NEWBB_TOSTART', 'Для просмотра сообщений выберите раздел, который Вы хотите посетить, из списка ниже.');
 define('_MD_NEWBB_TOTALTOPICSC', 'Всего тем: ');
 define('_MD_NEWBB_TOTALPOSTSC', 'Всего сообщений: ');
 define('_MD_NEWBB_TOTALUSER', 'Всего пользователей: ');
 define('_MD_NEWBB_TIMENOW', 'Текущее время: %s');
 define('_MD_NEWBB_USER_LASTVISIT', 'Ваш последний визит: %s');
 define('_MD_NEWBB_USER_LASTPOST', 'Ваше последнее сообщение: %s');
-define('_MD_NEWBB_USER_NOLASTPOST', 'Вы еще не разместили');
+define('_MD_NEWBB_USER_NOLASTPOST', 'Вы еще ничего не опубликовали');
 define('_MD_NEWBB_USER_TOPICS', 'Ваши темы: %s');
 define('_MD_NEWBB_USER_POSTS', 'Сообщений: %s');
 define('_MD_NEWBB_USER_DIGESTS', 'Интересные: %s');
@@ -55,16 +55,16 @@ define('_MD_NEWBB_INACTIVEFORUM_NEWPOSTS', 'Неактивный форум с �
 define('_MD_NEWBB_INACTIVEFORUM_NONEWPOSTS', 'Неактивный форум без новых сообщений');
 define('_MD_NEWBB_SUBFORUMS', 'Подфорумы');
 define('_MD_NEWBB_MAINFORUMOPT', 'Основные параметры');
-define('_MD_NEWBB_PENDING_POSTS_FOR_AUTH', 'Сообщения ожидающие утверждения:');
+define('_MD_NEWBB_PENDING_POSTS_FOR_AUTH', 'Сообщения ожидающие проверки:');
 define('_MD_NEWBB_TODAYTOPICSC', 'Темы сегодня: ');
 define('_MD_NEWBB_TODAYPOSTSC', 'Сообщений сегодня: ');
 define('_MD_NEWBB_TOTALDIGESTSC', 'Всего интересных: ');
 //page_header.php
-define('_MD_NEWBB_MODERATEDBY', 'Модераторы');
+define('_MD_NEWBB_MODERATEDBY', 'Модератор(ы)');
 define('_MD_NEWBB_SEARCH', 'Поиск');
 define('_MD_NEWBB_FORUMINDEX', 'Список форумов');
 define('_MD_NEWBB_POSTNEW', 'Новая тема');
-define('_MD_NEWBB_REGTOPOST', 'Посмотреть профиль');
+define('_MD_NEWBB_REGTOPOST', 'Зарегистрируйтесь чтобы опубликовать');
 //search.php
 define('_MD_NEWBB_SEARCHALLFORUMS', 'Поиск по всем форумам');
 define('_MD_NEWBB_FORUMC', 'Форум');
@@ -75,9 +75,9 @@ define('_MD_NEWBB_TOPIC', 'Тема');
 define('_MD_NEWBB_POST2', 'Пост');
 define('_MD_NEWBB_USERNAME', 'Имя пользователя');
 define('_MD_NEWBB_BODY', ' Тело');
-define('_MD_NEWBB_SINCE', 'Поскольку');
+define('_MD_NEWBB_SINCE', 'За какое время');
 //viewforum.php
-define('_MD_NEWBB_REPLIES', 'Ответов');
+define('_MD_NEWBB_REPLIES', 'Ответы');
 define('_MD_NEWBB_POSTER', 'Автор');
 define('_MD_NEWBB_VIEWS', 'Просмотров');
 define('_MD_NEWBB_MORETHAN', 'Новые сообщения [Популярная]');
@@ -91,8 +91,8 @@ define('_MD_NEWBB_SORTEDBY', 'Отсортировано по');
 define('_MD_NEWBB_TOPICTITLE', 'Название темы');
 define('_MD_NEWBB_NUMBERREPLIES', 'Количество ответов');
 define('_MD_NEWBB_TOPICPOSTER', 'Автор темы');
-define('_MD_NEWBB_TOPICTIME', 'Время<br /> публикации');
-define('_MD_NEWBB_LASTPOSTTIME', 'Недавно<br /> опубликованные');
+define('_MD_NEWBB_TOPICTIME', 'Время<br>публикации');
+define('_MD_NEWBB_LASTPOSTTIME', 'Недавно<br>опубликованные');
 define('_MD_NEWBB_ASCENDING', 'В порядке возрастания');
 define('_MD_NEWBB_DESCENDING', 'В порядке убывания');
 define('_MD_NEWBB_FROMLASTHOURS', 'За последний(е) %s час(ов)');
@@ -336,7 +336,7 @@ define('_MD_NEWBB_LOCK', 'Заблокировать');
 define('_MD_NEWBB_UNLOCK', 'Разблокировать');
 define('_MD_NEWBB_STICKY', 'Приклеить');
 define('_MD_NEWBB_UNSTICKY', 'Отклеить');
-define('_MD_NEWBB_DIGEST', 'Интересные');
+define('_MD_NEWBB_DIGEST', 'Интересная');
 define('_MD_NEWBB_UNDIGEST', 'Не интересная');
 define('_MD_NEWBB_DESC_DELETE', 'Как только Вы нажмете кнопку удаления внизу этой формы, выбранную Вами тему и все связанные с ней записи, будут <strong>безвозвратно</strong> удалены.');
 // irmtfan add restore to viewtopic
@@ -362,31 +362,31 @@ define('_MD_NEWBB_POSTFIRSTWITHREPLYNODELETED', 'Начальная публик
 define('_MD_NEWBB_THREAD', 'Тема');
 define('_MD_NEWBB_FROM', 'Из');
 define('_MD_NEWBB_JOINED', 'Регистрация');
-define('_MD_NEWBB_ONLINE', 'Online');
-define('_MD_NEWBB_OFFLINE', 'Offline');
+define('_MD_NEWBB_ONLINE', 'На форуме');
+define('_MD_NEWBB_OFFLINE', 'Нет на форуме');
 define('_MD_NEWBB_FLAT', 'Плоский');
 // online.php
-define('_MD_NEWBB_USERS_ONLINE', 'Пользователи онлайн:');
-define('_MD_NEWBB_ANONYMOUS_USERS', 'Анонимный(е) пользователь(и)');
-define('_MD_NEWBB_REGISTERED_USERS', 'Зарегистрированный(е) пользователь(и): ');
-define('_MD_NEWBB_BROWSING_FORUM', ' Пользователей просматривают форум');
-define('_MD_NEWBB_TOTAL_ONLINE', 'Всего пользователей онлайн %d .');
+define('_MD_NEWBB_USERS_ONLINE', 'На форуме:');
+define('_MD_NEWBB_ANONYMOUS_USERS', 'Анонимный(е)');
+define('_MD_NEWBB_REGISTERED_USERS', 'Зарегистрированный(е): ');
+define('_MD_NEWBB_BROWSING_FORUM', 'Просматривают форум');
+define('_MD_NEWBB_TOTAL_ONLINE', 'Всего на форуме %d .');
 define('_MD_NEWBB_ADMINISTRATOR', 'Администратор');
 define('_MD_NEWBB_NO_SUCH_FILE', 'Файл не существует!');
 //define('_MD_NEWBB_ERROR_UPATEATTACHMENT', 'Ошибка при обновлении вложения');
 // ratethread.php
-define('_MD_NEWBB_CANTVOTEOWN', 'Вы не можете голосовать по теме, которую Вы представили.<br />Все голоса регистрируются и пересматриваются.');
+define('_MD_NEWBB_CANTVOTEOWN', 'Вы не можете голосовать по теме, которую Вы опубликовали.<br>Все голоса регистрируются и проверяются.');
 define('_MD_NEWBB_VOTEONCE', 'Пожалуйста, не голосуйте за ту же тему более одного раза.');
 define('_MD_NEWBB_VOTEAPPRE', 'Ваш голос принят.');
 define('_MD_NEWBB_THANKYOU', 'Спасибо, что нашли время, чтобы проголосовать на %s');// %s is your site name
 define('_MD_NEWBB_VOTES', 'Голосов');
 define('_MD_NEWBB_NOVOTERATE', 'Вы не оценили эту тему');
 // polls.php
-define('_MD_NEWBB_POLL_DBUPDATED', 'Обновлена ​​база данных!');
+define('_MD_NEWBB_POLL_DBUPDATED', '​​База данных обновлена!');
 define('_MD_NEWBB_POLL_POLLCONF', 'Настройка опросов');
 define('_MD_NEWBB_POLL_POLLSLIST', 'Список опросов');
 define('_MD_NEWBB_POLL_AUTHOR', 'Автор этого опроса');
-define('_MD_NEWBB_POLL_DISPLAYBLOCK', 'Отображать в блоке?');
+define('_MD_NEWBB_POLL_DISPLAYBLOCK', 'Показать в блоке?');
 define('_MD_NEWBB_POLL_POLLQUESTION', 'Вопрос опроса');
 define('_MD_NEWBB_POLL_VOTERS', 'Всего голосовавших');
 define('_MD_NEWBB_POLL_VOTES', 'Всего голосов');
@@ -411,13 +411,13 @@ define('_MD_NEWBB_POLL_RESET', 'Сбросить все журналы для э
 define('_MD_NEWBB_POLL_ADDPOLL', 'Добавить опрос');
 define('_MD_NEWBB_POLLMODULE_ERROR', 'Модуль xoopspoll недоступен для использования');
 //report.php
-define('_MD_NEWBB_REPORTED', 'Спасибо за сообщение об этом сообщении/ветке! Модератор заглянет в Ваш отчет в ближайшее время.');
-define('_MD_NEWBB_REPORT_ERROR', 'При отправке отчета произошла ошибка.');
-define('_MD_NEWBB_REPORT_TEXT', 'Что не так в сообщении:');
+define('_MD_NEWBB_REPORTED', 'Спасибо за сообщение об этой записи/теме! Модератор просмотрит Ваш отчет в ближайшее время.');
+define('_MD_NEWBB_REPORT_ERROR', 'Произошла ошибка при отправке отчета.');
+define('_MD_NEWBB_REPORT_TEXT', 'Сообщение отчета:');
 define('_MD_NEWBB_PDF', 'Создать PDF из сообщения');
 define('_MD_NEWBB_PDF_PAGE', 'Страница %s');
 //print.php
-define('_MD_NEWBB_COMEFROM', 'Этот пост был из:');
+define('_MD_NEWBB_COMEFROM', 'Это сообщение было от:');
 //viewpost.php
 define('_MD_NEWBB_VIEWALLPOSTS', 'Все сообщения');
 define('_MD_NEWBB_VIEWTOPIC', 'Тема');
@@ -427,8 +427,9 @@ define('_MD_NEWBB_MENU_SELECT', 'Выбрать');
 define('_MD_NEWBB_MENU_HOVER', 'Завесить');
 define('_MD_NEWBB_MENU_CLICK', 'Нажмите');
 define('_MD_NEWBB_WELCOME_SUBJECT', '%s присоединился к форуму');
-define('_MD_NEWBB_WELCOME_MESSAGE', '<strong style="font-size:xx-small;">Данный форум создается автоматически при входе.</strong><br />Здравствуй, %s !!!<br />Рады приветствовать тебя на форуме! Давай начнем ...');
-define('_MD_NEWBB_VIEWNEWPOSTS', 'Просмотр новых публикаций');
+define('_MD_NEWBB_WELCOME_MESSAGE', 'Привет, %s присоединился к вам. Давайте начнем ...');
+//define('_MD_NEWBB_WELCOME_MESSAGE', '<strong style="font-size:xx-small;">Данный форум создается автоматически при входе.</strong><br />Здравствуй, %s !!!<br />Рады приветствовать тебя на форуме! Давай начнем ...');
+define('_MD_NEWBB_VIEWNEWPOSTS', 'Просмотр новых сообщений');
 define('_MD_NEWBB_INVALID_SUBMIT', 'Неверное отправление. Вы могли превысить время сеанса. Повторно отправьте или сделайте резервную копию своего сообщения и логина, чтобы при необходимости повторно отправить его.');
 define('_MD_NEWBB_ACCOUNT', 'Аккаунт');
 define('_MD_NEWBB_NAME', 'Имя');
@@ -436,7 +437,7 @@ define('_MD_NEWBB_PASSWORD', 'Пароль');
 define('_MD_NEWBB_LOGIN', 'Логин');
 define('_MD_NEWBB_APPROVE', 'Одобрить');
 define('_MD_NEWBB_RESTORE', 'Восстановить');
-define('_MD_NEWBB_SPLIT_ONE', 'Открепить пост в отдельную тему');
+define('_MD_NEWBB_SPLIT_ONE', 'Открепить сообщение в отдельную тему');
 define('_MD_NEWBB_SPLIT_TREE', 'Открепить вместе с деревом');
 define('_MD_NEWBB_SPLIT_ALL', 'Открепить вместе с ответами ниже');
 define('_MD_NEWBB_TYPE_ADMIN', 'Режим администратора');
@@ -445,9 +446,9 @@ define('_MD_NEWBB_TYPE_PENDING', 'В ожидании');
 define('_MD_NEWBB_TYPE_DELETED', 'Удаленные');
 define('_MD_NEWBB_TYPE_SUSPEND', 'Блокировка пользователей');
 define('_MD_NEWBB_DBUPDATED', 'Обновлена ​​база данных!');
-define('_MD_NEWBB_SUSPEND_SUBJECT', 'Пользователь %s приостанавливается в течение %d дней');
-define('_MD_NEWBB_SUSPEND_TEXT', 'Пользователь %s приостанавливается в течение %d дней из-за:<br />[quote]%s[/quote]<br /><br />Блокировка действительна до %s');
-define('_MD_NEWBB_SUSPEND_UID', 'Псевдоним/ID пользователя');
+define('_MD_NEWBB_SUSPEND_SUBJECT', 'Пользователь %s заблокирован в течение %d дней');
+define('_MD_NEWBB_SUSPEND_TEXT', 'Пользователь %s заблокирован в течение %d дней из-за:<br>[quote]%s[/quote]<br><br>Блокировка действительна до %s');
+define('_MD_NEWBB_SUSPEND_UID', 'ID пользователя');
 define('_MD_NEWBB_SUSPEND_IP', 'Заблокировать по IP(адрес сети/маска сети)');
 define('_MD_NEWBB_SUSPEND_DURATION', 'Продолжительность блокировки (дни)');
 define('_MD_NEWBB_SUSPEND_DESC', 'Причина блокировки');
@@ -456,20 +457,20 @@ define('_MD_NEWBB_SUSPEND_START', 'Начало');
 define('_MD_NEWBB_SUSPEND_EXPIRE', 'Конец');
 define('_MD_NEWBB_SUSPEND_SCOPE', 'Объем');
 define('_MD_NEWBB_SUSPEND_MANAGEMENT', 'Управление блокировкой');
-define('_MD_NEWBB_SUSPEND_NOACCESS', 'Ваш идентификатор или IP-адрес заблокирован');
+define('_MD_NEWBB_SUSPEND_NOACCESS', 'Ваш ID или IP-адрес заблокирован');
 define('_MD_NEWBB_TYPE', 'Тип темы');
 define('_MD_NEWBB_SEENOTGUEST', "<span style='color:red;'><strong>Ссылка только для зарегистрированных пользователей</strong></span>");
-define('_MD_NEWBB_REPORTSUBJECT', 'Сообщается о взносе');
+define('_MD_NEWBB_REPORTSUBJECT', 'Сообщается о вкладе');
 define('_MD_NEWBB_GOTOLASTPOST', 'К последнему сообщению');
 define('_MD_NEWBB_EDITEDMSG', 'Причина:');
-define('_MD_NEWBB_DELEDEDMSG', 'Причина для удаления<br /><small>(Если причина указана, пользователь получит сообщение)</small>:');
-define('_MD_NEWBB_DELEDEDMSG_SUBJECT', 'Удаление Вашей статьи');
+define('_MD_NEWBB_DELEDEDMSG', 'Причина для удаления<br><small>(Если причина указана, пользователь получит сообщение)</small>:');
+define('_MD_NEWBB_DELEDEDMSG_SUBJECT', 'Удаление Вашего сообщения');
 define('_MD_NEWBB_DELEDEDMSG_BODY', 'Здравствуйте %s,
 Ваше сообщение в форуме
 
 %s
 было удалено мной
-В качестве обоснования я беру следующую информацию о:
+В качестве обоснования я принимаю следующую информацию о:
 
 %s
 
@@ -492,7 +493,7 @@ define('_MD_NEWBB_NORSS_DATA', 'Нет данных для отображени�
 define('_MD_NEWBB_STATS', 'Статистика');
 define('_MD_NEWBB_POSTTIME', 'опубликовано');
 // 4.2
-define('_MD_NEWBB_ADVERTISING_BLOCK', '<br />Здесь вы можете разместить свое объявление!<br />Пожалуйста, свяжитесь с нами, чтобы узнать об этом больше.');
+define('_MD_NEWBB_ADVERTISING_BLOCK', '<br>Здесь Вы можете разместить свое объявление!<br>Пожалуйста, свяжитесь с нами, чтобы узнать об этом больше.');
 define('_MD_NEWBB_ADVERTISING_USER', 'Реклама');
 define('_MD_NEWBB_SHARE_FACEBOOK', 'Facebook');
 define('_MD_NEWBB_SHARE_TWITTER', 'Twitter');
@@ -520,31 +521,34 @@ define('_MD_NEWBB_SEE', 'Показать');
 // votepolls.php - irmtfan
 define('_MD_NEWBB_POLL_NOOPTION', 'Вы должны выбрать вариант !!');
 define('_MD_NEWBB_SEARCHTOPIC', 'Поиск в теме');
-define('_MD_NEWBB_SHOWSEARCH', 'Показать результаты:');
-define('_MD_NEWBB_SEARCHPOSTTEXT', 'Сообщения');
+define('_MD_NEWBB_SHOWSEARCH', 'Показать результат:');
+define('_MD_NEWBB_SEARCHPOSTTEXT', 'Текст сообщения');
 define('_MD_NEWBB_SELECT_STARTLAG', 'Начать лаг выбранного текста');
-define('_MD_NEWBB_SELECT_STARTLAG_DESC', 'SELECT text FROM X characters BEFORE the FIRST keyword');
+define('_MD_NEWBB_SELECT_STARTLAG_DESC', 'Выделите текст из символов X перед первым ключевым словом');
 define('_MD_NEWBB_SELECT_LENGTH', 'Длина выделенного текста');
-define('_MD_NEWBB_SELECT_HTML', 'Снять все html с результата?');
+define('_MD_NEWBB_SELECT_HTML', 'Убрать все html из результата?');
 define('_MD_NEWBB_SELECT_EXCLUDE', 'Исключить эти теги:');
 define('_MD_NEWBB_SELECT_TAG', 'Тег');
-define('_MD_NEWBB_NORIGHTTOPDF', 'У Вас нет права создавать PDF-файлы на этом форуме.');
-define('_MD_NEWBB_NORIGHTTOPRINT', 'Вы не имеете права печатать на этом форуме.');
+define('_MD_NEWBB_NORIGHTTOPDF', 'У Вас нет прав на создание PDF-файла.');
+define('_MD_NEWBB_NORIGHTTOPRINT', 'Вы не имеете прав на печатать.');
 // irmtfan for new block system
-define('_MD_NEWBB_TOPICHASNOTPOLL', 'Тема не опроса');
+define('_MD_NEWBB_TOPICHASNOTPOLL', 'В теме нет опроса');
 define('_MD_NEWBB_VOTED', 'Голосов в теме');
-define('_MD_NEWBB_UNVOTED', 'Неавторизованные темы');
+define('_MD_NEWBB_UNVOTED', 'Темы без голосования');
 define('_MD_NEWBB_VIEWED', 'Просмотренные темы');
 define('_MD_NEWBB_UNVIEWED', 'Не просмотренные темы');
 define('_MD_NEWBB_REPLIED', 'Ответов в теме');
 define('_MD_NEWBB_READ', 'Читать темы');
 define('_MD_NEWBB_POLL_POLL', 'Голосование');
-define('_MD_NEWBB_PAGENAV_DISPLAY', 'Отображение навигации');
+define('_MD_NEWBB_PAGENAV_DISPLAY', 'Показ навигации');
 
 // Automatic forum creation during registration
 define('_MD_NEWBB_AUTO_CREATE_EMAIL', 'Email');
-define('_MD_NEWBB_AUTO_CREATE_AVATARS', 'Ваш аватар');
+define('_MD_NEWBB_AUTO_CREATE_AVATARS', 'Аватар');
 define('_MD_NEWBB_AUTO_CREATE_ABOUT', '');
 define('_MD_NEWBB_NO_SELECTION', 'Необходимо выбрать элемент');
 
 define('_MD_NEWBB_FORUMDESCRIPTION', 'Описание форума:');
+
+define('_MD_NEWBB_PDF_PAGE2', 'страница');
+define('_MD_NEWBB_PDF_META_DIR', 'ltr');
