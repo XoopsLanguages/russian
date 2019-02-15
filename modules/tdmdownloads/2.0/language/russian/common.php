@@ -20,110 +20,110 @@
 $moduleDirName      = basename(dirname(dirname(__DIR__)));
 $moduleDirNameUpper = mb_strtoupper($moduleDirName);
 
-define('CO_' . $moduleDirNameUpper . '_GDLIBSTATUS', 'Поддержка библиотеки GD: ');
-define('CO_' . $moduleDirNameUpper . '_GDLIBVERSION', 'Версия библиотеки GD: ');
-define('CO_' . $moduleDirNameUpper . '_GDOFF', "<span style='font-weight: bold;'>Отключено</span> (Миниатюры не доступны)");
-define('CO_' . $moduleDirNameUpper . '_GDON', "<span style='font-weight: bold;'>Включено</span> (Миниатюры доступны)");
-define('CO_' . $moduleDirNameUpper . '_IMAGEINFO', 'Статус сервера');
-define('CO_' . $moduleDirNameUpper . '_MAXPOSTSIZE', 'Максимальный разрешенный размер сообщения (директива post_max_size в php.ini): ');
-define('CO_' . $moduleDirNameUpper . '_MAXUPLOADSIZE', 'Максимальный разрешенный размер загрузки (директива upload_max_filesize в php.ini): ');
-define('CO_' . $moduleDirNameUpper . '_MEMORYLIMIT', 'Ограничение памяти (директива memory_limit в php.ini): ');
-define('CO_' . $moduleDirNameUpper . '_METAVERSION', "<span style='font-weight: bold;'>Загрузка мета версии:</span> ");
-define('CO_' . $moduleDirNameUpper . '_OFF', "<span style='font-weight: bold;'>ВЫКЛ</span>");
-define('CO_' . $moduleDirNameUpper . '_ON', "<span style='font-weight: bold;'>ВКЛ</span>");
-define('CO_' . $moduleDirNameUpper . '_SERVERPATH', 'Путь сервера к корню XOOPS: ');
-define('CO_' . $moduleDirNameUpper . '_SERVERUPLOADSTATUS', 'Состояние загрузки сервера: ');
-define('CO_' . $moduleDirNameUpper . '_SPHPINI', "<span style='font-weight: bold;'>Информация взята из PHP ini-файла:</span>");
-define('CO_' . $moduleDirNameUpper . '_UPLOADPATHDSC', 'Заметка. Путь загрузки *ДОЛЖЕН* содержать полный путь к серверу Вашей папки загрузки.');
+define('CO_' . $moduleDirNameUpper . '_GDLIBSTATUS', 'РџРѕРґРґРµСЂР¶РєР° Р±РёР±Р»РёРѕС‚РµРєРё GD: ');
+define('CO_' . $moduleDirNameUpper . '_GDLIBVERSION', 'Р’РµСЂСЃРёСЏ Р±РёР±Р»РёРѕС‚РµРєРё GD: ');
+define('CO_' . $moduleDirNameUpper . '_GDOFF', "<span style='font-weight: bold;'>РћС‚РєР»СЋС‡РµРЅРѕ</span> (РњРёРЅРёР°С‚СЋСЂС‹ РЅРµ РґРѕСЃС‚СѓРїРЅС‹)");
+define('CO_' . $moduleDirNameUpper . '_GDON', "<span style='font-weight: bold;'>Р’РєР»СЋС‡РµРЅРѕ</span> (РњРёРЅРёР°С‚СЋСЂС‹ РґРѕСЃС‚СѓРїРЅС‹)");
+define('CO_' . $moduleDirNameUpper . '_IMAGEINFO', 'РЎС‚Р°С‚СѓСЃ СЃРµСЂРІРµСЂР°');
+define('CO_' . $moduleDirNameUpper . '_MAXPOSTSIZE', 'РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЂР°Р·СЂРµС€РµРЅРЅС‹Р№ СЂР°Р·РјРµСЂ СЃРѕРѕР±С‰РµРЅРёСЏ (РґРёСЂРµРєС‚РёРІР° post_max_size РІ php.ini): ');
+define('CO_' . $moduleDirNameUpper . '_MAXUPLOADSIZE', 'РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЂР°Р·СЂРµС€РµРЅРЅС‹Р№ СЂР°Р·РјРµСЂ Р·Р°РіСЂСѓР·РєРё (РґРёСЂРµРєС‚РёРІР° upload_max_filesize РІ php.ini): ');
+define('CO_' . $moduleDirNameUpper . '_MEMORYLIMIT', 'РћРіСЂР°РЅРёС‡РµРЅРёРµ РїР°РјСЏС‚Рё (РґРёСЂРµРєС‚РёРІР° memory_limit РІ php.ini): ');
+define('CO_' . $moduleDirNameUpper . '_METAVERSION', "<span style='font-weight: bold;'>Р—Р°РіСЂСѓР·РєР° РјРµС‚Р° РІРµСЂСЃРёРё:</span> ");
+define('CO_' . $moduleDirNameUpper . '_OFF', "<span style='font-weight: bold;'>Р’Р«РљР›</span>");
+define('CO_' . $moduleDirNameUpper . '_ON', "<span style='font-weight: bold;'>Р’РљР›</span>");
+define('CO_' . $moduleDirNameUpper . '_SERVERPATH', 'РџСѓС‚СЊ СЃРµСЂРІРµСЂР° Рє РєРѕСЂРЅСЋ XOOPS: ');
+define('CO_' . $moduleDirNameUpper . '_SERVERUPLOADSTATUS', 'РЎРѕСЃС‚РѕСЏРЅРёРµ Р·Р°РіСЂСѓР·РєРё СЃРµСЂРІРµСЂР°: ');
+define('CO_' . $moduleDirNameUpper . '_SPHPINI', "<span style='font-weight: bold;'>РРЅС„РѕСЂРјР°С†РёСЏ РІР·СЏС‚Р° РёР· PHP ini-С„Р°Р№Р»Р°:</span>");
+define('CO_' . $moduleDirNameUpper . '_UPLOADPATHDSC', 'Р—Р°РјРµС‚РєР°. РџСѓС‚СЊ Р·Р°РіСЂСѓР·РєРё *Р”РћР›Р–Р•Рќ* СЃРѕРґРµСЂР¶Р°С‚СЊ РїРѕР»РЅС‹Р№ РїСѓС‚СЊ Рє СЃРµСЂРІРµСЂСѓ Р’Р°С€РµР№ РїР°РїРєРё Р·Р°РіСЂСѓР·РєРё.');
 
-define('CO_' . $moduleDirNameUpper . '_PRINT', "<span style='font-weight: bold;'>Печать</span>");
-define('CO_' . $moduleDirNameUpper . '_PDF', "<span style='font-weight: bold;'>Создать PDF</span>");
+define('CO_' . $moduleDirNameUpper . '_PRINT', "<span style='font-weight: bold;'>РџРµС‡Р°С‚СЊ</span>");
+define('CO_' . $moduleDirNameUpper . '_PDF', "<span style='font-weight: bold;'>РЎРѕР·РґР°С‚СЊ PDF</span>");
 
-define('CO_' . $moduleDirNameUpper . '_UPGRADEFAILED0', "Обновление не удалось - не удалось переименовать поле '%s'");
-define('CO_' . $moduleDirNameUpper . '_UPGRADEFAILED1', "Обновление не удалось - не удалось добавить новые поля");
-define('CO_' . $moduleDirNameUpper . '_UPGRADEFAILED2', "Обновление не удалось - не удалось переименовать таблицу '%s'");
-define('CO_' . $moduleDirNameUpper . '_ERROR_COLUMN', 'Не удалось создать столбец в базе данных: %s');
-define('CO_' . $moduleDirNameUpper . '_ERROR_BAD_XOOPS', 'Этот модуль требует XOOPS %s+ (%s установлен)');
-define('CO_' . $moduleDirNameUpper . '_ERROR_BAD_PHP', 'Для этого модуля требуется версия PHP %s+ (%s установлен)');
-define('CO_' . $moduleDirNameUpper . '_ERROR_TAG_REMOVAL', 'Не удалось удалить теги из модуля тегов');
+define('CO_' . $moduleDirNameUpper . '_UPGRADEFAILED0', "РћР±РЅРѕРІР»РµРЅРёРµ РЅРµ СѓРґР°Р»РѕСЃСЊ - РЅРµ СѓРґР°Р»РѕСЃСЊ РїРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ РїРѕР»Рµ '%s'");
+define('CO_' . $moduleDirNameUpper . '_UPGRADEFAILED1', "РћР±РЅРѕРІР»РµРЅРёРµ РЅРµ СѓРґР°Р»РѕСЃСЊ - РЅРµ СѓРґР°Р»РѕСЃСЊ РґРѕР±Р°РІРёС‚СЊ РЅРѕРІС‹Рµ РїРѕР»СЏ");
+define('CO_' . $moduleDirNameUpper . '_UPGRADEFAILED2', "РћР±РЅРѕРІР»РµРЅРёРµ РЅРµ СѓРґР°Р»РѕСЃСЊ - РЅРµ СѓРґР°Р»РѕСЃСЊ РїРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ '%s'");
+define('CO_' . $moduleDirNameUpper . '_ERROR_COLUMN', 'РќРµ СѓРґР°Р»РѕСЃСЊ СЃРѕР·РґР°С‚СЊ СЃС‚РѕР»Р±РµС† РІ Р±Р°Р·Рµ РґР°РЅРЅС‹С…: %s');
+define('CO_' . $moduleDirNameUpper . '_ERROR_BAD_XOOPS', 'Р­С‚РѕС‚ РјРѕРґСѓР»СЊ С‚СЂРµР±СѓРµС‚ XOOPS %s+ (%s СѓСЃС‚Р°РЅРѕРІР»РµРЅ)');
+define('CO_' . $moduleDirNameUpper . '_ERROR_BAD_PHP', 'Р”Р»СЏ СЌС‚РѕРіРѕ РјРѕРґСѓР»СЏ С‚СЂРµР±СѓРµС‚СЃСЏ РІРµСЂСЃРёСЏ PHP %s+ (%s СѓСЃС‚Р°РЅРѕРІР»РµРЅ)');
+define('CO_' . $moduleDirNameUpper . '_ERROR_TAG_REMOVAL', 'РќРµ СѓРґР°Р»РѕСЃСЊ СѓРґР°Р»РёС‚СЊ С‚РµРіРё РёР· РјРѕРґСѓР»СЏ С‚РµРіРѕРІ');
 
-define('CO_' . $moduleDirNameUpper . '_FOLDERS_DELETED_OK', 'Папки загрузки были удалены');
+define('CO_' . $moduleDirNameUpper . '_FOLDERS_DELETED_OK', 'РџР°РїРєРё Р·Р°РіСЂСѓР·РєРё Р±С‹Р»Рё СѓРґР°Р»РµРЅС‹');
 
 // Error Msgs
-define('CO_' . $moduleDirNameUpper . '_ERROR_BAD_DEL_PATH', 'Не удалось удалить каталог %s ');
-define('CO_' . $moduleDirNameUpper . '_ERROR_BAD_REMOVE', 'Не удалось удалить %s');
-define('CO_' . $moduleDirNameUpper . '_ERROR_NO_PLUGIN', 'Невозможно загрузить плагин');
+define('CO_' . $moduleDirNameUpper . '_ERROR_BAD_DEL_PATH', 'РќРµ СѓРґР°Р»РѕСЃСЊ СѓРґР°Р»РёС‚СЊ РєР°С‚Р°Р»РѕРі %s ');
+define('CO_' . $moduleDirNameUpper . '_ERROR_BAD_REMOVE', 'РќРµ СѓРґР°Р»РѕСЃСЊ СѓРґР°Р»РёС‚СЊ %s');
+define('CO_' . $moduleDirNameUpper . '_ERROR_NO_PLUGIN', 'РќРµРІРѕР·РјРѕР¶РЅРѕ Р·Р°РіСЂСѓР·РёС‚СЊ РїР»Р°РіРёРЅ');
 
 //Help
 define('CO_' . $moduleDirNameUpper . '_DIRNAME', basename(dirname(dirname(__DIR__))));
 define('CO_' . $moduleDirNameUpper . '_HELP_HEADER', __DIR__ . '/help/helpheader.tpl');
-define('CO_' . $moduleDirNameUpper . '_BACK_2_ADMIN', 'Вернуться к настройке ');
-define('CO_' . $moduleDirNameUpper . '_OVERVIEW', 'Обзор');
+define('CO_' . $moduleDirNameUpper . '_BACK_2_ADMIN', 'Р’РµСЂРЅСѓС‚СЊСЃСЏ Рє РЅР°СЃС‚СЂРѕР№РєРµ ');
+define('CO_' . $moduleDirNameUpper . '_OVERVIEW', 'РћР±Р·РѕСЂ');
 
 //define('CO_' . $moduleDirNameUpper . '_HELP_DIR', __DIR__);
 
 //help multi-page
-define('CO_' . $moduleDirNameUpper . '_DISCLAIMER', 'Отказ от ответственности');
-define('CO_' . $moduleDirNameUpper . '_LICENSE', 'Лицензия');
-define('CO_' . $moduleDirNameUpper . '_SUPPORT', 'Поддержка');
+define('CO_' . $moduleDirNameUpper . '_DISCLAIMER', 'РћС‚РєР°Р· РѕС‚ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚Рё');
+define('CO_' . $moduleDirNameUpper . '_LICENSE', 'Р›РёС†РµРЅР·РёСЏ');
+define('CO_' . $moduleDirNameUpper . '_SUPPORT', 'РџРѕРґРґРµСЂР¶РєР°');
 
 //Sample Data
-define('CO_' . $moduleDirNameUpper . '_' . 'ADD_SAMPLEDATA', 'Импортировать данные примеров (удалит ВСЕ текущие данные)');
-define('CO_' . $moduleDirNameUpper . '_' . 'SAMPLEDATA_SUCCESS', 'Данные примеров успешно загружены');
-define('CO_' . $moduleDirNameUpper . '_' . 'SAVE_SAMPLEDATA', 'Экспорт таблиц в YAML');
-define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_SAMPLE_BUTTON', 'Показать пример кнопки?');
-define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_SAMPLE_BUTTON_DESC', 'Если Да, кнопка "Добавить пример данных" будет видна администратору. Да по умолчанию установлена для первой установки.');
-define('CO_' . $moduleDirNameUpper . '_' . 'EXPORT_SCHEMA', 'Экспорт схемы БД в YAML');
-define('CO_' . $moduleDirNameUpper . '_' . 'EXPORT_SCHEMA_SUCCESS', 'Экспорт схемы БД в YAML прошел успешно');
-define('CO_' . $moduleDirNameUpper . '_' . 'EXPORT_SCHEMA_ERROR', 'ОШИБКА: не удалось экспортировать схему БД в YAML');
+define('CO_' . $moduleDirNameUpper . '_' . 'ADD_SAMPLEDATA', 'РРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ РґР°РЅРЅС‹Рµ РїСЂРёРјРµСЂРѕРІ (СѓРґР°Р»РёС‚ Р’РЎР• С‚РµРєСѓС‰РёРµ РґР°РЅРЅС‹Рµ)');
+define('CO_' . $moduleDirNameUpper . '_' . 'SAMPLEDATA_SUCCESS', 'Р”Р°РЅРЅС‹Рµ РїСЂРёРјРµСЂРѕРІ СѓСЃРїРµС€РЅРѕ Р·Р°РіСЂСѓР¶РµРЅС‹');
+define('CO_' . $moduleDirNameUpper . '_' . 'SAVE_SAMPLEDATA', 'Р­РєСЃРїРѕСЂС‚ С‚Р°Р±Р»РёС† РІ YAML');
+define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_SAMPLE_BUTTON', 'РџРѕРєР°Р·Р°С‚СЊ РїСЂРёРјРµСЂ РєРЅРѕРїРєРё?');
+define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_SAMPLE_BUTTON_DESC', 'Р•СЃР»Рё Р”Р°, РєРЅРѕРїРєР° "Р”РѕР±Р°РІРёС‚СЊ РїСЂРёРјРµСЂ РґР°РЅРЅС‹С…" Р±СѓРґРµС‚ РІРёРґРЅР° Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂСѓ. Р”Р° РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ СѓСЃС‚Р°РЅРѕРІР»РµРЅР° РґР»СЏ РїРµСЂРІРѕР№ СѓСЃС‚Р°РЅРѕРІРєРё.');
+define('CO_' . $moduleDirNameUpper . '_' . 'EXPORT_SCHEMA', 'Р­РєСЃРїРѕСЂС‚ СЃС…РµРјС‹ Р‘Р” РІ YAML');
+define('CO_' . $moduleDirNameUpper . '_' . 'EXPORT_SCHEMA_SUCCESS', 'Р­РєСЃРїРѕСЂС‚ СЃС…РµРјС‹ Р‘Р” РІ YAML РїСЂРѕС€РµР» СѓСЃРїРµС€РЅРѕ');
+define('CO_' . $moduleDirNameUpper . '_' . 'EXPORT_SCHEMA_ERROR', 'РћРЁРР‘РљРђ: РЅРµ СѓРґР°Р»РѕСЃСЊ СЌРєСЃРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ СЃС…РµРјСѓ Р‘Р” РІ YAML');
 
 //letter choice
-define('CO_' . $moduleDirNameUpper . '_' . 'BROWSETOTOPIC', "<span style='font-weight: bold;'>Просмотр элементов в алфавитном порядке</span>");
-define('CO_' . $moduleDirNameUpper . '_' . 'OTHER', 'Другой');
-define('CO_' . $moduleDirNameUpper . '_' . 'ALL', 'Все');
+define('CO_' . $moduleDirNameUpper . '_' . 'BROWSETOTOPIC', "<span style='font-weight: bold;'>РџСЂРѕСЃРјРѕС‚СЂ СЌР»РµРјРµРЅС‚РѕРІ РІ Р°Р»С„Р°РІРёС‚РЅРѕРј РїРѕСЂСЏРґРєРµ</span>");
+define('CO_' . $moduleDirNameUpper . '_' . 'OTHER', 'Р”СЂСѓРіРѕР№');
+define('CO_' . $moduleDirNameUpper . '_' . 'ALL', 'Р’СЃРµ');
 
 // block defines
-define('CO_' . $moduleDirNameUpper . '_' . 'ACCESSRIGHTS', 'Права доступа');
-define('CO_' . $moduleDirNameUpper . '_' . 'ACTION', 'Действие');
-define('CO_' . $moduleDirNameUpper . '_' . 'ACTIVERIGHTS', 'Активные права');
-define('CO_' . $moduleDirNameUpper . '_' . 'BADMIN', 'Настройка блока');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLKDESC', 'Описание');
-define('CO_' . $moduleDirNameUpper . '_' . 'CBCENTER', 'Центр средний');
-define('CO_' . $moduleDirNameUpper . '_' . 'CBLEFT', 'Центр левый');
-define('CO_' . $moduleDirNameUpper . '_' . 'CBRIGHT', 'Центр правый');
-define('CO_' . $moduleDirNameUpper . '_' . 'SBLEFT', 'Левый');
-define('CO_' . $moduleDirNameUpper . '_' . 'SBRIGHT', 'Правый');
-define('CO_' . $moduleDirNameUpper . '_' . 'SIDE', 'Центровка');
-define('CO_' . $moduleDirNameUpper . '_' . 'TITLE', 'Заглавие');
-define('CO_' . $moduleDirNameUpper . '_' . 'VISIBLE', 'Видимый');
-define('CO_' . $moduleDirNameUpper . '_' . 'VISIBLEIN', 'Видимый в');
-define('CO_' . $moduleDirNameUpper . '_' . 'WEIGHT', 'Вес');
+define('CO_' . $moduleDirNameUpper . '_' . 'ACCESSRIGHTS', 'РџСЂР°РІР° РґРѕСЃС‚СѓРїР°');
+define('CO_' . $moduleDirNameUpper . '_' . 'ACTION', 'Р”РµР№СЃС‚РІРёРµ');
+define('CO_' . $moduleDirNameUpper . '_' . 'ACTIVERIGHTS', 'РђРєС‚РёРІРЅС‹Рµ РїСЂР°РІР°');
+define('CO_' . $moduleDirNameUpper . '_' . 'BADMIN', 'РќР°СЃС‚СЂРѕР№РєР° Р±Р»РѕРєР°');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLKDESC', 'РћРїРёСЃР°РЅРёРµ');
+define('CO_' . $moduleDirNameUpper . '_' . 'CBCENTER', 'Р¦РµРЅС‚СЂ СЃСЂРµРґРЅРёР№');
+define('CO_' . $moduleDirNameUpper . '_' . 'CBLEFT', 'Р¦РµРЅС‚СЂ Р»РµРІС‹Р№');
+define('CO_' . $moduleDirNameUpper . '_' . 'CBRIGHT', 'Р¦РµРЅС‚СЂ РїСЂР°РІС‹Р№');
+define('CO_' . $moduleDirNameUpper . '_' . 'SBLEFT', 'Р›РµРІС‹Р№');
+define('CO_' . $moduleDirNameUpper . '_' . 'SBRIGHT', 'РџСЂР°РІС‹Р№');
+define('CO_' . $moduleDirNameUpper . '_' . 'SIDE', 'Р¦РµРЅС‚СЂРѕРІРєР°');
+define('CO_' . $moduleDirNameUpper . '_' . 'TITLE', 'Р—Р°РіР»Р°РІРёРµ');
+define('CO_' . $moduleDirNameUpper . '_' . 'VISIBLE', 'Р’РёРґРёРјС‹Р№');
+define('CO_' . $moduleDirNameUpper . '_' . 'VISIBLEIN', 'Р’РёРґРёРјС‹Р№ РІ');
+define('CO_' . $moduleDirNameUpper . '_' . 'WEIGHT', 'Р’РµСЃ');
 
-define('CO_' . $moduleDirNameUpper . '_' . 'PERMISSIONS', 'Права доступа');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS', 'Администратор блоков');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_DESC', 'Администратор Блоков/Групп');
+define('CO_' . $moduleDirNameUpper . '_' . 'PERMISSIONS', 'РџСЂР°РІР° РґРѕСЃС‚СѓРїР°');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS', 'РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ Р±Р»РѕРєРѕРІ');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_DESC', 'РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ Р‘Р»РѕРєРѕРІ/Р“СЂСѓРїРї');
 
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_MANAGMENT', 'Управление');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADDBLOCK', 'Добавить новый блок');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_EDITBLOCK', 'Редактировать блок');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_CLONEBLOCK', 'Клонировать блок');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_MANAGMENT', 'РЈРїСЂР°РІР»РµРЅРёРµ');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADDBLOCK', 'Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІС‹Р№ Р±Р»РѕРє');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_EDITBLOCK', 'Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ Р±Р»РѕРє');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_CLONEBLOCK', 'РљР»РѕРЅРёСЂРѕРІР°С‚СЊ Р±Р»РѕРє');
 
 //myblocksadmin
-define('CO_' . $moduleDirNameUpper . '_' . 'AGDS', 'Административные группы');
-define('CO_' . $moduleDirNameUpper . '_' . 'BCACHETIME', 'Время кэширования');
-define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADMIN', 'Администратор блоков');
+define('CO_' . $moduleDirNameUpper . '_' . 'AGDS', 'РђРґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹Рµ РіСЂСѓРїРїС‹');
+define('CO_' . $moduleDirNameUpper . '_' . 'BCACHETIME', 'Р’СЂРµРјСЏ РєСЌС€РёСЂРѕРІР°РЅРёСЏ');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADMIN', 'РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ Р±Р»РѕРєРѕРІ');
 
 //Template Admin
-define('CO_' . $moduleDirNameUpper . '_' . 'TPLSETS', 'Управление шаблонами');
-define('CO_' . $moduleDirNameUpper . '_' . 'GENERATE', 'Генерировать');
-define('CO_' . $moduleDirNameUpper . '_' . 'FILENAME', 'Имя файла');
+define('CO_' . $moduleDirNameUpper . '_' . 'TPLSETS', 'РЈРїСЂР°РІР»РµРЅРёРµ С€Р°Р±Р»РѕРЅР°РјРё');
+define('CO_' . $moduleDirNameUpper . '_' . 'GENERATE', 'Р“РµРЅРµСЂРёСЂРѕРІР°С‚СЊ');
+define('CO_' . $moduleDirNameUpper . '_' . 'FILENAME', 'РРјСЏ С„Р°Р№Р»Р°');
 
 //Menu
-define('CO_' . $moduleDirNameUpper . '_' . 'ADMENU_MIGRATE', 'Мигрировать');
-define('CO_' . $moduleDirNameUpper . '_' . 'FOLDER_YES', 'Папка "%s" существует');
-define('CO_' . $moduleDirNameUpper . '_' . 'FOLDER_NO', 'Папка "%s" не существует. Создайте указанную папку с CHMOD 777.');
-define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_DEV_TOOLS', 'Показать кнопку инструментов разработки?');
-define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_DEV_TOOLS_DESC', 'Если Да, вкладка "Миграция" и другие инструменты разработки будут видны администратору.');
+define('CO_' . $moduleDirNameUpper . '_' . 'ADMENU_MIGRATE', 'РњРёРіСЂРёСЂРѕРІР°С‚СЊ');
+define('CO_' . $moduleDirNameUpper . '_' . 'FOLDER_YES', 'РџР°РїРєР° "%s" СЃСѓС‰РµСЃС‚РІСѓРµС‚');
+define('CO_' . $moduleDirNameUpper . '_' . 'FOLDER_NO', 'РџР°РїРєР° "%s" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚. РЎРѕР·РґР°Р№С‚Рµ СѓРєР°Р·Р°РЅРЅСѓСЋ РїР°РїРєСѓ СЃ CHMOD 777.');
+define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_DEV_TOOLS', 'РџРѕРєР°Р·Р°С‚СЊ РєРЅРѕРїРєСѓ РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ СЂР°Р·СЂР°Р±РѕС‚РєРё?');
+define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_DEV_TOOLS_DESC', 'Р•СЃР»Рё Р”Р°, РІРєР»Р°РґРєР° "РњРёРіСЂР°С†РёСЏ" Рё РґСЂСѓРіРёРµ РёРЅСЃС‚СЂСѓРјРµРЅС‚С‹ СЂР°Р·СЂР°Р±РѕС‚РєРё Р±СѓРґСѓС‚ РІРёРґРЅС‹ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂСѓ.');
 
 //Latest Version Check
-define('CO_' . $moduleDirNameUpper . '_' . 'NEW_VERSION', 'Новая версия: ');
+define('CO_' . $moduleDirNameUpper . '_' . 'NEW_VERSION', 'РќРѕРІР°СЏ РІРµСЂСЃРёСЏ: ');
