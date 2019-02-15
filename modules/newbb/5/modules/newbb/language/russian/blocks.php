@@ -17,7 +17,7 @@ define('_MB_NEWBB_DISPLAYMODE', 'Режим отображения: ');
 define('_MB_NEWBB_DISPLAYMODE_FULL', 'Полный');
 define('_MB_NEWBB_DISPLAYMODE_COMPACT', 'Компактный');
 define('_MB_NEWBB_DISPLAYMODE_LITE', 'Минимальный');
-define('_MB_NEWBB_FORUMLIST', 'Список доступных форумов:<br />');
+define('_MB_NEWBB_FORUMLIST', 'Список доступных форумов:<br>');
 define('_MB_NEWBB_ALLTOPICS', 'Темы');
 define('_MB_NEWBB_ALLPOSTS', 'Сообщений');
 define('_MB_NEWBB_CRITERIA', 'Критерии показа: ');
