@@ -18,19 +18,19 @@
  */
 
 // Blocks & Groups Admin
-define('_AM_TOPPAGE', 'Верхняя страница');
-define('_AM_ALLPAGES', 'Все страницы');
-define('_AM_TITLE', 'Заголовок');
-define('_AM_SIDE', 'Сторона');
-define('_AM_WEIGHT', 'Вес');
-define('_AM_VISIBLE', 'Видимый');
-define('_AM_VISIBLEIN', 'Видимый в');
-define('_AM_ACTION', 'Действие');
-define('_AM_BCACHETIME', 'Время кеширования');
-define('_AM_ACTIVERIGHTS', 'Права администратора модуля');
-define('_AM_ACCESSRIGHTS', 'Права доступа к модулю');
-define('_AM_BADMIN', 'Настройка блоков');
-define('_AM_ADGS', 'Группы');
-define('_AM_ALLMODULEPAGES', 'Группы');
+define('_AM_TOPPAGE', 'Р’РµСЂС…РЅСЏСЏ СЃС‚СЂР°РЅРёС†Р°');
+define('_AM_ALLPAGES', 'Р’СЃРµ СЃС‚СЂР°РЅРёС†С‹');
+define('_AM_TITLE', 'Р—Р°РіРѕР»РѕРІРѕРє');
+define('_AM_SIDE', 'РЎС‚РѕСЂРѕРЅР°');
+define('_AM_WEIGHT', 'Р’РµСЃ');
+define('_AM_VISIBLE', 'Р’РёРґРёРјС‹Р№');
+define('_AM_VISIBLEIN', 'Р’РёРґРёРјС‹Р№ РІ');
+define('_AM_ACTION', 'Р”РµР№СЃС‚РІРёРµ');
+define('_AM_BCACHETIME', 'Р’СЂРµРјСЏ РєРµС€РёСЂРѕРІР°РЅРёСЏ');
+define('_AM_ACTIVERIGHTS', 'РџСЂР°РІР° Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂР° РјРѕРґСѓР»СЏ');
+define('_AM_ACCESSRIGHTS', 'РџСЂР°РІР° РґРѕСЃС‚СѓРїР° Рє РјРѕРґСѓР»СЋ');
+define('_AM_BADMIN', 'РќР°СЃС‚СЂРѕР№РєР° Р±Р»РѕРєРѕРІ');
+define('_AM_ADGS', 'Р“СЂСѓРїРїС‹');
+define('_AM_ALLMODULEPAGES', 'Р“СЂСѓРїРїС‹');
 define('_AM_SYSTEMLEVEL', '_AM_SYSTEMLEVEL');
 define('_AM_ADMINBLOCK', '_AM_ADMINBLOCK');
