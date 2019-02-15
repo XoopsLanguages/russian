@@ -226,7 +226,7 @@ define('_MD_NEWBB_RATE3', 'Средне');
 define('_MD_NEWBB_RATE4', 'Хорошо');
 define('_MD_NEWBB_RATE5', 'Отлично');
 define('_MD_NEWBB_TOPICOPTION', 'Опции темы');
-define('_MD_NEWBB_KARMA_REQUIREMENT', 'Ваша личная карма %s не достигает требуемой кармы %s.<br />Пожалуйста, попробуйте позднее.');
+define('_MD_NEWBB_KARMA_REQUIREMENT', 'Ваша личная карма %s не достигает требуемой кармы %s.<br>Пожалуйста, попробуйте позднее.');
 define('_MD_NEWBB_REPLY_REQUIREMENT', 'Чтобы просмотреть этот пост, Вы должны сначала войти и ответить.');
 define('_MD_NEWBB_TOPICOPTIONADMIN', 'Опции темы админ');
 define('_MD_NEWBB_POLLOPTIONADMIN', 'Настройки опроса админ');
