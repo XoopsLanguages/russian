@@ -280,7 +280,7 @@ define('_MI_NEWBB_INSTALL_POST_TEXT', '
 
     Пользование Форумом является свидетельством Вашего согласия с данными Правилами.
     ');
-define('_MI_NEWBB_ADMENU_GROUPMOD', 'Модераторы форума');
+define('_MI_NEWBB_ADMENU_GROUPMOD', 'Группы модераторов');
 //define('_MI_NEWBB_SUBJECT_PREFIX', 'Добавить префикс к теме');
 //define('_MI_NEWBB_SUBJECT_PREFIX_DESC', 'Устанавливает префикс, например [РЕШЕНА] в начале темы. Для получения дополнительных параметров используйте ', ' как разделитель. NONE не является префиксом.');
 //define('_MI_NEWBB_SUBJECT_PREFIX_DEFAULT',
@@ -323,6 +323,7 @@ define('_MI_NEWBB_DIRNAME', basename(dirname(dirname(__DIR__))));
 define('_MI_NEWBB_HELP_HEADER', __DIR__.'/help/helpheader.tpl');
 define('_MI_NEWBB_BACK_2_ADMIN', 'Назад к настройке ');
 define('_MI_NEWBB_OVERVIEW', 'Обзор');
+define('_MI_NEWBB_HELP', 'Помощь');
 
 //define('_MI_NEWBB_HELP_DIR', __DIR__);
 
