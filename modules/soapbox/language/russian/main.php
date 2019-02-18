@@ -1,10 +1,10 @@
 <?php
 /**
- * $Id: main.php v 1.5 23 August 2004 hsalazar Exp $
+ * 
  * Module: Soapbox
- * Version: v 1.5
- * Release Date: 23 August 2004
- * Author: hsalazar
+ * Version: v 1.7**
+ * Release Date: 
+ * Author: 
  * Licence: GNU
  */
 define('_MD_SOAPBOX_NOCOLEXISTS', 'К сожалению, колонки еще не созданы.<br>Пожалуйста, свяжитесь с администратором сайта и сообщите ему об этом.');
@@ -19,7 +19,7 @@ define('_MD_SOAPBOX_ARTTEASER', 'Анотация к статье<span style=\'f
 define('_MD_SOAPBOX_AUTHORPRN', 'Автор: ');
 define('_MD_SOAPBOX_AUTOTEASER', 'Создать анотацию автоматически?');
 define('_MD_SOAPBOX_AUTOTEASERAMOUNT', 'Кол-во символов авто-анотации');
-define('_MD_SOAPBOX_BY', 'Автор: ');
+define('_MD_SOAPBOX_BY', 'От ');
 define('_MD_SOAPBOX_CANTVOTEOWN', 'Вы не можете голосовать на ресурсе.<br>Все голоса, регистрируются и рассматриваются.');
 define('_MD_SOAPBOX_COLUMN', 'Имя колонки');
 define('_MD_SOAPBOX_COLUMNPRN', 'Колонка: ');
@@ -65,14 +65,14 @@ define('_MD_SOAPBOX_SECTIONNAME', 'Блог');
 define('_MD_SOAPBOX_SELECT_IMG', 'Выберите изображение');
 define('_MD_SOAPBOX_SENDSTORY', 'Отправьте эту статью Вашему другу');
 define('_MD_SOAPBOX_SUB_SMNAME', 'Заполните эту форму, чтобы отправить статью');
-define('_MD_SOAPBOX_SUB_SNEWNAME', 'Подать статью %s');
+define('_MD_SOAPBOX_SUB_SNEWNAME', 'Отправить статью %s');
 define(
     '_MD_SOAPBOX_SUB_SNEWNAMEDESC',
-       ' Вам необходимо заполнить форму ниже, для представления статьи на наш сайт. После отправки статья должна быть проверена администратором, прежде чем она будет опубликована. Тем не менее, если администратор включил настройку автоматического утверждения, Ваша статья будет немедленно опубликована.'
+       'Вам необходимо заполнить форму ниже, для представления статьи на наш сайт. После отправки статья должна быть проверена администратором, прежде чем она будет опубликована. Тем не менее, если администратор включил настройку автоматического утверждения, Ваша статья будет немедленно опубликована.'
 );
 define('_MD_SOAPBOX_SUBMITART', 'Добавить статью');
 define('_MD_SOAPBOX_THANKYOU', 'Спасибо, что нашли время, чтобы проголосовать на %s');
-define('_MD_SOAPBOX_TIMES', ' раз(а).');
+define('_MD_SOAPBOX_TIMES', ' время.');
 define('_MD_SOAPBOX_TIMESREAD', 'Прочитано: ');
 define('_MD_SOAPBOX_UNKNOWNERROR', 'ОШИБКА. Обратная переадресация!');
 define('_MD_SOAPBOX_VOTEAPPRE', 'Ваш голос учтен.');

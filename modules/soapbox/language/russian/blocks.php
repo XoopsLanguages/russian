@@ -1,17 +1,17 @@
 <?php
 /**
- * $Id: blocks.php v 1.5 23 August 2004 hsalazar Exp $
+ * 
  * Module: Soapbox
- * Version: v 1.5
- * Release Date: 23 August 2004
- * Author: hsalazar
- * License: GNU
+ * Version: v 1.7**
+ * Release Date: 
+ * Author: 
+ * Licence: GNU
  */
 // Blocks
 define('_MB_SOAPBOX_ARTCLS', 'статьи');
 define('_MB_SOAPBOX_ARTICLEID', 'Id статьи');
 define('_MB_SOAPBOX_ARTSTOSHOW', '<br>Показать статьи?&nbsp;');
-define('_MB_SOAPBOX_BY', 'Автор: ');
+define('_MB_SOAPBOX_BY', 'От ');
 define('_MB_SOAPBOX_CHARS', 'Длина заголовка');
 define('_MB_SOAPBOX_DATE', 'Дата публикации');
 define('_MB_SOAPBOX_DISP', 'Показать');

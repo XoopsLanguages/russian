@@ -1,20 +1,20 @@
 <?php
 /**
- * $Id: admin.php v 1.5 23 August 2004 hsalazar Exp $
+ * 
  * Module: Soapbox
- * Version: v 1.5
- * Release Date: 23 August 2004
- * Author: hsalazar
+ * Version: v 1.7**
+ * Release Date: 
+ * Author: 
  * Licence: GNU
  */
 
-define('_AM_SOAPBOX_ABOUT', 'About');
+define('_AM_SOAPBOX_ABOUT', 'О модуле');
 define('_AM_SOAPBOX_ACTION', 'Действие');
 define('_AM_SOAPBOX_ADMINARTMNGMT', 'Управление статьями');
 define('_AM_SOAPBOX_ADMINCOLMNGMT', 'Управление колонками');
 define('_AM_SOAPBOX_ALLOWCOMMENTS', 'Может ли статья быть прокомментирована?');
 define('_AM_SOAPBOX_ARTAUTHORIZED', 'Статья была разрешена.');
-define('_AM_SOAPBOX_ARTBODY', 'Основной текст<span style=\'font-size: xx-small; font-weight: normal; display: block;\'>(Вы можете создавать многостраничные статьи, вставив тег [pagebreak] куда вы хотите поставить разрыв страницы.)</span>');
+define('_AM_SOAPBOX_ARTBODY', 'Основной текст<span style=\'font-size:xx-small; font-weight:normal; display:block;\'> (Вы можете создавать многостраничные статьи, вставив тег [pagebreak] куда вы хотите поставить разрыв страницы.)</span>');
 define('_AM_SOAPBOX_ARTCOLNAME', 'Имя колонки');
 define('_AM_SOAPBOX_ARTCREATED', 'Создан');
 define('_AM_SOAPBOX_ARTCREATEDOK', 'Статья была успешно создана!');
@@ -24,12 +24,12 @@ define('_AM_SOAPBOX_ARTISDELETED', 'Статья была удалена.');
 define('_AM_SOAPBOX_ARTISOFF', 'Статья отключена');
 define('_AM_SOAPBOX_ARTISON', 'Статья включена');
 define('_AM_SOAPBOX_ARTISSUB', 'Статья еще не утверждена');
-define('_AM_SOAPBOX_ARTLEAD', 'Первый абзац статьи<span style=\'font-size: xx-small; font-weight: normal; display: block;\'>(Первый абзац статьи.)</span>');
+define('_AM_SOAPBOX_ARTLEAD', 'Первый абзац статьи<span style=\'font-size:xx-small; font-weight:normal; display:block;\'> (Первый абзац статьи.)</span>');
 define('_AM_SOAPBOX_ARTMODIFIED', 'Статья успешно изменена!');
 define('_AM_SOAPBOX_ARTNOTCREATED', 'Сожалею. Не удалось создать эту статью!');
 define('_AM_SOAPBOX_ARTNOTUPDATED', 'Сожалею. Не удалось обновить статью!');
 define('_AM_SOAPBOX_ARTS', 'Статьи');
-define('_AM_SOAPBOX_ARTTEASER', 'Анотация к статье<span style=\'font-size: xx-small; font-weight: normal; display: block;\'>(Текст показывается только на главной странице.)</span>');
+define('_AM_SOAPBOX_ARTTEASER', 'Анотация к статье<span style=\'font-size:xx-small; font-weight:normal; display:block;\'> (Текст показывается только на главной странице.)</span>');
 define('_AM_SOAPBOX_ARTSTEXT', 'В этом списке показаны опубликованные статьи, присутствующие в модуле, и онлайн и офлайн.');
 define('_AM_SOAPBOX_AUTHART', 'Авторизовать представленные');
 define('_AM_SOAPBOX_AUTHOR', 'Автор');
@@ -134,10 +134,10 @@ define('_AM_SOAPBOX_SUBTEXT', 'Этот список показывает ста
 define('_AM_SOAPBOX_SUBMITS', 'На проверку');
 define('_AM_SOAPBOX_SUBMITSMNGMT', 'Управление представленными статьями');
 define('_AM_SOAPBOX_SWITCHOFFLINE', ' Установить статью оффлайн?');
-define('_AM_SOAPBOX_TOTART', 'Опубликованные статьи:  <strong>%s</strong> ');
-define('_AM_SOAPBOX_TOTCOL', 'Колонки:  <strong>%s</strong> ');
-define('_AM_SOAPBOX_TOTOFF', 'Оффлайн статьи:  <strong>%s</strong> ');
-define('_AM_SOAPBOX_TOTSUB', 'Представленные статьи:  <strong>%s</strong> ');
+define('_AM_SOAPBOX_TOTART', 'Опубликованные статьи: <strong>%s</strong> ');
+define('_AM_SOAPBOX_TOTCOL', 'Колонки: <strong>%s</strong> ');
+define('_AM_SOAPBOX_TOTOFF', 'Оффлайн статьи: <strong>%s</strong> ');
+define('_AM_SOAPBOX_TOTSUB', 'Представленные статьи: <strong>%s</strong> ');
 
 define('_AM_SOAPBOX_UPLOADIMAGE', 'Загрузить изображение статьи:');
 define('_AM_SOAPBOX_WEIGHT', 'Вес');
@@ -150,7 +150,7 @@ define('_AM_SOAPBOX_REORDERART', 'Упорядочить статьи (вес)')
 //1.06
 //ModuleAdmin
 define('_AM_SOAPBOX_MODULEADMIN_MISSING', 'Ошибка: Класс ModuleAdmin отсутствует. Пожалуйста, установите ModuleAdmin класса в /Frameworks (смотреть /docs/readme.txt)');
-define('_AM_SOAPBOX_NEED_APPROVAL', 'Необходимо одобрение:  <strong>%s</strong> ');
+define('_AM_SOAPBOX_NEED_APPROVAL', 'Необходимо одобрение: <strong>%s</strong> ');
 //Permissions
 define('_AM_SOAPBOX_PERMISSIONS_GLOBAL', 'Глобальные разрешения');
 define('_AM_SOAPBOX_PERMISSIONS_GLOBAL_DESC', 'Только пользователи из выбранной Вами группы могут глобально');
