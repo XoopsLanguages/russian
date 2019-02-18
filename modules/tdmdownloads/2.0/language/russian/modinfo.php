@@ -187,7 +187,7 @@ define('_MI_TDMDOWNLOADS_SHOW_DEV_TOOLS_DESC', 'Если Да, вкладка "�
 
 define('_MI_TDMDOWNLOADS_BLOCKS_ADMIN', 'Блоки');
 
-define('_MI_TDMDOWNLOADS_SHOW_SAMPLE_BUTTON', 'Показать образец кнопки?');
+define('_MI_TDMDOWNLOADS_SHOW_SAMPLE_BUTTON', 'Показать кнопки добавления примера?');
 define('_MI_TDMDOWNLOADS_SHOW_SAMPLE_BUTTON_DESC', 'Если Да, кнопка "Добавить пример данных" будет видна администратору. Установлено Да по умолчанию для первой установки.');
 
 define('_MI_TDMDOWNLOADS_MENU_HISTORY', 'История');
@@ -214,7 +214,7 @@ define('_MI_TDMDOWNLOADS_CONFCAT_FORMAT', '<span style="color: #FF0000; font-siz
 define('_MI_TDMDOWNLOADS_CONFCAT_FORMAT_DSC', '<span style="color: #FF0000; font-size: Small;  font-weight: bold;">--- ---</span> ');
 define('_MI_TDMDOWNLOADS_CONFCAT_PRINT', '<span style="color: #FF0000; font-size: Small;  font-weight: bold;">--- Страница печати ---</span> ');
 define('_MI_TDMDOWNLOADS_CONFCAT_PRINT_DSC', '<span style="color: #FF0000; font-size: Small;  font-weight: bold;">--- ---</span> ');
-define('_MI_TDMDOWNLOADS_CONFCAT_OTHERS', '<span style="color: #FF0000; font-size: Small;  font-weight: bold;">--- Другие ---</span> ');
+define('_MI_TDMDOWNLOADS_CONFCAT_OTHERS', '<span style="color: #FF0000; font-size: Small;  font-weight: bold;">--- Дополнительные функции ---</span> ');
 define('_MI_TDMDOWNLOADS_CONFCAT_OTHERS_DSC', '<span style="color: #FF0000; font-size: Small;  font-weight: bold;">--- ---</span> ');
 define('_MI_TDMDOWNLOADS_CONFCAT_PERMISSIONS', '<span style="color: #FF0000; font-size: Small;  font-weight: bold;">--- Права доступа ---</span> ');
 define('_MI_TDMDOWNLOADS_CONFCAT_PERMISSIONS_DSC', '<span style="color: #FF0000; font-size: Small;  font-weight: bold;">--- ---</span> ');
