@@ -329,7 +329,7 @@ define('_MI_NEWBB_HELP', 'Помощь');
 
 //help multi-page
 define('_MI_NEWBB_HELP_DISCLAIMER', 'Отказ от ответственности');
-define('_MI_NEWBB_LICENSE', 'Лицуезия');
+define('_MI_NEWBB_LICENSE', 'Лицензия');
 define('_MI_NEWBB_SUPPORT', 'Поддержка');
 
 // Message when you first log in to the forum
