@@ -1,83 +1,83 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Back to the administration of Protector"> Protector <img src="<{xoAdminIcons home.png}>" alt="Back to the administration of Protector"/></a></h1>
+    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Back to the administration of Protector"> Protector</a> <img src="<{xoAdminIcons home.png}>" alt="Back to the administration of Protector"/></h1>
     <!-- -----Help Content ---------- -->
-    <h4 class="odd">Description</h4>
+    <h4 class="odd">Описание</h4>
 
-    <p class="even">Protector is a module to defend your XOOPS CMS from various malicious attacks.</p>
-    <h4 class="odd">Install/uninstall</h4>
+    <p class="even">Protector - это модуль для защиты Вашей XOOPS CMS от различных вредоносных атак.</p>
+    <h4 class="odd">Установка/удаление</h4>
 
-    <p>First, define XOOPS_TRUST_PATH into mainfile.php if you've never done it yet.</p>
+    <p>Во-первых, определите XOOPS_TRUST_PATH в mainfile.php, если Вы еще этого не сделали.</p>
     <br>
 
-    <p>Copy html/modules/protector in the archive into your XOOPS_ROOT_PATH/modules/</p>
+    <p>Скопируйте html/modules/protector из архива в свой XOOPS_ROOT_PATH/modules/</p>
 
-    <p>Copy xoops_trust_path/modules/protector in the archive into your XOOPS_TRUST_PATH/modules/</p>
+    <p>Скопируйте xoops_trust_path/modules/protector из архива в свой XOOPS_TRUST_PATH/modules/</p>
     <br>
 
-    <p>Turn permission of XOOPS_TRUST_PATH/modules/protector/configs writable</p>
-    <h4 class="odd">= How to rescue =</h4>
+    <p>Установите права доступа на XOOPS_TRUST_PATH/modules/protector/configs - доступно для записи</p>
+    <h4 class="odd">= Как войти, если забанили =</h4>
 
-    <p class="even">If you've been banned from Protector, just delete files under XOOPS_TRUST_PATH/modules/protector/configs/</p>
-    <h4 class="odd">Introduction for filter-plugins in this archive.</h4>
+    <p class="even">Если Вы были забанены в Protector, просто удалите файлы в XOOPS_TRUST_PATH/modules/protector/configs/</p>
+    <h4 class="odd">Введение в фильтр-плагины в этом архиве.</h4>
 
     <p class="even">- postcommon_post_deny_by_rbl.php
         <br>
-        an anti-SPAM plugin.
+        анти-спам плагин.
         <br>
-        All of Post from IP registered in RBL will be rejected.
+        Все сообщения от IP, зарегистрированные в RBL, будут отклонены.
         <br>
-        This plugin can slow the performance of Post, especially chat modules.
+        Этот плагин может замедлить работу почты, особенно модулей чата.
     </p>
 
     <p>- postcommon_post_deny_by_httpbl.php
         <br>
-        an anti-SPAM plugin.
+        анти-спам плагин.
         <br>
-        All of Post from IP registered in http:BL will be rejected.
+        Все сообщения от IP, зарегистрированные в http:BL, будут отклонены.
         <br>
-        Before using it, get HTTPBL_KEY from http://www.projecthoneypot.org/ and set it into the filter file.
+        Перед его использованием, получите HTTPBL_KEY с http://www.projecthoneypot.org/ и установите его в файл фильтра.
         <br>
         define( 'PROTECTOR_HTTPBL_KEY' , '............' ) ;
     </p>
 
     <p class="even">- postcommon_post_need_multibyte.php
         <br>
-        an anti-SPAM plugin.
+        анти-спам плагин.
         <br>
-        Post without multi-byte characters will be rejected.
+        Сообщение без многобайтовых символов будет отклонено.
         <br>
-        This plugin is only for sites of japanese, tchinese, schinese, and korean.
+        Этот плагин предназначен только для сайтов японского, китайского и корейского языков.
     </p>
 
     <p>- postcommon_post_htmlpurify4guest.php
         <br>
-        All post data sent by guests will be purified by HTMLPurifier.
+        Все отправленные гостями данные будут очищены HTMLPurifier.
         <br>
-        If you allow guests posting HTML, I strongly recommend you to enable it.
+        Если Вы разрешаете гостям публиковать HTML, я настоятельно рекомендую Вам включить его.
     </p>
 
     <p class="even">-postcommon_register_insert_js_check.php
         <br>
-        This plugin prevents your site from robot's user registering.
+        Этот плагин предотвращает регистрацию пользователя роботом на Вашем сайте.
         <br>
-        Required JavaScript working on the vistors browser.
+        Требуется JavaScript, работающий в браузере vistors.
     </p>
 
     <p>- bruteforce_overrun_message.php
         <br>
-        Specify a message for visitors tried wrong passwords more than the specified times.
+        Укажите сообщение, чтобы посетители пробовали неверные пароли больше указанного времени.
         <br>
-        All plugins named *_message.php specifys the message for rejected accesses.
+        Все плагины с именем *_message.php определяют сообщение для отклоненного доступа.
     </p>
 
     <p class="even">- precommon_bwlimit_errorlog.php
         <br>
-        When band width limitation works unfortunately, this plugin logs it into Apache's error_log.
+        Когда ограничение ширины полосы работает, к сожалению, этот плагин регистрирует его в Apache error_log.
     </p>
 
-    <p>All plugins named *_errorlog.php log some informations into Apaches error_log.</p>
-    <h4 class="odd">Tutorial</h4>
+    <p>Все плагины с именем *_errorlog.php записывают некоторую информацию в Apache error_log.</p>
+    <h4 class="odd">Руководство</h4>
 
-    <p class="even">Tutorial coming soon.</p>
-    <!-- -----Help Content ---------- -->
+    <p class="even">Учебник скоро.</p>
+    <!-- ----- Справочный контент ---------- -->
 </div>
