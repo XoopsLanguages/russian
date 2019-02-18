@@ -1,10 +1,10 @@
 <?php
 /**
- * $Id: modinfo.php v 1.5 23 August 2004 hsalazar Exp $
+ * 
  * Module: Soapbox
- * Version: v 1.5
- * Release Date: 23 August 2004
- * Author: hsalazar
+ * Version: v 1.7**
+ * Release Date: 
+ * Author: 
  * Licence: GNU
  */
 
@@ -14,7 +14,7 @@ global $xoopsModule;
 define('_MI_SOAPBOX_NAME', 'Блог');
 
 // A brief description of this module
-define('_MI_SOAPBOX_DESC', 'OpEd для Вашего сайта');
+define('_MI_SOAPBOX_DESC', 'Размещение статей на Вашем сайте');
 
 // Sub menus in main menu block
 define('_MI_SOAPBOX_SUB_SMNAME1', 'Добавить статью');
@@ -115,18 +115,18 @@ define('_MI_SOAPBOX_ARTSPOTLIGHT2', 'Популярные статьи [неск
 define('_MI_SOAPBOX_ARTSPOTLIGHT2_DSC', 'Показать популярные статьи [несколько колонок]');
 
 // Defines for the About page
-define('_MI_SOAPBOX_AUTHOR_INFO', 'Author\'s information');
-define('_MI_SOAPBOX_AUTHOR_WEBSITE', 'Author\'s website');
-define('_MI_SOAPBOX_AUTHOR_EMAIL', 'Author\'s E-mail');
-define('_MI_SOAPBOX_AUTHOR_CREDITS', 'Module credits');
-define('_MI_SOAPBOX_MODULE_INFO', 'General module information');
-define('_MI_SOAPBOX_MODULE_STATUS', 'Version');
-define('_MI_SOAPBOX_MODULE_DEMO', 'Demo site');
-define('_MI_SOAPBOX_MODULE_SUPPORT', 'Support site');
-define('_MI_SOAPBOX_MODULE_BUG', 'Submit a bug');
-define('_MI_SOAPBOX_MODULE_FEATURE', 'Request a feature');
-define('_MI_SOAPBOX_MODULE_DISCLAIMER', 'Disclaimer');
-define('_MI_SOAPBOX_AUTHOR_WORD', 'Author\'s comment');
+define('_MI_SOAPBOX_AUTHOR_INFO', 'Информация об авторе');
+define('_MI_SOAPBOX_AUTHOR_WEBSITE', 'Вебсайт автора');
+define('_MI_SOAPBOX_AUTHOR_EMAIL', 'E-mail автора');
+define('_MI_SOAPBOX_AUTHOR_CREDITS', 'Кредит модуля');
+define('_MI_SOAPBOX_MODULE_INFO', 'Общая информация о модуле');
+define('_MI_SOAPBOX_MODULE_STATUS', 'Версия');
+define('_MI_SOAPBOX_MODULE_DEMO', 'Демонстрационный сайт');
+define('_MI_SOAPBOX_MODULE_SUPPORT', 'Сайт поддержки');
+define('_MI_SOAPBOX_MODULE_BUG', 'Отправить ошибку');
+define('_MI_SOAPBOX_MODULE_FEATURE', 'Запросить функцию');
+define('_MI_SOAPBOX_MODULE_DISCLAIMER', 'Отказ от ответственности');
+define('_MI_SOAPBOX_AUTHOR_WORD', 'Комментарий автора');
 
 // Text for notifications
 define('_MI_SOAPBOX_GLOBAL_NOTIFY', 'Глобальный');
@@ -182,15 +182,19 @@ define('_MI_SOAPBOX_ALLOWEDSUBMITGROUPS', 'Какие группы могут п
 define('_MI_SOAPBOX_ALLOWEDSUBMITGROUPSDSC', 'Группы пользователей, которые могут представить статьи.');
 
 //HACK by domifara
-define('_MI_SOAPBOX_FORM_OPTIONS', 'Параметры формы');
-define('_MI_SOAPBOX_FORM_OPTIONS_DESC', 'Выберите редактор. Если есть стандартные (e.g использовать только XOOPS базовый редактор, который входит в основной пакет XOOPS), то Вы можете просто выбрать DHTML');
+/*define('_MI_SOAPBOX_FORM_OPTIONS', 'Параметры формы');
+define('_MI_SOAPBOX_FORM_OPTIONS_DESC', 'Выберите редактор. Если есть стандартные (e.g использовать только XOOPS редактор, который входит в основной пакет XOOPS), то Вы можете просто выбрать DHTML');
 define('_MI_SOAPBOX_FORM_COMPACT', 'Compact');
 define('_MI_SOAPBOX_FORM_DHTML', 'DHTML');
 define('_MI_SOAPBOX_FORM_SPAW', 'Spaw Editor');
 define('_MI_SOAPBOX_FORM_HTMLAREA', 'HtmlArea Editor');
 define('_MI_SOAPBOX_FORM_FCK', 'FCK Editor');
 define('_MI_SOAPBOX_FORM_KOIVI', 'Koivi Editor');
-define('_MI_SOAPBOX_FORM_TINYMCE', 'TinyMCE Editor');
+define('_MI_SOAPBOX_FORM_TINYMCE', 'TinyMCE Editor');*/
+define('MI_SOAPBOX_EDITOR_ADMIN', 'Редактор: Администратора');
+define('MI_SOAPBOX_EDITOR_ADMIN_DESC', 'Выберите редактор для использования администратором');
+define('MI_SOAPBOX_EDITOR_USER', 'Редактор: Пользователя');
+define('MI_SOAPBOX_EDITOR_USER_DESC', 'Выберите редактор для использования пользователем');//define('_MI_SOAPBOX_FORM_COMPACT', 'Compact');
 
 // 1.06
 define('_MI_SOAPBOX_SUBMITS', 'На проверку');
@@ -199,16 +203,19 @@ define('_MI_SOAPBOX_ADD_COLUMN', 'Добавить колонку');
 //Help
 define('_MI_SOAPBOX_DIRNAME', basename(dirname(dirname(__DIR__))));
 define('_MI_SOAPBOX_HELP_HEADER', __DIR__ . '/help/helpheader.tpl');
-define('_MI_SOAPBOX_BACK_2_ADMIN', 'Вернуться в администрацию ');
+define('_MI_SOAPBOX_BACK_2_ADMIN', 'Назад в настройки ');
 define('_MI_SOAPBOX_OVERVIEW', 'Обзор');
 
 //define('_MI_SOAPBOX_HELP_DIR', __DIR__);
 
 //help multi-page
-define('_MI_SOAPBOX_DISCLAIMER', 'Disclaimer');
+define('_MI_SOAPBOX_DISCLAIMER', 'Отказ от ответственности');
 define('_MI_SOAPBOX_LICENSE', 'Лицензия');
 define('_MI_SOAPBOX_SUPPORT', 'Поддержка');
 
 //Tag
 define('_MI_SOAPBOX_USETAG', 'Использовать теги?');
-define('_MI_SOAPBOX_USETAGDSC', 'Требуется модуль тегов \ "TAG \"');
+define('_MI_SOAPBOX_USETAGDSC', 'Требуется модуль тегов "TAG"');
+
+define('_MI_SOAPBOX_HOME', 'Главная');
+define('_MI_SOAPBOX_ABOUT', 'О модуле');
