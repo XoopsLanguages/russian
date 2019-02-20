@@ -1,11 +1,6 @@
 <div id="help-template" class="outer">
     <{include file=$smarty.const._MI_SOAPBOX_HELP_HEADER}>
 
-    <h4 class="odd">DESCRIPTION</h4> <br>
-
-    <p class="even">This module is ....<br> <br>
-    </p>
-
     <h4 class="odd">DESCRIPTION</h4><br>
 
     This little module has a single purpose: to help you build in your site an editorial column section, where you can
@@ -22,7 +17,7 @@
     extract the /soapbox folder into the ../modules directory. Install the module
     through Admin -> System Module -> Modules. <br><br>
     Detailed instructions on installing modules are available in the <a
-        href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank">XOOPS Operations Manual</a>
+        href="https://xoops.gitbook.io/xoops-operations-guide/" target="_blank">XOOPS Operations Manual</a>
     <br><br>
 
 
@@ -36,7 +31,7 @@
     block access rights to use this module. Group permissions are set through
     the Administration Menu -> System -> Groups. <br><br>Detailed instructions
     on configuring the access rights for user groups are available in the <a
-        href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank">XOOPS Operations
+        href="https://xoops.gitbook.io/xoops-operations-guide/" target="_blank">XOOPS Operations
     Manual</a><br><br>
 
     <h4 class="odd">TUTORIAL</h4><br>

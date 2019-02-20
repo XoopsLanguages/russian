@@ -219,3 +219,6 @@ define('_MI_SOAPBOX_USETAGDSC', 'Требуется модуль тегов "TAG
 
 define('_MI_SOAPBOX_HOME', 'Главная');
 define('_MI_SOAPBOX_ABOUT', 'О модуле');
+
+define('_MI_SOAPBOX_SHOW_SAMPLE_BUTTON', 'Показать кнопку добавления примера?');
+define('_MI_SOAPBOX_SHOW_SAMPLE_BUTTON_DESC', 'Если Да, кнопка «Добавить пример данных» будет видна администратору. При первой установке функция включена по умолчанию.');
