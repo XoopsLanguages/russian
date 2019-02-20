@@ -17,7 +17,6 @@
  * @since           1.7**
  * @author          Xoops Development Team
  */
-
 $moduleDirName      = basename(dirname(dirname(__DIR__)));
 $moduleDirNameUpper = strtoupper($moduleDirName);
 
@@ -96,3 +95,38 @@ define('CO_' . $moduleDirNameUpper . '_' . 'TITLE', 'Заглавие');
 define('CO_' . $moduleDirNameUpper . '_' . 'VISIBLE', 'Видимый');
 define('CO_' . $moduleDirNameUpper . '_' . 'VISIBLEIN', 'Видимый в');
 define('CO_' . $moduleDirNameUpper . '_' . 'WEIGHT', 'Вес');
+
+//letter choice
+define('CO_' . $moduleDirNameUpper . '_' . 'BROWSETOTOPIC', "<span style='font-weight: bold;'>Просмотр элементов в алфавитном порядке</span>");
+define('CO_' . $moduleDirNameUpper . '_' . 'OTHER', 'Другой');
+define('CO_' . $moduleDirNameUpper . '_' . 'ALL', 'Все');
+
+define('CO_' . $moduleDirNameUpper . '_' . 'PERMISSIONS', 'Права доступа');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS', 'Настройка блоков');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_DESC', 'Настройка блоков/групп');
+
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_MANAGMENT', 'Управление');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADDBLOCK', 'Добавить новый блок');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_EDITBLOCK', 'Редактировать блок');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_CLONEBLOCK', 'Клонировать блок');
+
+//myblocksadmin
+define('CO_' . $moduleDirNameUpper . '_' . 'AGDS', 'Административные группы');
+define('CO_' . $moduleDirNameUpper . '_' . 'BCACHETIME', 'Время кэширования');
+define('CO_' . $moduleDirNameUpper . '_' . 'BLOCKS_ADMIN', 'Администратор блоков');
+
+//Template Admin
+define('CO_' . $moduleDirNameUpper . '_' . 'TPLSETS', 'Управление шаблонами');
+define('CO_' . $moduleDirNameUpper . '_' . 'GENERATE', 'Генерировать');
+define('CO_' . $moduleDirNameUpper . '_' . 'FILENAME', 'Имя файла');
+
+//Menu
+define('CO_' . $moduleDirNameUpper . '_' . 'ADMENU_MIGRATE', 'Миграция');
+define('CO_' . $moduleDirNameUpper . '_' . 'FOLDER_YES', 'Папка "%s" существует');
+define('CO_' . $moduleDirNameUpper . '_' . 'FOLDER_NO', 'Папка "%s" не существует. Создайте указанную папку с CHMOD 777.');
+define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_DEV_TOOLS', 'Показать кнопку инструментов разработки?');
+define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_DEV_TOOLS_DESC', 'Если да, вкладка «Миграция» и другие инструменты разработки будут видны администратору.');
+define('CO_' . $moduleDirNameUpper . '_' . 'ADMENU_FEEDBACK', 'Обратная связь');
+
+//Latest Version Check
+define('CO_' . $moduleDirNameUpper . '_' . 'NEW_VERSION', 'Новая версия: ');
