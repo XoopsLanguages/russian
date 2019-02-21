@@ -22,8 +22,8 @@ define('_MB_PUBLISHER_FULLITEM', 'Читать статью полностью')
 define('_MB_PUBLISHER_HITS', 'Количество хитов');
 define('_MB_PUBLISHER_ITEMS', 'Статьи');
 define('_MB_PUBLISHER_LAST_ITEMS_COUNT', 'Если "Да", сколько статей показать?');
-define('_MB_PUBLISHER_ORDER', 'Показать заказ');
-define('_MB_PUBLISHER_ORDER_SHOW', 'Показать заказ в блоке');
+define('_MB_PUBLISHER_ORDER', 'Показать статью по');
+define('_MB_PUBLISHER_ORDER_SHOW', 'Показать статью в блоке');
 define('_MB_PUBLISHER_POSTEDBY', 'Опубликовано');
 define('_MB_PUBLISHER_READMORE', 'Читать далее...');
 define('_MB_PUBLISHER_READS', 'читает');
@@ -50,7 +50,7 @@ define('_MB_PUBLISHER_DISPLAY_CATIMAGE', 'Показать изображени�
 define('_MB_PUBLISHER_MORE', 'Больше:');
 define('_MB_PUBLISHER_NUMBER_COLUMN_VIEW', 'Количество показываемых столбцов');
 define('_MB_PUBLISHER_NUMBER_ITEMS_CAT', 'Количество статей в каждой категории');
-define('_MB_PUBLISHER_IMAGE_TO_DISPLAY', 'Выберите изображение для показа');
+define('_MB_PUBLISHER_IMAGE_TO_DISPLAY', 'Выберите изображение');
 define('_MB_PUBLISHER_IMAGE_ARTICLE', 'Изображение статьи');
 define('_MB_PUBLISHER_IMAGE_CATEGORY', 'Изображение категории');
 define('_MB_PUBLISHER_IMAGE_AVATAR', 'Аватар пользователя');

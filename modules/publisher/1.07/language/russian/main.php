@@ -10,7 +10,7 @@ define('_MD_PUBLISHER_ADMIN_PAGE', ':: Административный разд
 define('_MD_PUBLISHER_MODIFY', 'Изменить');
 define('_MD_PUBLISHER_CANCEL', 'Отменить');
 define('_MD_PUBLISHER_CATEGORY_EDIT', 'Изменить категорию');
-define('_MD_PUBLISHER_CATEGORY_SUMMARY', 'Резюме %s');
+define('_MD_PUBLISHER_CATEGORY_SUMMARY', 'Краткое содержание: %s');
 define('_MD_PUBLISHER_CATEGORY_SUMMARY_INFO', 'Подкатегории в пределах %s.');
 define('_MD_PUBLISHER_CLEAR', 'Очистить');
 define('_MD_PUBLISHER_COMMENTS', 'Комментарий(ии)');
