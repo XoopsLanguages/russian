@@ -41,10 +41,10 @@ define('_MB_PUBLISHER_SHOWITEMS', 'Показать статьи');
 //--/bd
 define('_MB_PUBLISHER_FILES', 'файлы');
 define('_MB_PUBLISHER_DIRECTDOWNLOAD', 'Прямая ссылка на скачивание файла вместо ссылки на статью?');
-define('_MB_PUBLISHER_FROM', 'ВЫБЕРИТЕ статьи<br>ОТ');
+define('_MB_PUBLISHER_FROM', 'Выбирите статьи<br>от');
 define('_MB_PUBLISHER_UNTIL', '&nbsp;&nbsp;в');
 define('_MB_PUBLISHER_DATE_FORMAT', 'Формат даты должен быть mm/dd/yyy');
-define('_MB_PUBLISHER_ARTICLES_FROM_TO', 'Статьи, опубликованные между %s и %s ');
+define('_MB_PUBLISHER_ARTICLES_FROM_TO', 'Статьи, опубликованные между  %s  и  %s ');
 define('_MB_PUBLISHER_TRUNCATE', 'Обрезать сводный текст до заданных байтов (0 отключит эту функцию):');
 define('_MB_PUBLISHER_DISPLAY_CATIMAGE', 'Показать изображение категории (если категория выбрана)?');
 define('_MB_PUBLISHER_MORE', 'Больше:');
