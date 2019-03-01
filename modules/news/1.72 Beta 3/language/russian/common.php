@@ -122,3 +122,11 @@ define('CO_' . $moduleDirNameUpper . '_' . 'FILENAME', 'Имя файла');
 
 //Menu
 define('CO_' . $moduleDirNameUpper . '_' . 'ADMENU_MIGRATE', 'Миграция');
+define('CO_' . $moduleDirNameUpper . '_' . 'FOLDER_YES', 'Папка "%s" существует');
+define('CO_' . $moduleDirNameUpper . '_' . 'FOLDER_NO', 'Папка "%s" не существует. Создайте указанную папку с CHMOD 777.');
+define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_DEV_TOOLS', 'Показать кнопку разработки?');
+define('CO_' . $moduleDirNameUpper . '_' . 'SHOW_DEV_TOOLS_DESC', 'Если да, вкладка «Миграция» и другие инструменты разработки будут видны администратору.');
+
+
+//Latest Version Check
+define('CO_' . $moduleDirNameUpper . '_' . 'NEW_VERSION', 'Новая версия: ');
