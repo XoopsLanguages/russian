@@ -1,0 +1,48 @@
+<?php
+//
+define('_MB_NEWS_NOTYET', 'Сегодня еще нет самой читаемой статьи.');
+define('_MB_NEWS_TMRSI', 'Сегодняшняя самая читаемая статья в:');
+define('_MB_NEWS_ORDER', 'Упорядочить по');
+define('_MB_NEWS_DATE', 'дате публикации');
+define('_MB_NEWS_HITS', 'количеству прочтений');
+define('_MB_NEWS_DISP', 'Показывать');
+define('_MB_NEWS_ARTCLS', 'статей');
+define('_MB_NEWS_CHARS', 'Длина заголовка');
+define('_MB_NEWS_LENGTH', ' символов');
+define('_MB_TITLE', 'Наименование');
+define('_MB_POSTED', 'Отправлено');
+define('_MB_POSTER', 'Автор');
+define('_MB_ACTION', 'Действие');
+define('_MB_TOPIC', 'Тема');
+define('_MB_DELETE', 'Удалить');
+define('_MB_NEWS_RESTRICTTOPICS', 'Ограничить просмотр разделов пользователями?');
+define('_MB_NEWS_TEASER', 'Показать текст статьи длиной (0 не показывать)');
+define('_MB_NEWS_SPOTLIGHT', 'Разрешить функцию "Актуальная новость"');
+define('_MB_NEWS_FIRST', '--Первая запись--');
+define('_MB_NEWS_IMAGE', 'Рисунок для актуальной новости');
+define('_MB_SPOTLIGHT_TOPIC', 'Выберите используемые разделы');
+define('_MB_SPOTLIGHT_ALL_TOPICS', 'Все разделы');
+define('_MB_NEWS_SPOTLIGHT_ARTICLE', 'Выберите новостную статью:');
+define('_MB_READMORE', 'Читать дальше...');
+define('_MB_NEWS_RATE', 'Рейтинг');
+define('_MB_NEWS_SHOW_NEWS_COUNT', 'Показывать счетчик новостей ?');
+define('_MB_NEWS_SPOTLIGHT_TITLE', 'Актуальная новость');
+define('_MB_NEWS_VIEW_TYPE1', 'Классический');
+define('_MB_NEWS_VIEW_TYPE2', 'Вкладки');
+define('_MB_NEWS_TAB_COLOR1', 'Цвет строки краткого обзора (эта строка отображается ниже заголовка ввкладки)');
+define('_MB_NEWS_TAB_COLOR2', 'Цвет фона содержания вкладки');
+define('_MB_NEWS_TAB_COLOR3', 'Цвет заголовка текущей вкладки');
+define('_MB_NEWS_TAB_COLOR4', 'Цвет заголовка для не выбранных вкладок');
+define('_MB_NEWS_TAB_COLOR5', 'Цвет заголовков');
+define('_MB_NEWS_WHAT_PUBLISH', 'Что вы хотите опубликовать<br />в spotlight ?');
+define('_MB_NEWS_RECENT_NEWS', 'Свежие новости (не используются в списке ниже)');
+define('_MB_NEWS_RECENT_SPECIFIC', 'Специальные новости (смотри ниже)');
+define('_MB_NEWS_DEFAULT_COLORS', 'Оставьте поля пустыми, чтобы использовать цвета по умолчанию');
+// Added in version 1.50
+define('_MB_NEWS_CAL_YEAR', 'Год');
+define('_MB_NEWS_CAL_MONTH', 'Месяц');
+define('_MB_NEWS_STARTING_DATE', 'Начальная дата');
+define('_MB_NEWS_ENDING_DATE', 'Конечная дата');
+define('_MB_NEWS_UNTIL_TODAY', 'или до сегодня');
+define('_MB_NEWS_RECENT_FIRST', 'Новые первыми');
+define('_MB_NEWS_OLDER_FIRST', 'Старые первыми');
