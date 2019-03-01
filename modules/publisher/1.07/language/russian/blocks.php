@@ -17,7 +17,7 @@ define('_MB_PUBLISHER_DISPLAY_COMMENTS', 'Показать количество 
 define('_MB_PUBLISHER_DISPLAY_TYPE', 'Тип показа:');
 define('_MB_PUBLISHER_DISPLAY_TYPE_BLOCK', 'Каждая статья представляет собой блок');
 define('_MB_PUBLISHER_DISPLAY_TYPE_BULLET', 'Маркер каждой статьи');
-define('_MB_PUBLISHER_DISPLAY_WHO_AND_WHEN', 'Показать плакат и дату?');
+define('_MB_PUBLISHER_DISPLAY_WHO_AND_WHEN', 'Показать автора и дату?');
 define('_MB_PUBLISHER_FULLITEM', 'Читать статью полностью');
 define('_MB_PUBLISHER_HITS', 'Количество хитов');
 define('_MB_PUBLISHER_ITEMS', 'Статьи');
