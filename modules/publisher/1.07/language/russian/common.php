@@ -61,7 +61,7 @@ define('_CO_PUBLISHER_IMAGE_UPLOAD', 'Загрузка изображения');
 define('_CO_PUBLISHER_SUBCATEGORIES_INFO', 'Подкатегории в пределах <em>%s</em> :');
 define('_CO_PUBLISHER_SUMMARY', 'Краткого содержание');
 define('_CO_PUBLISHER_SUMMARY_DSC', 'Краткое содержание используется для блоков, главной и страниц категорий. Не показывается внутри статьи.');
-define('_CO_PUBLISHER_TITLE', 'Заголовок');
+define('_CO_PUBLISHER_TITLE', 'Статьи');
 define('_CO_PUBLISHER_SUBTITLE', 'Подзаголовок');
 define('_CO_PUBLISHER_ERROR', 'Извините, произошла ошибка!');
 define('_CO_PUBLISHER_SORTBY', 'Сортировать по');
