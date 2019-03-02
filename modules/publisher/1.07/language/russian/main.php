@@ -10,7 +10,7 @@ define('_MD_PUBLISHER_ADMIN_PAGE', ':: Административный разд
 define('_MD_PUBLISHER_MODIFY', 'Изменить');
 define('_MD_PUBLISHER_CANCEL', 'Отменить');
 define('_MD_PUBLISHER_CATEGORY_EDIT', 'Изменить категорию');
-define('_MD_PUBLISHER_CATEGORY_SUMMARY', 'Краткое содержание: %s');
+define('_MD_PUBLISHER_CATEGORY_SUMMARY', 'Описание: %s');
 define('_MD_PUBLISHER_CATEGORY_SUMMARY_INFO', 'Подкатегории в пределах %s.');
 define('_MD_PUBLISHER_CLEAR', 'Очистить');
 define('_MD_PUBLISHER_COMMENTS', 'Комментарий(ии)');
@@ -25,7 +25,7 @@ define('_MD_PUBLISHER_GOODDAY', 'Привет <strong>%s</strong>! ');
 define('_MD_PUBLISHER_HITS', 'Хиты');
 define('_MD_PUBLISHER_HITSDETAIL', 'Эта статья была прочитана');
 define('_MD_PUBLISHER_HOME', 'Главная');
-define('_MD_PUBLISHER_INDEX_CATEGORIES_SUMMARY', 'Сводка категорий');
+define('_MD_PUBLISHER_INDEX_CATEGORIES_SUMMARY', 'Список категорий');
 define('_MD_PUBLISHER_INDEX_CATEGORIES_SUMMARY_INFO', 'Список категорий и их подкатегорий. Выберите категорию, чтобы увидеть статьи внутри.');
 define('_MD_PUBLISHER_INDEX_ITEMS', 'Последние опубликованные статьи');
 define('_MD_PUBLISHER_INDEX_ITEMS_INFO', 'Список последних опубликованных статей.');
