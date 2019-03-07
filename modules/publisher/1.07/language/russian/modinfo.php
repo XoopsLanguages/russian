@@ -106,7 +106,7 @@ define('_MI_PUBLISHER_ITEM_REJECTED_NOTIFY_SBJ', '[{X_SITENAME}] {X_MODULE} ав
 define('_MI_PUBLISHER_ITEMFOOTER', 'Нижний колонтитул статьи');
 define('_MI_PUBLISHER_ITEMFOOTER_SEL', 'Нижний колонтитул статьи');
 define('_MI_PUBLISHER_ITEMFOOTERDSC', 'Нижний колонтитул, который будет показан для каждой статьи.');
-define('_MI_PUBLISHER_ITEMSMENU', 'Категории меню блоков');
+define('_MI_PUBLISHER_ITEMSMENU', 'Меню категорий');
 //bd tree block hack
 define('_MI_PUBLISHER_ITEMSTREE', 'Дерево блоков');
 //--/bd
