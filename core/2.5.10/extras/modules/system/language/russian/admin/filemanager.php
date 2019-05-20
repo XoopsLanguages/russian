@@ -1,7 +1,5 @@
 <?php
 /**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * @version     $Id$
@@ -60,4 +58,3 @@ define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','Вы действительно хо
 define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','Файл успешно создан');
 define('_AM_SYSTEM_FILEMANAGER_SUREDEL','Вы действительно хотите удалить файл %s ?');
 define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL','Вы действительно хотите удалить каталог %s ?<br />Внимание: все подкаталоги и файлы будут удалены');
-?>
