@@ -5,21 +5,21 @@ $menu = array();
 // sample for English  support
 /*
 $menu[] = array(
-    'link'      => 'http://www.xoops.org',
+    'link'      => 'https://www.xoops.org',
     'title'     => 'XOOPS',
     'absolute'  => 1,
     'icon'      => XOOPS_URL . '/modules/system/themes/zetadigme/icons/xoops.png'
 );
 
 $menu[] = array(
-    'link'      => 'http://www.xoops.org',
+    'link'      => 'https://www.xoops.org',
     'title'     => 'XOOPS',
     'absolute'  => 1,
     'icon'      => XOOPS_URL . '/modules/system/themes/zetadigme/icons/xoops.png'
 );
 
 $menu[] = array(
-    'link'      => 'http://www.xoops.org/modules/library/',
+    'link'      => 'https://www.xoops.org/modules/library/',
     'title'     => _AD_XOOPSTHEMES,
     'absolute'  => 1,
     'icon'      => XOOPS_URL . '/modules/system/themes/zetadigme/icons/tweb.png'

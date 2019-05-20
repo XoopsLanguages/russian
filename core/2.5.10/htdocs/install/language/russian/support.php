@@ -1,7 +1,8 @@
 <?php
-// $Id$
+//
 // _LANGCODE: ru
 // _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
 
 $supports = array();
 

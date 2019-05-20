@@ -60,7 +60,7 @@ define('_NOT_BOOKMARK_NOTIFYCAP', 'Добавить в закладки (без 
 define('_NOT_BOOKMARK_NOTIFYDSC', 'Следить за этим пунктом без получения каких-либо уведомлений о событиях.');
 // For user profile
 // FIXME: These should be reworded a little...
-define('_NOT_NOTIFYMETHOD', 'Способ уведомления<br /> При наблюдении, например, форум, как бы вы хотели получать уведомления об обновлениях?');
+define('_NOT_NOTIFYMETHOD', 'Способ уведомления<br> При наблюдении, например, форум, как бы вы хотели получать уведомления об обновлениях?');
 define('_NOT_METHOD_EMAIL', 'Email (использовать адрес из моего профиля)');
 define('_NOT_METHOD_PM', 'Личное сообщение');
 define('_NOT_METHOD_DISABLE', 'Временно отключить');

@@ -81,12 +81,13 @@ define('_XOOPS_FORM_ALTYOUTUBE', 'Youtube');
 define('_XOOPS_FORM_ENTER_SOUNDCLOUD_URL', 'Введите URL-адрес SoundCloud');
 define('_XOOPS_FORM_ALT_SOUNDCLOUD', 'SoundСloud');
 define('_XOOPS_FORM_ALTWMP', 'WMP');
-// spoiler
-define('_XOOPS_FORM_ALTSPOILER', 'spoiler');
-define('_XOOPS_FORM_TITLESPOILER', 'Вставить спойлер');
-define('_XOOPS_FORM_ENTERSPOILERTITLE', 'Введите заголовок спойлера');
-define('_XOOPS_FORM_ENTERSPOILERTEXT', 'Введите содержимое спойлера');
-// End spoiler
+// Если установлен Spoiler, необходимо раскоментировать.
+//define('_XOOPS_FORM_ALTSPOILER', 'spoiler');
+//define('_XOOPS_FORM_TITLESPOILER', 'Вставить спойлер');
+//define('_XOOPS_FORM_ENTERSPOILERTITLE', 'Введите заголовок спойлера');
+//define('_XOOPS_FORM_ENTERSPOILERTEXT', 'Введите содержимое спойлера');
+// End Spoiler
+// Если включена функция в модуле EXTGALLERY, необходимо раскоментировать.
 //define("_EXT_EXTGALLERY_ALTWMP","Добавить фотографию из Галереи");
 //define("_EXT_EXTGALLERY_TEXTID","Идентификатор фотографии, которую вы хотите добавить");      
 //define("_EXT_EXTGALLERY_TEXTTITLE","Введите название фотографии");

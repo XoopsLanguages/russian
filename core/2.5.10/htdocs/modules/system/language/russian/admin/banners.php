@@ -45,7 +45,7 @@ define("_AM_SYSTEM_BANNERS_CLICKURLT","Адрес нажатия:");
 define("_AM_SYSTEM_BANNERS_ADDBNR","Добавить банер");
 define("_AM_SYSTEM_BANNERS_ADDNWCLI","Добавить нового клиента");
 define("_AM_SYSTEM_BANNERS_CONTNAMET","Контактное имя:");
-define("_AM_SYSTEM_BANNERS_CONTMAILT","Контактный E-mail:");
+define("_AM_SYSTEM_BANNERS_CONTMAILT","Контактный Email:");
 define("_AM_SYSTEM_BANNERS_CLILOGINT","Имя клиента для входа:");
 define("_AM_SYSTEM_BANNERS_CLIPASST","Пароль клиента:");
 define("_AM_SYSTEM_BANNERS_ADDCLI","Добавить клиента");

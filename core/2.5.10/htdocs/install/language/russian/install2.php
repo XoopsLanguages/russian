@@ -1,17 +1,17 @@
 <?php
-// $Id: install2.php 3192 2009-04-19 15:14:21Z catzwolf $
+//
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2009-09-14 andrey3761
+// Translator: XOOPS Translation Team
 // License
 define('LICENSE_NOT_WRITEABLE','Лицензия %s не установлена.<br><span style="colour:#ff0000">Установите файлу ../include/license.php права на запись.</span>');
 define('LICENSE_IS_WRITEABLE','Лицензия %s установлена');
-define("_INSTALL_WEBMASTER","Web-Мастера");
-define("_INSTALL_WEBMASTERD","Веб-мастера этого сайта");
-define("_INSTALL_REGUSERS","Зарегистрированные пользователи");
-define("_INSTALL_REGUSERSD","Группа зарегистрированных пользователей");
-define("_INSTALL_ANONUSERS","Анонимные пользователи");
-define("_INSTALL_ANONUSERSD","Группа анонимных пользователей");
+define('_INSTALL_WEBMASTER','Web-Мастера');
+define('_INSTALL_WEBMASTERD','Веб-мастера этого сайта');
+define('_INSTALL_REGUSERS','Зарегистрированные пользователи');
+define('_INSTALL_REGUSERSD','Группа зарегистрированных пользователей');
+define('_INSTALL_ANONUSERS','Анонимные пользователи');
+define('_INSTALL_ANONUSERSD','Группа анонимных пользователей');
 /**
 * New Group types
 */
@@ -23,9 +23,9 @@ define('_INSTALL_SUBMITTERUSERS','Отправители');
 define('_INSTALL_SUBMITTERUSERSD','Эта группа может отправлять статьи на сайт');
 define('_INSTALL_DEVELOPEUSERS','Разработчики');
 define('_INSTALL_DEVELOPEUSERSD','Этот пользователь имеет привилегии разработчика и может видеть отладочные сообщения.');
-define("_INSTALL_L165","В настоящее время сайт закрыт на техническое обслуживание. Извините за предоставленные неудобства.");
-define("_INSTALL_ANON","Гость");
-define("_INSTALL_DISCLMR","Администраторы и модераторы этого сайта будут
+define('_INSTALL_L165','В настоящее время сайт закрыт на техническое обслуживание. Извините за предоставленные неудобства.');
+define('_INSTALL_ANON','Гость');
+define('_INSTALL_DISCLMR','Администраторы и модераторы этого сайта будут
 пытаться удалять или редактировать любой нежелательный материал настолько
 быстро, насколько это возможно, но невозможно просматривать каждое сообщение.
 Поэтому знайте, что все сообщения сделанные на этом сайте выражают точку
@@ -55,4 +55,4 @@ define("_INSTALL_DISCLMR","Администраторы и модераторы 
 подтверждения Ваших данных при регистрации и смене пароля (и для передачи
 нового пароля в случае, если Вы забыли текущий). 
 
-Нажимая на кнопку регистрации Вы соглашаетесь с этими условиями.");
+Нажимая на кнопку регистрации Вы соглашаетесь с этими условиями.');

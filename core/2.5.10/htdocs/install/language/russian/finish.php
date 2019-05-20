@@ -1,7 +1,8 @@
 <?php
-// $Id: finish.php 2768 2009-02-05 02:40:31Z phppp $
+//
 // _LANGCODE: ru
 // _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
 
 $content .= "<h3>Ваш сайт</h3>
 <p>Теперь Вы можете получить доступ к <a href='../index.php'>домашней странице сайта</a>.</p>

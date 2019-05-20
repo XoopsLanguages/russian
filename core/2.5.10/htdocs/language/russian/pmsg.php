@@ -10,7 +10,7 @@ define('_PM_INBOX', 'Входящие');
 define('_PM_FROM', 'От');
 define('_PM_YOUDONTHAVE', 'У Вас нет личных сообщений');
 define('_PM_FROMC', 'От: ');
-define('_PM_SENTC', 'Отправлено: '); // The date of message sent
+define('_PM_SENTC', 'Отправлено: '); // Дата отправки сообщения
 define('_PM_PROFILE', 'Профиль');
 // %s is a username
 define('_PM_PREVIOUS', 'Предыдущее сообщение');
@@ -39,7 +39,7 @@ define('_PM_SEND', 'Отправить');
 define('_PM_DELETE', 'Удалить');
 define('_PM_REPLY', 'Ответить');
 define('_PM_PLZREG', 'Пожалуйста, зарегистрируйтесь, чтобы отправлять личные сообщения!');
-define('_PM_ONLINE', 'Online');
+define('_PM_ONLINE', 'Онлайн');
 //XOOPS 2.5.2
 define('_PM_SURE_TO_DELETE', 'Вы уверены, что хотите удалить эти сообщения(е)?');
 //XOOPS 2.5.5

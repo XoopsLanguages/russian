@@ -19,7 +19,7 @@ define('_AM_SYSTEM_USERS_NAV_TIPS', '
 // Main
 define('_AM_SYSTEM_USERS_USER', 'Пользователь');
 define('_AM_SYSTEM_USERS_ADMIN', 'Администратор');
-define('_AM_SYSTEM_USERS_UID', 'Пользователь ID');
+define('_AM_SYSTEM_USERS_UID', 'ID пользователя');
 define('_AM_SYSTEM_USERS_STATUS', 'Статус');
 define('_AM_SYSTEM_USERS_NAME', 'Имя');
 define('_AM_SYSTEM_USERS_UNAME', 'Имя пользователя');
@@ -34,7 +34,7 @@ define('_AM_SYSTEM_USERS_FINDUS', 'Найти пользователей');
 define('_AM_SYSTEM_USERS_AVATAR', 'Аватар');
 define('_AM_SYSTEM_USERS_REALNAME', 'Реальное имя');
 define('_AM_SYSTEM_USERS_REGDATE', 'Дата регистрации');
-define('_AM_SYSTEM_USERS_PM', 'PM');
+define('_AM_SYSTEM_USERS_PM', 'ЛС');
 define('_AM_SYSTEM_USERS_URL', 'Web URL');
 define('_AM_SYSTEM_USERS_PREVIOUS', 'Предыдущий');
 define('_AM_SYSTEM_USERS_NEXT', 'Следующий');
@@ -145,4 +145,4 @@ define('_AM_SYSTEM_USERS_INACTIVEUSER', 'Только неактивные по�
 define('_AM_SYSTEM_USERS_PSEUDO_ERROR', 'Имя пользователя %s уже существует');
 define('_AM_SYSTEM_USERS_MAIL_ERROR', 'Такой email %s уже существует');
 //2.5.4
-define('_AM_SYSTEM_USERS_ACCEPT_EMAIL', 'Примите email от администратора');
+define('_AM_SYSTEM_USERS_ACCEPT_EMAIL', 'Принимать электронную почту от администратора');

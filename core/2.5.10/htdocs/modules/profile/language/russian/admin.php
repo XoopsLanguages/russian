@@ -24,7 +24,7 @@ define("_PROFILE_AM_WEIGHT","Вес");
 define("_PROFILE_AM_DEFAULT","По умолчанию");
 define("_PROFILE_AM_NOTNULL","Не пустое?");
 define("_PROFILE_AM_ARRAY","Массив");
-define("_PROFILE_AM_EMAIL","E-mail");
+define("_PROFILE_AM_EMAIL","Email");
 define("_PROFILE_AM_INT","Число");
 define("_PROFILE_AM_TXTAREA","Блок текста");
 define("_PROFILE_AM_TXTBOX","Текстовое поле");

@@ -16,7 +16,7 @@ define('_AM_SYSTEM_TEMPLATES_NAV_TIPS', '
 <li>Если Вы форсируете генерацию, все предыдущие изменения будут удалены.</li>
 </ul>
 ');
-define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES', 'Ваши темы :');
+define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES', 'Ваши темы:');
 define('_AM_SYSTEM_TEMPLATES_GENERATE', 'Сгенерировать шаблон');
 define('_AM_SYSTEM_TEMPLATES_SELECT_THEME', 'Выберите тему');
 define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED', 'Принудительная генерация файла');
@@ -26,9 +26,9 @@ define('_AM_SYSTEM_TEMPLATES_SAVE', 'Сохранить');
 define('_AM_SYSTEM_TEMPLATES_RESTORE', 'Восстановить');
 define('_AM_SYSTEM_TEMPLATES_CANCEL', 'Отмена');
 define('_AM_SYSTEM_TEMPLATES_ERROR', 'Ошибка');
-define('_AM_SYSTEM_TEMPLATES_EDIT', 'Редактировать :');
+define('_AM_SYSTEM_TEMPLATES_EDIT', 'Редактировать:');
 define('_AM_SYSTEM_TEMPLATES_SELECT_MODULES', 'Выбор модуля');
-define('_AM_SYSTEM_TEMPLATES_MODULES', 'Модуль : ');
+define('_AM_SYSTEM_TEMPLATES_MODULES', 'Модуль: ');
 define('_AM_SYSTEM_TEMPLATES_FILES', 'Файл');
 define('_AM_SYSTEM_TEMPLATES_EMPTY_FILE', 'Пустой файл');
 define('_AM_SYSTEM_TEMPLATES_TYPES', 'Тип');

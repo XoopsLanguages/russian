@@ -1,7 +1,8 @@
 <?php
-// $Id: welcome.php 5529 2010-10-18 02:16:05Z beckmi $
+//
 // _LANGCODE: ru
 // _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
 
 $content .= '
 <p>

@@ -62,13 +62,13 @@ define('_AM_SYSTEM_MAINTENANCE','Техническое обслуживание
 define('_AM_SYSTEM_MAINTENANCE_DESC','Инструменты для работы с таблицами базы данных, очистка папок кэша и сесий');
 // Messages
 define('_AM_SYSTEM_DBUPDATED','База данных успешно обновлена!');
-define('_AM_SYSTEM_DBERROR','База данных не была обновлена в связи с  ошибками!');
+define('_AM_SYSTEM_DBERROR','База данных не была обновлена в связи с ошибками!');
 define('_AM_SYSTEM_NOTACTIVE','Эта секция не активирована!');
 // Group permission phrases
 define('_MD_AM_PERMADDNG','Невозможно добавить права %s в %s для группы %s');
 define('_MD_AM_PERMADDOK','Права %s в %s для группы %s успешно добавлены');
 define('_MD_AM_PERMRESETNG','Невозможно сбросить права группы для модуля %s');
-define('_MD_AM_PERMADDNGP','Должны быть выбраны все родительские записи.');
+define('_MD_AM_PERMADDNGP','Необходимо выбрать все родительские элементы.');
 define('_AM_SYSTEM_UNINSTALL','Удалить');
 //2.5.7
 define('_AM_SYSTEM_USAGE','Использованно');
