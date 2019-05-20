@@ -4,7 +4,7 @@
 // Translator: XOOPS Translation Team
 define('_XO_ER_FILENOTFOUND','Запрошенный файл: <b>%s</b> не найден');
 define('_XO_ER_CLASSNOTFOUND','Запрашиваемый класс %s не найден');
-// Error Pages TXMod Xoops
+// Страници ошибок если установлен модуль TXMod Xoops
 define('_XO_ER_TITLE400', 'Error 400 - Bad Request');
 define('_XO_ER_DESC400', 'К сожалению, сделан неверный запрос. Воспользуйтесь поиском или перейдите на Главную страницу.<br>Через 15 секунд Вы будете перенаправлены на Главную страницу.');
 define('_XO_ER_TITLE401', 'Error 401 - Authorization required');

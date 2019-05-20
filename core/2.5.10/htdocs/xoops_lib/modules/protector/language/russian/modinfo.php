@@ -9,7 +9,7 @@ if (defined('FOR_XOOPS_LANG_CHECKER') || !defined($constpref . '_LOADED')) {
     define($constpref . '_LOADED', 1);
 
     // The name of this module
-    define($constpref . '_NAME', 'Протектор');
+    define($constpref . '_NAME', 'Protector');
 
     // A brief description of this module
     define($constpref . '_DESC', 'Этот модуль защищает Ваш сайт XOOPS от различных атак, таких как DoS, SQL-инъекция и заражение переменных.');
@@ -44,8 +44,8 @@ if (defined('FOR_XOOPS_LANG_CHECKER') || !defined($constpref . '_LOADED')) {
     define($constpref . '_HIJACK_TOPBITDSC', 'Антисеансный Hi-Jacking:<br>По умолчанию 24/56 (netmask for IPV4/IPV6). (Все биты защищены)<br>Если ваш IP-адрес нестабилен, установите диапазон IP по количеству бит.<br>(например) Если ваш IP-адрес может перемещаться в диапазоне 192.168.0.0-192.168.0.255, установите 24 (бит)');
     define($constpref . '_HIJACK_DENYGP', 'Группы, запрещенные IP-перемещением в сеансе');
     define($constpref . '_HIJACK_DENYGPDSC', 'Антисеансный Hi-Jacking:<br>Выберите группы, которые запрещены для перемещения своего IP-адреса в сеансе.<br>(Я рекомендую включить администратора.)');
-    define($constpref . '_SAN_NULLBYTE', 'Sanitizing null-bytes');
-    define($constpref . '_SAN_NULLBYTEDSC', 'Конечный символ "\\0" часто используется во вредоносных атаках.<br>нуль-байт будет изменен на пробел.<br />(настоятельно рекомендуется использовать)');
+    define($constpref . '_SAN_NULLBYTE', 'Очистка null-байтов');
+    define($constpref . '_SAN_NULLBYTEDSC', 'Конечный символ "\\0" часто используется во вредоносных атаках.<br>нуль-байт будет изменен на пробел.<br>(настоятельно рекомендуется использовать)');
     define($constpref . '_DIE_NULLBYTE', 'Выход, если найдены нулевые байты');
     define($constpref . '_DIE_NULLBYTEDSC', 'Конечный символ "\\0" часто используется во вредоносных атаках.<br>(настоятельно рекомендуется использовать)');
     define($constpref . '_DIE_BADEXT', 'Выход, если загружены плохие файлы');
@@ -57,12 +57,12 @@ if (defined('FOR_XOOPS_LANG_CHECKER') || !defined($constpref . '_LOADED')) {
     define($constpref . '_UNION_ACTION', 'Действие, если UNION найден');
     define($constpref . '_UNION_ACTIONDSC', 'Анти SQL Injection:<br>Выберите действие, когда какой-то синтаксис, например UNION из SQL.<br>«Sanitizing» означает изменение  "union" на "uni-on".<br>(Рекомендуемый вариант - Sanitizing)');
     define($constpref . '_ID_INTVAL', 'Принудительно использовать переменные типа id');
-    define($constpref . '_ID_INTVALDSC', 'Все запросы, названные "*id" будет рассматриваться как целое.<br />Этот вариант защищает Вас от каких-либо XSS иnu SQL Injections.<br>Хотя я рекомендую включить эту опцию, это может вызвать проблемы с некоторыми модулями.');
+    define($constpref . '_ID_INTVALDSC', 'Все запросы, названные "*id" будет рассматриваться как целое.<br>Этот вариант защищает Вас от каких-либо XSS иnu SQL Injections.<br>Хотя я рекомендую включить эту опцию, это может вызвать проблемы с некоторыми модулями.');
     define($constpref . '_FILE_DOTDOT', 'Защита от обращений к каталогам');
     define($constpref . '_FILE_DOTDOTDSC', 'Он устраняет ".." из всех запросов');
 
-    define($constpref . '_BF_COUNT', 'Анти Brute Force');
-    define($constpref . '_BF_COUNTDSC', 'Установите количество, которым Вы разрешите гостевые попытки входа в систему за 10 минут. Если кто-то не сможет войти в систему больше, чем это число, его/ее IP-адрес будет запрещен.');
+    define($constpref . '_BF_COUNT', 'Анти-Грубая Сила');
+    define($constpref . '_BF_COUNTDSC', 'Установите количество, которое Вы позволите гостю попытаться войти в течение 10 минут. Если кто-то не сможет войти в систему больше указанных попыток, его/ее IP-адрес будет запрещен.');
 
     define($constpref . '_BWLIMIT_COUNT', 'Ограничение пропускной способности');
     define($constpref . '_BWLIMIT_COUNTDSC', 'Укажите максимальный доступ к файлу mainfile.php во время просмотра. Это значение должно быть 0 для обычных сред, которые имеют достаточную пропускную способность процессора. Число меньше 10 будет проигнорировано.');

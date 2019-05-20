@@ -1,6 +1,6 @@
 <?php
 // 
-// _LANGCODE: en
+// _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 define("_PROFILE_MI_NAME","Профиль пользователя");
@@ -20,7 +20,7 @@ define("_PROFILE_MI_PERMISSIONS","Права доступа");
 define("_PROFILE_MI_CATEGORY_TITLE","Профиль пользователя");
 define("_PROFILE_MI_CATEGORY_DESC","Для этих пользовательских полей");
 //User Profile Fields
-define("_PROFILE_MI_URL_TITLE","Вебсайт");
+define("_PROFILE_MI_URL_TITLE","Веб сайт");
 //Configuration categories
 define("_PROFILE_MI_CAT_SETTINGS","Основные настройки");
 define("_PROFILE_MI_CAT_SETTINGS_DSC","");

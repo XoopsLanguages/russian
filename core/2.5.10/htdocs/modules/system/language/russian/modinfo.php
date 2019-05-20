@@ -51,7 +51,7 @@ define('_MI_SYSTEM_PREFERENCE_ACTIVE_COMMENTS','Активные коммент�
 define('_MI_SYSTEM_PREFERENCE_ACTIVE_FILEMANAGER','Активный файловый менеджер');
 define('_MI_SYSTEM_PREFERENCE_ACTIVE_GROUPS','');
 define('_MI_SYSTEM_PREFERENCE_ACTIVE_IMAGES','Активный менеджер рисунков');
-define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAILUSERS','Активные пользователи Е-mail');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAILUSERS','Активные Еmail пользователи');
 define('_MI_SYSTEM_PREFERENCE_ACTIVE_MODULESADMIN','');
 define('_MI_SYSTEM_PREFERENCE_ACTIVE_PREFERENCES','');
 define('_MI_SYSTEM_PREFERENCE_ACTIVE_SMILIES','Активные смайлики');

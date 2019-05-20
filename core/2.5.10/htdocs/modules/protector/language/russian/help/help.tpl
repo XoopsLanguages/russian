@@ -1,5 +1,5 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Back to the administration of Protector"> Protector</a> <img src="<{xoAdminIcons home.png}>" alt="Back to the administration of Protector"/></h1>
+    <h1 class="head">Помощь: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Back to the administration of Protector"> Protector</a> <img src="<{xoAdminIcons home.png}>" alt="Back to the administration of Protector"/></h1>
     <!-- -----Help Content ---------- -->
     <h4 class="odd">Описание</h4>
 

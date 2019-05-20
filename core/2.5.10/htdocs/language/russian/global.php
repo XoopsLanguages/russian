@@ -30,7 +30,7 @@ define('_XOBJ_ERR_SHORTERTHAN', '%s должен быть короче, чем %
 // %%%%%%    File Name themeuserpost.php     %%%%%
 define('_PROFILE', 'Профиль');
 define('_POSTEDBY', 'Сообщений');
-define('_VISITWEBSITE', 'Посетить Website');
+define('_VISITWEBSITE', 'Посетить веб сайт');
 define('_SENDPMTO', 'Отправить личное сообщение для %s');
 define('_SENDEMAILTO', 'Отправить Email для %s');
 define('_ADD', 'Добавить');
@@ -203,7 +203,7 @@ define('_MEDIUMDATESTRING', 'Y/n/j G:i');
 //define('_SHORTDATESTRING','n/j/Y');
 define('_SHORTDATESTRING', 'm/d/Y');
 /**
- * The following characters are recognized in the format string:
+ * Следующие символы распознаются в строке формата:
  * a - 'am' or 'pm'
  * A - 'AM' or 'PM'
  * d - day of the month, 2 digits with leading zeros; i.e. '01' to '31'
@@ -231,10 +231,10 @@ define('_SHORTDATESTRING', 'm/d/Y');
  * z - day of the year; i.e. '0' to '365'
  * Z - timezone offset in seconds (i.e. '-43200' to '43200')
  */
-// %%%%%        LANGUAGE SPECIFIC SETTINGS   %%%%%
+// %%%%%        ЯЗЫК ОСОБЫЕ НАСТРОЙКИ   %%%%%
 define('_CHARSET', 'UTF-8');
 define('_LANGCODE', 'ru');
-// change 0 to 1 if this language is a multi-bytes language
+// измените 0 на 1, если этот язык является многобайтовым языком
 define('XOOPS_USE_MULTIBYTES', '1');
 /**
  * Additions to 2.4.0

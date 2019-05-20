@@ -1,4 +1,8 @@
 <?php
+//
+// _LANGCODE: ru
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
 
 define('_AM_XMF_MODULE_NOTFOUND','Пожалуйста, установите или активируйте %1$s модуль. Требуемая минимальная версия: %2$s');
 define('_AM_XMF_MODULE_VERSION','Требуется минимальная версия модуля %1$s: %2$s (Ваша версия %3$s)');

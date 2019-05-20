@@ -18,6 +18,9 @@
  * @since               2.3.0
  * @author              Taiwen Jiang <phppp@users.sourceforge.net>
  */
+//
+// _LANGCODE: ru
+// _CHARSET : UTF-8
 defined('XOOPS_ROOT_PATH') || exit('Restricted access');
 /**
  * Localize the mail functions

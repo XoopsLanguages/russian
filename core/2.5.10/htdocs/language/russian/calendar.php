@@ -15,7 +15,7 @@ define('_CAL_FORMAT', _SHORTDATESTRING);
 define('_CAL_JQUERY_FORMAT', 'yy/mm/dd');
 // Week Mini Text
 define('_CAL_MIN_SUNDAY', 'Вс');
-define('_CAL_MIN_MONDAY', 'Пон');
+define('_CAL_MIN_MONDAY', 'Пн');
 define('_CAL_MIN_TUESDAY', 'Вт');
 define('_CAL_MIN_WEDNESDAY', 'Ср');
 define('_CAL_MIN_THURSDAY', 'Чет');
@@ -23,7 +23,7 @@ define('_CAL_MIN_FRIDAY', 'Пят');
 define('_CAL_MIN_SATURDAY', 'Суб');
 // Week Short Text
 define('_CAL_SHORT_SUNDAY', 'Вс');
-define('_CAL_SHORT_MONDAY', 'Пон');
+define('_CAL_SHORT_MONDAY', 'Пн');
 define('_CAL_SHORT_TUESDAY', 'Вт');
 define('_CAL_SHORT_WEDNESDAY', 'Ср');
 define('_CAL_SHORT_THURSDAY', 'Чет');

@@ -20,7 +20,7 @@ define('_CM_PARENT', 'Родитель');
 define('_CM_TOP', 'Верх');
 define('_CM_BOTTOM', 'Низ');
 define('_CM_ONLINE', 'Онлайн!');
-define('_CM_POSTED', 'Дата публикации'); // Posted date
+define('_CM_POSTED', 'Дата публикации'); // Дата публикации
 define('_CM_UPDATED', 'Обновленный');
 define('_CM_THREAD', 'Текст');
 define('_CM_POSTER', 'Автор');
@@ -42,4 +42,4 @@ define('_CM_COMANONPOST', 'Разрешить анонимные коммент�
 define('_CM_COMNOCOM', 'Отключить комментарии');
 define('_CM_USER', 'Имя');
 define('_CM_EMAIL', 'Email');
-define('_CM_URL', 'Website');
+define('_CM_URL', 'Веб сайт');

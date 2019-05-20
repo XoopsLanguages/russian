@@ -25,11 +25,11 @@ define('_MB_SYSTEM_MFLS','Измененных файлов');
 define('_MB_SYSTEM_TDMDOWNLOADS','Ожидающих файлов');
 define('_MB_SYSTEM_EXTGALLERY','Ожидающих фотографий');
 define('_MB_SYSTEM_SMARTSECTION','Статей');
-define('_MB_SYSTEM_HOME','Главная'); // link to home page in main menu block
+define('_MB_SYSTEM_HOME','Главная'); // ссылка на главную страницу в блоке главного меню
 define('_MB_SYSTEM_RECO','Рекомендуйте нас');
 define('_MB_SYSTEM_PWWIDTH','Ширина всплывающего окна');
 define('_MB_SYSTEM_PWHEIGHT','Высота всплывающего окна');
-define('_MB_SYSTEM_LOGO','Изображение логотипа, находящееся в каталоге %s');  // %s is your root image directory name
+define('_MB_SYSTEM_LOGO','Изображение логотипа, находящееся в каталоге %s');  // %s имя каталога корневого образа
 define('_MB_SYSTEM_COMPEND','Комментарии');
 //define('_MB_SYSTEM_LOGGEDINAS','Пользователь');
 define('_MB_SYSTEM_SADMIN','Показать группу администраторов');

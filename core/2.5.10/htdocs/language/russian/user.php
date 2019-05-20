@@ -72,7 +72,7 @@ define('_US_ACTVMAILNG', 'Ошибка отправки уведомлений �
 define('_US_ACTVMAILOK', 'Уведомление по E-mail к %s отправлено.');
 //%%%%%%        File Name userinfo.php         %%%%%
 define('_US_SELECTNG', 'Пользователь не выбран! Пожалуйста вернитесь и попробуйте снова.');
-define('_US_PM', 'PM');
+define('_US_PM', 'ЛС');
 define('_US_ICQ', 'ICQ');
 define('_US_AIM', 'AIM');
 define('_US_YIM', 'YIM');

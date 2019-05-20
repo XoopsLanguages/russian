@@ -1,5 +1,5 @@
 <?php
-// _LANGCODE: en
+// _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
@@ -14,11 +14,11 @@ define('_XOOPS_UPGRADE_WELCOME', <<<'EOT'
 После каждого патча скрипт сообщит о статусе и дождитесь продолжения ввода. В
 конце обновления, управление переходит к функции обновления системного модуля.
 
-<div class="alert alert-warning">
+<div class='alert alert-warning'>
 Как только обновление будет завершено, не забудьте:
-<ul class="fa-ul">
- <li><span class="fa-li fa fa-folder-open-o"></span> удалить папку обновления</li>
- <li><span class="fa-li fa fa-refresh"></span> обновить все измененные модули</li>
+<ul class='fa-ul'>
+ <li><span class='fa-li fa fa-folder-open-o'></span> удалить папку обновления</li>
+ <li><span class='fa-li fa fa-refresh'></span> обновить все измененные модули</li>
 </div>
 
 EOT

@@ -5,7 +5,7 @@
 INSERT INTO ranks VALUES (1, 'Новичок', 0, 20, 0, 'ranks/rank3e632f95e81ca.gif');
 INSERT INTO ranks VALUES (2, 'Пишущий редко', 21, 40, 0, 'ranks/rank3dbf8e94a6f72.gif');
 INSERT INTO ranks VALUES (3, 'Пишущий регулярно', 41, 70, 0, 'ranks/rank3dbf8e9e7d88d.gif');
-INSERT INTO ranks VALUES (4, 'Редко уходящий отсюда', 71, 150, 0, 'ranks/rank3dbf8ea81e642.gif');
+INSERT INTO ranks VALUES (4, 'Постоянный автор', 71, 150, 0, 'ranks/rank3dbf8ea81e642.gif');
 INSERT INTO ranks VALUES (5, 'Местный житель', 151, 10000, 0, 'ranks/rank3dbf8eb1a72e7.gif');
 INSERT INTO ranks VALUES (6, 'Модератор', 0, 0, 1, 'ranks/rank3dbf8edf15093.gif');
 INSERT INTO ranks VALUES (7, 'Администратор', 0, 0, 1, 'ranks/rank3dbf8ee8681cd.gif');

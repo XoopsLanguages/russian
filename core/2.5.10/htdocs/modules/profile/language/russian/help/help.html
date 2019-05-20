@@ -1,38 +1,38 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/profile/admin/index.php" title="Back to the Administration of Profile"> Profile <img src="<{xoAdminIcons home.png}>" alt="Back to the Administration of Profile"/></a></h1>
+    <h1 class="head">Помощь: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/profile/admin/index.php" title="Назад к настройкам"> Профиль <img src="<{xoAdminIcons home.png}>" alt="Назад к настройкам"/></a></h1>
     <!-- -----Help Content ---------- -->
-    <h4 class="odd">DESCRIPTION</h4>
+    <h4 class="odd">ОПИСАНИЕ:</h4>
 
-    <p class="even">The Profile module is for managing custom user profile fields.</p>
-    <h4 class="odd">INSTALL/UNINSTALL</h4>
+    <p class="even">Модуль Профиль предназначен для управления настраиваемыми полями профиля пользователя.</p>
+    <h4 class="odd">УСТАНОВКА/УДАЛЕНИЕ</h4>
 
-    <p>No special measures necessary, follow the standard installation process – extract the /profile folder into the ../modules directory. Install the module through Admin -> System Module -> Modules.</p>
+    <p>Никаких специальных мер не требуется, следуйте стандартному процессу установки - извлеките папку /profile в директорию ../modules. Установить модуль через Администрирование -> Системные модули -> Модули.</p>
 
-    <p>Detailed instructions on installing modules are available in the <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS Operations Manual">XOOPS Operations Manual</a> <br><br></p>
-    <h4 class="odd">OPERATING INSTRUCTIONS</h4>
+    <p>Подробные инструкции по установке модулей приведены в <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS Operations Manual">XOOPS Operations Manual</a> <br><br></p>
+    <h4 class="odd">РУКОВОДСТВО ПО ОБСЛУЖИВАНИЮ</h4>
 
-    <p class="even">To set up this module you need to:</p>
+    <p class="even">Для настройки этого модуля необходимо:</p>
     <ul>
-        <li>Configure your preferences for the module (see ‘Preferences’) and optionally the Profile block if you intend to use it (see ‘Blocks’).</li>
-        <li>Edit existing Categories or add new ones.</li>
-        <li>Edit existing Fields or add new ones. Here you can specify which fields will be visible in which category, and if they will be visible during user registration.</li>
-        <li>Define the order of Registration steps.</li>
-        <li>And finally, you can set permissions for individual fields - which ones are editable, which ones are searchable.<br><br></li>
+        <li>Настройте свои настройки для модуля (см. "настройки") и, возможно, блока профиля, Если вы собираетесь его использовать (см. "Блоки").</li>
+        <li>Редактировать существующие категории или добавлять новые.</li>
+        <li>Редактировать существующие поля или добавлять новые. Здесь можно указать, какие поля будут видны в какой категории и будут ли они видны при регистрации пользователя.</li>
+        <li>Определите порядок шагов регистрации.</li>
+        <li>И, наконец, Вы можете установить права для отдельных полей - какие из них доступны для редактирования, какие - для поиска.<br><br></li>
     </ul>
-    <h4 class="odd">Anti-Spam measures</h4>
+    <h4 class="odd">Меры по борьбе со спамом</h4>
 
-    <p class="even">To minimize spam registrations, do the following:</p>
+    <p class="even">Чтобы свести к минимуму регистрацию спама, выполните следующие действия:</p>
 
     <ul>
-        <li> go to the Protector module in Admin, go to Preferences, and then at the bottom, at this option:
+        <li> перейти в модуль Protector в Панели управления, перейдите в Настройки, а потом внизу, в этой опции:
 
-            "Stop Forum Spam"
-            Checks POST data against spammers registered on www.stopforumspam.com database. <br>
-            Set it to "Ban the IP (no limit)"
+            "Остановить спам на форуме"
+            Проверяет данные POST против спамеров, зарегистрированных в базе данных на www.stopforumspam.com. <br>
+            Установите его в "запретить IP (без ограничений)"
         </li>
         <br>
 
-        <li> in /class/captcha/config.php, make sure that the mode is set as "text":<br><br>
+        <li> в /class/captcha/config.php, убедитесь, что режим установлен как "текст":<br><br>
 
     <span style="font-style: italic;">     return $config = array(<br>
     'disabled' => false, // Disable CAPTCHA<br>
@@ -43,20 +43,20 @@
     );</span></li>
         <br>
 
-        <li> In the Profile module, go to Admin and in the Basic step located at:<br>
+        <li> В модуле Профиль перейдите в Панели управления и в основной шаг, расположенный по адресу:<br>
 
             /modules/profile/admin/step.php?id=1<br>
 
-            set the "Save after stop" to "No"
+            установите "сохранить после остановки" в "нет"
         </li>
         <br><br>
 
-        <li> In Profile Preferences, set the "Use Captcha after the second Registration step" Option to "Yes" (it is the default)</li>
+        <li> В настройках профиля установите для параметра "использовать Captcha после второго шага регистрации" значение "да" (по умолчанию)</li>
         <br>
         <ul>
 
-            <h4 class="odd">TUTORIAL</h4>
+            <h4 class="odd">РУКОВОДСТВО</h4>
 
-            <p class="even">Tutorial coming soon.<br></p>
+            <p class="even">Учебник будет в ближайшее время.<br></p>
             <!-- -----Help Content ---------- -->
 </div>

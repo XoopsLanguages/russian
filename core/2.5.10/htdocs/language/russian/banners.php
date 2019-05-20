@@ -6,7 +6,7 @@
 define('_BANNERS_MANAGEMENT','Менеджер банеров');
 define('_BANNERS_WELCOMEBACK','Добро пожаловать: %s');
 //define('_BANNERS_LOGGEDOUT','Выход из панели рекламы');
-define('_BANNERS_LOGOUT','Выйти из Менеджера банеров');//
+define('_BANNERS_LOGOUT','Выйти из Менеджера банеров');
 define('_BANNERS_LOGIN_TITLE','Статистика показов');
 define('_BANNERS_LOGIN_LOGIN','Логин:');
 define('_BANNERS_LOGIN_INCORRECT','Неверное имя пользователя или пароль');
