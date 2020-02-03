@@ -196,7 +196,7 @@ define("_MD_LEXIKON_TERMOFTHEDAY","Термин дня");
 define("_MD_LEXIKON_SYNDICATION","Для веб-мастеров");
 define("_MD_LEXIKON_SYNCODE","&lt;iframe style='background-color: #FFFFFF'; marginwidth=0 marginheight=0 width='220' height='260' src='%s/modules/%s/syndication.php' frameborder='0' topmargin='0' leftmargin='0' scrolling='no' allowtransparency='true' /&gt; [Ваш браузер не поддерживает фреймы или настроен не отображать фреймы.]</iframe>");
 define("_MD_LEXIKON_SUB_SYNNAME","Бесплатный контент для веб-мастеров Вашего сайта");
-define("_MD_LEXIKON_INTROCONTENTSYN","Вам нравится глоссарии определения на %s ? Теперь вы можете легко интегрировать наши Словарь специальных терминов-определений на Вашем сайте. Просто скопируйте приведенный ниже HTML-код.");
+define("_MD_LEXIKON_INTROCONTENTSYN","Вам нравится глоссарии определения на %s ? Теперь Вы можете легко интегрировать Словарь специальных терминов-определений на Вашем сайте. Просто скопируйте приведенный ниже HTML-код.");
 define("_MD_LEXIKON_POWER","Powered by ");
 define("_MD_LEXIKON_SYNEXPLAIN1","нажмите кнопку 'выбрать' или скопировать HTML-код с помощью CTRL + C.");
 define("_MD_LEXIKON_SYNEXPLAIN2","Добавьте сценарий, где вы хотите (используя сочетание клавиш CTRL + V или контекстное меню мыши (->Вставить)).");
