@@ -88,7 +88,7 @@ define('_MD_YOGURT_FRIENDSHIPCONFIGS', 'Установите конфиги эт
 define('_MD_YOGURT_EDITFRIENDSHIP', 'Ваша дружба с этим участником:');
 define('_MD_YOGURT_FRIENDNAME', 'Имя пользователя');
 define('_MD_YOGURT_LEVEL', 'Уровень дружбы:');
-define('_MD_YOGURT_UNKNOWNACCEPTED', "Не встретил принят");
+define('_MD_YOGURT_UNKNOWNACCEPTED', "Неизвестный друг");
 define('_MD_YOGURT_AQUAITANCE', 'Знакомые'); //также присутствует в index.php
 define('_MD_YOGURT_FRIEND', 'Друг'); //также присутствует в index.php
 define('_MD_YOGURT_BESTFRIEND', 'Лучший друг'); //также присутствует в index.php
