@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>XOOPS Installation Instructions</title>
+    <meta name="keywords" content="XOOPS" />
+    <meta name="description" content="XOOPS installation guide" />
+    <style type="text/css">
+        body {
+            font-family:                        Lucida Grande, Verdana, Geneva, Sans-serif;
+            margin:                             0;
+            padding:                            0;
+            font-size:                          13px;
+            color:                              #333;
+            background-color:                   #fff;
+        }
+
+        a {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+            font-weight:                        normal;
+        }
+
+        a:visited {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+        }
+
+        a:hover {
+            color:                              #3D9DD3;
+            text-decoration:                    none;
+            background-color:                   transparent;
+        }
+
+        .page {
+            background-color:                   #fff;
+            margin:                             10px 30px 0;
+            padding:                            0;
+        }
+
+        .page h1 {
+            background-color:                   transparent;
+            border-bottom:                      1px solid #999;
+            color:                              #000;
+            font-size:                          18px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h2 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          16px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h3 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          14px;
+            font-weight:                        bold;
+        }
+
+        .page ul {
+            margin:                             20px 0 15px 0;
+        }
+
+        .page li {
+            margin-bottom:                      9px;
+        }
+
+        .page li p {
+            margin-left:                        0;
+            margin-right:                       0;
+        }
+
+        p {    }
+
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <h1>Установка XOOPS</h1>
+
+    <h2>Первоначальная установка</h2>
+    <h3>Предисловие:</h3>
+    <p>
+        <abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> — это система веб-публикаций с открытым исходным кодом, объектно-ориентированная, написанная на PHP. Это идеальный инструмент для разработки как малых, так и крупных динамических веб-сайтов сообществ, внутрикорпоративных порталов, корпоративных порталов, веб-журналов и многого другого.
+    </p>
+    <p>
+        XOOPS выпущен на условиях
+        <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU General Public License (GPL)</a>
+        версии 2 или более поздней и является бесплатным для использования и изменения.
+        Он бесплатен для распространения при условии соблюдения вами условий распространения GPL.
+    </p>
+
+    <h2>Требования</h2>
+    <ul>
+        <li>WWW-сервер (<a href="http://www.apache.org/" rel="external">Apache</a>, <a href="https://www.nginx.com/" rel="external"s>NGINX</a>, IIS и т. д.)</li>
+        <li><a href="https://www.php.net/" rel="external">PHP</a> 5.6.0 или выше, рекомендуется 7.4+</li>
+        <li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.6 или выше, рекомендуется MySQL 8.0+</li>
+    </ul>
+    <h3>Перед установкой</h3>
+    <ol>
+        <li>Правильно настройте WWW-сервер, PHP и сервер базы данных.</li>
+        <li>Подготовьте базу данных для вашего сайта XOOPS.</li>
+        <li>Подготовьте учетную запись пользователя и предоставьте пользователю доступ к базе данных.</li>
+        <li>Сделайте каталоги и файлы доступными для записи: %s</li>
+        <li>Из соображений безопасности настоятельно рекомендуется переместить два каталога ниже из <a href="http://phpsec.org/projects/guide/3.html" rel="external">корневого каталога документов</a> и изменить имена папок: %s</li>
+        <li>Создайте (если их еще нет) и сделайте каталоги доступными для записи: %s</li>
+        <li>Включите файлы cookie и JavaScript в вашем браузере.</li>
+    </ol>
+
+    <h2>Установка локально</h2>
+    <p>Если вы запускаете локальную среду для разработки или тестирования, убедитесь, что соблюдены предыдущие
+        требования. Как только это будет сделано, скопируйте содержимое каталога <em>htdocs</em> (из дистрибутива XOOPS) в корневой путь документа вашей веб-среды. После того как файлы будут скопированы туда,
+        вы можете начать установку, направив свой браузер на "http://<em>вашсайт.com</em>". Это запустит процесс установки.
+    </p>
+
+
+    <h2>Установка на хостинговой платформе</h2>
+    <p>Если вы запускаете установку в среде хостинга, распакуйте файлы XOOPS локально или на сервере, если у вас есть
+        доступ к командной оболочке (например, SSH). После этого обязательно переместите или скопируйте все файлы XOOPS из каталога <em>htdocs</em>
+        в ваш корневой веб-каталог (ваш провайдер обычно предоставляет это местоположение с инструкциями).
+        После того как файлы будут скопированы туда, вы можете начать установку, направив свой браузер на
+        "http://<em>вашсайт.com</em>". Это запустит процесс установки.
+    </p>
+
+
+    <h2>Продолжение установки</h2>
+    <p>Просто следуйте пошаговым инструкциям в установщике.</p>
+
+</div>
+</body>
+</html>
