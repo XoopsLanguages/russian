@@ -19,7 +19,7 @@ $content = '
 <h3>Требования</h3>
 <ul>
     <li>WWW-сервер (<a href="https://www.apache.org/" rel="external">Apache</a>, <a href="https://www.nginx.com/" rel="external">NGINX</a>, IIS и т. д.)</li>
-    <li><a href="https://www.php.net/" rel="external">PHP</a> 5.6.0 или выше, рекомендуется 7.3+</li>
+    <li><a href="https://www.php.net/" rel="external">PHP</a> 7.4 или выше, рекомендуется 7.3+</li>
     <li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.5 или выше, рекомендуется 5.7+</li>
 </ul>
 <h3>Перед установкой</h3>
