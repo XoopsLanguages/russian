@@ -1,0 +1,95 @@
+{
+  "language": "russian",
+  "code": "ru",
+  "name": "Russian",
+  "nativeName": "Русский",
+  "rtl": false,
+  "maintainers": [
+    "XoopsLanguages Team"
+  ],
+  "core": {
+    "2.3.3": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.3.3.zip"
+    },
+    "2.4.0": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.4.0.zip"
+    },
+    "2.4.1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.4.1.zip"
+    },
+    "2.4.2": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.4.2.zip"
+    },
+    "2.4.3": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.4.3.zip"
+    },
+    "2.4.4": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.4.4.zip"
+    },
+    "2.4.5": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.4.5.zip"
+    },
+    "2.5.0": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.0.zip"
+    },
+    "2.5.1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.1.zip"
+    },
+    "2.5.10": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.10.zip"
+    },
+    "2.5.2": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.2.zip"
+    },
+    "2.5.3": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.3.zip"
+    },
+    "2.5.4": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.4.zip"
+    },
+    "2.5.5": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.5.zip"
+    },
+    "2.5.6": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.6.zip"
+    },
+    "2.5.7": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.7.zip"
+    },
+    "2.5.7.1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.7.1.zip"
+    },
+    "2.5.9": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.5.9.zip"
+    },
+    "2.7.0": {
+      "lifecycle": "active",
+      "coverage": 99.8,
+      "provided": 3092,
+      "required": 3098,
+      "updated": "2026-05-04",
+      "download": "https://github.com/XoopsLanguages/russian/releases/download/latest/russian-core-2.7.0.zip",
+      "manifest_url": "https://raw.githubusercontent.com/XoopsLanguages/russian/master/manifest.json"
+    }
+  },
+  "modules": {},
+  "themes": {}
+}

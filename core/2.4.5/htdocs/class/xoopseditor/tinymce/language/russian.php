@@ -11,7 +11,7 @@
  * @version		$Id: english.php 4864 2010-06-16 05:57:08Z luciorota $
  */
 /*
- * Assocated with editor_registry.php
+ * Associated with editor_registry.php
  */
  // _LANGCODE: ru
 // _CHARSET : UTF-8

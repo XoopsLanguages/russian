@@ -10,7 +10,7 @@
  * @package xoopseditor
  */
 /**
- * Assocated with editor_registry.php
+ * Associated with editor_registry.php
  */
 
 // _LANGCODE: ru
