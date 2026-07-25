@@ -1,0 +1,662 @@
+ЯЗЫКОВЫЕ РАЗЛИЧИЯ
+=====================
+
+Ниже приведены языковые различия между версиями.
+
+================================
+30.03.2025: Версия 2.7.0-Бета (ранее выпущенная как 2.5.12-Бета)
+================================
+/htdocs/modules/system/language/english/admin.php
+- добавлено определение('_AM_SYSTEM_MENUS', 'Меню');
+- добавлено определение('_AM_SYSTEM_MENUS_DESC', 'Управление меню навигации по сайту');
+
+/htdocs/modules/system/language/english/modinfo.php
+- добавлено определение('_MI_SYSTEM_MENUS_ACTIVE', 'Включить систему меню');
+- добавлено define('_MI_SYSTEM_MENUS_ACTIVE_DESC', 'Включить встроенную систему управления меню для навигации по сайту');
+
+/htdocs/modules/system/language/english/admin/menus.php (НОВЫЙ ФАЙЛ)
+- добавлено определение('_AM_SYSTEM_MENUS_NAV_MAIN', 'Менеджер меню');
+- добавлено определение('_AM_SYSTEM_MENUS_NAV_BACK', 'Вернуться к списку меню');
+- добавлено определение('_AM_SYSTEM_MENUS_NAV_CATEGORY', 'Просмотр категорий');
+- ​​добавлено определение('_AM_SYSTEM_MENUS_NAV_TIPS', '<strong>Советы:</strong><ul>...');
+- добавлено определение('_AM_SYSTEM_MENUS_ACTIVE', 'Active');
+- добавлено определение('_AM_SYSTEM_MENUS_ACTIVE_YES', 'Включено');
+- добавлено определение('_AM_SYSTEM_MENUS_ACTIVE_NO', 'Отключено');
+- добавлено определение('_AM_SYSTEM_MENUS_SAVED', 'Сохранено успешно');
+- добавлено определение('_AM_SYSTEM_MENUS_DELETED', 'Удален успешно');
+- добавлено определение('_AM_SYSTEM_MENUS_ORDER_SAVED', 'Заказ сохранен');
+- добавлено определение('_AM_SYSTEM_MENUS_LISTCAT', 'Список категорий');
+- добавлено определение('_AM_SYSTEM_MENUS_LISTITEM', 'Элементы списка');
+- добавлено определение('_AM_SYSTEM_MENUS_ADDCAT', 'Добавить категорию');
+- добавлено определение('_AM_SYSTEM_MENUS_EDITCAT', 'Редактировать категорию');
+- добавлено определение('_AM_SYSTEM_MENUS_DELCAT', 'Удалить категорию');
+- ​​добавлено определение('_AM_SYSTEM_MENUS_CATTITLE', 'Название категории');
+- ​​добавлено определение('_AM_SYSTEM_MENUS_CATTITLE_DESC', 'Здесь можно использовать имя языковой константы (например, MENUS_HOME), чтобы метку можно было перевести.');
+- добавлено определение('_AM_SYSTEM_MENUS_CATPREFIX', 'Префикс (HTML)');
+- добавлено определение('_AM_SYSTEM_MENUS_CATPREFIX_DESC', 'Необязательная разметка, отображаемая перед заголовком категории, например значок Font Awesome.');
+- добавлено определение('_AM_SYSTEM_MENUS_CATSUFFIX', 'Суффикс (HTML)');
+- добавлено определение('_AM_SYSTEM_MENUS_CATSUFFIX_DESC', 'Необязательная разметка, отображаемая после заголовка категории.');
+- добавлено определение('_AM_SYSTEM_MENUS_CATURL', 'URL');
+- добавлено определение('_AM_SYSTEM_MENUS_CATURL_DESC', 'Ссылка на саму категорию, например "index.php" или абсолютный URL.');
+- ​​добавлено определение('_AM_SYSTEM_MENUS_CATTARGET', 'Цель ссылки');
+- добавлено определение('_AM_SYSTEM_MENUS_CATPOSITION', 'Позиция');
+- добавлено определение('_AM_SYSTEM_MENUS_DELCAT_CONFIRM', 'Вы уверены, что хотите удалить категорию "%s" и все ее элементы?');
+- добавлено определение('_AM_SYSTEM_MENUS_ADDITEM', 'Добавить элемент');
+- добавлено определение('_AM_SYSTEM_MENUS_EDITITEM', 'Редактировать элемент');
+- добавлено определение('_AM_SYSTEM_MENUS_DELITEM', 'Удалить элемент');
+- добавлено определение('_AM_SYSTEM_MENUS_ITEMTITLE', 'Название элемента');
+- ​​добавлено определение('_AM_SYSTEM_MENUS_ITEMTITLE_DESC', 'Здесь можно использовать имя языковой константы, чтобы метку можно было перевести.');
+- ​​добавлено определение('_AM_SYSTEM_MENUS_ITEMPREFIX', 'Префикс (HTML)');
+- добавлено определение('_AM_SYSTEM_MENUS_ITEMPREFIX_DESC', 'Необязательная разметка, отображаемая перед заголовком элемента, например значок Font Awesome.');
+- добавлено определение('_AM_SYSTEM_MENUS_ITEMSUFFIX', 'Суффикс (HTML)');
+- ​​добавлено определение('_AM_SYSTEM_MENUS_ITEMSUFFIX_DESC', 'Необязательная разметка, отображаемая после заголовка элемента. Поддерживает заполнитель <{xoInboxCount}>.');
+- добавлено определение('_AM_SYSTEM_MENUS_ITEMURL', 'URL');
+- добавлено определение('_AM_SYSTEM_MENUS_ITEMTARGET', 'Цель ссылки');
+- добавлено определение('_AM_SYSTEM_MENUS_ITEMPOSITION', 'Позиция');
+- добавлено определение('_AM_SYSTEM_MENUS_ITEMPARENT', 'Родительский элемент');
+- добавлено определение('_AM_SYSTEM_MENUS_ITEMCATEGORY', 'Категория');
+- добавлено определение('_AM_SYSTEM_MENUS_DELITEM_CONFIRM', 'Вы уверены, что хотите удалить элемент "%s" и его подэлементы?');
+- добавлено определение('_AM_SYSTEM_MENUS_TARGET_SELF', 'То же окно');
+- добавлено определение('_AM_SYSTEM_MENUS_TARGET_BLANK', 'Новое окно');
+- добавлено определение('_AM_SYSTEM_MENUS_PERMISSION_VIEW_CATEGORY', 'Группы, которые могут видеть эту категорию');
+- добавлено определение('_AM_SYSTEM_MENUS_PERMISSION_VIEW_CATEGORY_DESC', 'Пользователи должны иметь доступ к категории, прежде чем любой из ее элементов станет видимым.');
+- добавлено определение('_AM_SYSTEM_MENUS_PERMISSION_VIEW_ITEM', 'Группы, которые могут видеть этот элемент');
+- добавлено определение('_AM_SYSTEM_MENUS_PERMISSION_VIEW_ITEM_DESC', 'Разрешения элемента проверяются после разрешения родительской категории.');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_CATNOTFOUND', 'Категория не найдена');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_CATPROTECTED', 'Невозможно удалить защищенную категорию');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_CATINACTIVE', 'Невозможно активировать: категория неактивна');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_ITEMNOTFOUND', 'Элемент не найден');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_ITEMPROTECTED', 'Невозможно удалить защищенный элемент');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_ITEMPARENT', 'Выбран неверный родительский элемент');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_ITEMCYCLE', 'Невозможно установить родителя: это создаст циклическую ссылку');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_ITEMDEPTH', 'Превышена максимальная глубина вложенности (3 уровня)');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_PARENTINACTIVE', 'Невозможно активировать: родительский элемент неактивен');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_NOITEMS', 'В этой категории нет пунктов подменю.');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_ITEMEDIT', 'Включите этот элемент перед его редактированием');
+- добавлено определение('_AM_SYSTEM_MENUS_ERROR_ITEMDISABLE', 'Включите этот элемент перед его удалением');
+- добавлено определение('MENUS_HOME', 'Home');
+- добавлено определение('MENUS_ADMIN', 'Администрирование');
+- добавлено определение('MENUS_ACCOUNT', 'Учетная запись');
+- добавлено определение('MENUS_ACCOUNT_EDIT', 'Редактировать учетную запись');
+- добавлено определение('MENUS_ACCOUNT_LOGIN', 'Логин');
+- добавлено определение('MENUS_ACCOUNT_LOGOUT', 'Выход');
+- добавлено определение('MENUS_ACCOUNT_REGISTER', 'Регистрация');
+- добавлено определение('MENUS_ACCOUNT_MESSAGES', 'Сообщения');
+- добавлено определение('MENUS_ACCOUNT_NOTIFICATIONS', 'Уведомления');
+- добавлено определение('MENUS_ACCOUNT_TOOLBAR', 'Панель инструментов');
+
+/htdocs/modules/system/constants.php
+- добавлено определение('XOOPS_SYSTEM_MENUS', 19);
+
+/htdocs/modules/system/language/english/blocks.php
+-добавлено определение('_MB_SYSTEM_WAITING_CONTENT_DEPRECATED', «Блокировать «Содержимое ожидания» больше не рекомендуется, начиная с версии XOOPS 2.5.11, используйте модуль ожидания»);
+
+/htdocs/install/language/english/welcome.php
+- обновленные версии PHP и MySQL
+
+/htdocs/modules/pm/language/english/main.php
+- обновлено define('_MD_PM_EMAIL_DESC', 'Уважаемый %s, это сообщение передано из вашей учетной записи по адресу ' . $GLOBALS['xoopsConfig']['sitename']);
+- обновлено define('_MD_PM_EMAIL_DESC', 'Уважаемый %s, это сообщение передано из вашей учетной записи по адресу ' . $GLOBALS['xoopsConfig']['sitename']);
+
+/htdocs/language/english/user.php
+- обновлено define('_US_SORRYNOTFOUND', 'К сожалению, соответствующая информация о пользователе не найдена.');
+- обновлено define('_US_SORRYNOTFOUND', 'Если учетная запись соответствует предоставленной информации, мы обработаем ваш запрос. Если вы не получили электронное письмо в ближайшее время, проверьте папку со спамом или свяжитесь с администратором сайта.');
+
+- обновлено define('_US_PWDMAILED', 'Пароль для %s отправлен по почте.');
+- обновлено define('_US_PWDMAILED', 'Если для этого электронного письма существует учетная запись, вы получите инструкции по сбросу пароля. При необходимости проверьте папку со спамом или обратитесь к администратору сайта.');
+
+- ​​обновлено define('_US_CONFMAIL', 'Письмо с подтверждением для %s отправлено.');
+- обновлено define('_US_CONFMAIL', 'Если для этого электронного письма существует учетная запись, вы получите инструкции по сбросу пароля. При необходимости проверьте папку со спамом или обратитесь к администратору сайта.');
+
+/htdocs/class/xoopseditor/tinymce5/language/english.php
+— переименован в _XOOPS_EDITOR_TINYMCE_LANGUAGE5 в _XOOPS_EDITOR_TINYMCE5_LANGUAGE.
+
+/htdocs/modules/system/themes/transition/language/english/admin.php
+— переименован _OXYGEN_Server_API в _OXYGEN_SERVER_API.
+
+/htdocs/modules/system/language/english/admin/preferences.php.
+- добавлено определение('_MD_AM_SENDMAIL_NOT_FOUND', 'Двоичный файл Sendmail не найден. Проверьте конфигурацию вашего сервера.');
+- добавлено определение('_MD_AM_SENDMAIL_HELP_MISSING_BIN', 'Не обнаружен действительный двоичный файл, совместимый с sendmail. Установите MTA (например, Postfix, msmtp) или переключитесь на SMTP в настройках.');
+
+/htdocs/modules/system/language/english/admin/users.php
+- добавлено определение('_AM_SYSTEM_USERS_UNKNOWN_GROUP', 'Неизвестная группа');
+
+/htdocs/modules/system/language/english/comment.php
+- добавлено определение('_CM_ADDCOMMENT', 'Добавить комментарий');
+
+
+/htdocs/install/language/english/install.php
+- добавлено определение('_WEBSITE_NAME', 'Сайт XOOPS');
+- добавлено определение('_WEBSITE_SLOGAN', 'Просто используйте это!');
+- добавлено определение('_WEBSITE_META_KEYWORDS', 'xoops, платформа веб-приложений, cms, система управления контентом');
+- добавлено определение('_WEBSITE_FOOTER', "Powered by XOOPS © 2001-{X_YEAR} <a href='https://xoops.org' rel='external' title='The XOOPS Project'>The XOOPS Project</a>");
+- ​​добавлено определение('_WEBSITE_COPYRIGHT', 'Авторское право © 2001-{X_YEAR}');
+- добавлено определение('_WEBSITE_DESCRIPTION', 'XOOPS — это динамический объектно-ориентированный скрипт портала с открытым исходным кодом, написанный на PHP.');
+- добавлено определение('_WEBSITE_CENSOR_REPLACE', 'OOPS');
+
+
+================================
+2023/10/01: Версия 2.5.11-финальная
+================================
+/language/english/uploader.php
+-добавлено define('_ER_UP_MODE_NOT_CHANGED', 'Файл загружен, но не удалось изменить режим');
+
+================================
+01.10.2023: Версия 2.5.11-RC3
+================================
+
+ИЗМЕНЕННЫЕ ФАЙЛЫ:
+upgrade/language/english/upgrade.php
+обновление/язык/английский/smarty3.php
+
+htdocs/class/xoopseditor/tinymce/language/english.php
+- добавлено определение('_FAILGETIMG', 'Не удалось получить изображение %s');
+
+/htdocs/modules/system/language/english/modinfo.php
+- добавлено определение('_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE', 'Временно отключить');
+- добавлено определение('_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL', 'Электронная почта');
+- добавлено определение('_MI_DEFAULT_NOTIFICATION_METHOD_PM', 'Личное сообщение');
+
+/htdocs/modules/system/language/english/admin/preferences.php
+- добавлено определение('_MD_AM_DEFAULT_NOTIFICATION_METHOD', 'Метод уведомления по умолчанию');
+- добавлено определение('_MD_AM_DEFAULT_NOTIFICATION_METHOD_DESC', 'Для новых пользователей, когда они подписываются на уведомления, например, с форума.');
+- добавлено определение('_MD_AM_MODULEPREF',
+
+
+================================
+19.03.2023: Версия 2.5.11-RC1
+================================
+
+ИЗМЕНЕННЫЕ ФАЙЛЫ:
+htdocs/language/english/global.php
+- добавлено определение('_DB_QUERY_ERROR', 'Ошибка запроса! SQL: %s - Ошибка: ');
+- добавлено определение('_PRINT', 'Печать');
+- добавлено определение('_PDF', 'PDF');
+- добавлено определение('_OFF', 'Off');
+
+================================
+2021/09/02: Версия 2.5.11-Бета
+================================
+
+ИЗМЕНЕННЫЕ ФАЙЛЫ:
+htdocs/language/english/admin.php
+- добавлено определение('_AD_WARNING_NO_XML', 'Для этой функции требуется расширение PHP XML.');
+
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- добавлено определение('_AM_ADMINSTATS_LAST_MONTH', 'Последний месяц');
+- добавлено определение('_AM_ADMINSTATS_LAST_WEEK', 'Прошлая неделя');
+- добавлено определение('_AM_ADMINSTATS_LAST_DAY', 'Последний день');
+- добавлено определение('_AM_ADMINSTATS_LAST_HOUR', 'Последний час');
+
+htdocs/language/english/global.php
+- добавлено определение('_PRINT', 'Печать');
+- добавлено определение('_PDF', 'PDF');
+- добавлено определение('_OFF', 'Off');
+- изменено определение('_ON', 'On'); //от 'включено'
+
+htdocs/language/english/global.php
+- изменено define('_SIZE', 'Размер'); // размер шрифта
+- изменено define('_FONT', 'Font'); // семейство шрифтов
+- изменено define('_COLOR', 'Color'); // цвет шрифта
+
+htdocs/install/language/english/install.php
+- ​​добавлено определение('ERR_COPY_CONFIG_FILE', 'Не удалось скопировать файл конфигурации %s');
+
+htdocs/install/language/english/welcome.php
+- изменены рекомендуемые версии PHP и MySQL, ссылки изменены на "https:"
+
+htdocs/modules/system/language/english/admin/preferences.php
+- изменено определение('_MD_AM_SMTPHOSTDESC', 'Либо одно имя хоста, либо несколько имен хостов, разделенных точкой с запятой.<br>Вы также можете указать отдельный порт для каждого хоста, используя этот формат: [имя хоста:порт] (например, "smtp1.example.com:25;smtp2.example.com").<br>Вы также можете указать тип шифрования, например: (например, "tls://smtp1.example.com:587;ssl://smtp2.example.com:465").<br>Хосты будут проверены по порядку.');
+
+htdocs/modules/system/language/english/help/blocksadmin.html
+
+htdocs/modules/system/language/english/admin/modulesadmin.php
+- изменено определение('_AM_SYSTEM_MODULES_ADMIN', 'Администрирование модуля XOOPS');
+
+НОВЫЕ ФАЙЛЫ:
+htdocs/themes/xswatch4/language/english/main.php
+Начиналось как копия xswatch/language/english/main.php, затем:
+- добавлено определение('THEME_TOOLBAR_DEBUGMODE', 'Режим отладки');
+- добавлено определение('THEME_TOOLBAR_THIS_MODULE', 'Этот модуль');
+- добавлено определение('THEME_PERMISSIONS_LEGEND', 'Разрешения и легенда');
+- добавлено определение('THEME_INBOX_ALERT', 'PM Alert');
+- добавлено определение('THEME_INBOX_LINK', 'Нажмите здесь, чтобы просмотреть папку «Входящие!»);
+- добавлено определение('THEME_EVENT_DOWNLOADS', 'Загрузки событий');
+- добавлено определение('THEME_FILE_NAME', 'File');
+- добавлено определение('THEME_FILE_SIZE', 'Размер');
+- добавлено определение('THEME_CONTROL_NEXT', 'Далее');
+- добавлено определение('THEME_CONTROL_PREVIOUS', 'Предыдущий');
+
+htdocs/language/english/user.php
+- добавлено определение('_US_DESCRIPTIONMIN', 'Минимально необходимая длина: %s');
+- добавлено определение('_US_DESCRIPTIONMAX', 'Максимальная длина: %s');
+
+htdocs/modules/system/language/english/admin/mailusers.php
+- добавлено определение('_AM_SYSTEM_MAILUSERS_MAILTAGS5', '{X_NAME} будет печатать имя или uname, если оно пустое');
+
+htdocs/modules/system/language/english/admin/images.php
+- добавлено определение("_AM_SYSTEM_IMAGES_SCATDELNG","Невозможно удалить эту категорию");
+
+htdocs/modules/system/language/english/admin/modulesadmin.php
+- добавлено определение('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'Администратор этого модуля');
+
+УДАЛЕННЫЕ ФАЙЛЫ:
+htdocs/modules/system/language/english/admin/users.php
+- удалено define('_AM_SYSTEM_USERS_MODIFYUSER', 'Изменить пользователя');
+- удалено define('_AM_SYSTEM_USERS_DELUSER', 'Удалить пользователя');
+- удалено define('_AM_SYSTEM_USERS_GO', 'Go!');
+
+================================
+29.04.2019: Версия 2.5.10 Финальная
+================================
+ДОБАВЛЕНО/УДАЛЕНО ОПРЕДЕЛЯЕТ:
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- добавлено определение('_AM_LABEL_BAN_BY_IP', 'Запретить IP-адреса в проверенных записях:');
+- добавлено определение('_AM_BUTTON_BAN_BY_IP', 'IP Ban!');
+- добавлено определение('_AM_JS_BANCONFIRM', 'IP-баны в порядке?');
+- добавлено определение('_AM_MSG_BANNEDIP', 'IP-адреса запрещены');
+- добавлено определение('_AM_ADMINSTATS_TITLE', 'Сводка журнала Protector');
+
+htdocs/xoops_lib/modules/protector/language/english/modinfo.php
+- добавлено определение($constpref . '_ADMINSTATS', 'Обзор');
+- добавлено define($constpref . '_BANIP_TIME0DSC', 'Время приостановки в секундах для автоматического бана по IP');
+
+htdocs/language/english/uploader.php
+- добавлено определение('_ER_UP_INDEXNOTSET', 'Попытка получить несколько файлов, индекс должен быть установлен.');
+
+htdocs/language/english/admin.php
+- добавлено определение('_AD_WARNING_OLD_PHP', 'ВНИМАНИЕ: Рассмотрите возможность обновления до более новой версии PHP. Рекомендуется версия %s или новее, которая потребуется в будущих версиях XOOPS.');
+
+ИЗМЕНЕННЫЕ ОПРЕДЕЛЕНИЯ
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- define('_AM_TXT_HOWTOCHANGEDB',"Если вы хотите изменить префикс,<br> отредактируйте %s/data/secure.php вручную.<br><br>define('XOOPS_DB_PREFIX', '<b>%s</b>');");
+
+htdocs/install/english/welcome.php
+- изменена рекомендуемая версия PHP, добавлен раздел «Специальные примечания» для SELinux.
+
+/home/richard/sites/x258i/htdocs/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- in define of '_AM_MODULEADMIN_ADMIN_FOOTER', changed XOOPS links to 'https://xoops.org'
+
+НОВЫЕ ФАЙЛЫ:
+н/д
+
+===============================
+01.08.2017: Версия 2.5.9 Финальная
+===============================
+ДОБАВЛЕНО/УДАЛЕНО ОПРЕДЕЛЕНИЯ
+
+htdocs/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- добавлено определение('_AM_MODULEADMIN_ABOUT_AMOUNT', 'Сумма');
+- ​​добавлено определение('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', 'Пожалуйста, введите сумму в долларах США, например, 25,00 долларов США');
+- добавлено определение('_AM_MODULEADMIN_ABOUT_AMOUNT_CURRENCY', 'USD');
+- добавлено определение('_AM_MODULEADMIN_ABOUT_AMOUNT_SUGGESTED', '25.00');
+- добавлено определение('_AM_MODULEADMIN_ABOUT_AMOUNT_PATTERN', '\\$?[0-9]+(,[0-9]{3})*(\\.[0-9]{0,2})?$');
+- добавлено определение('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', 'Пожертвуйте через PayPal или основную кредитную карту онлайн!');
+
+htdocs/install/language/english/install.php
+*ПРИМЕЧАНИЕ* Программа установки была существенно изменена, поэтому этот файл следует внимательно просмотреть.
+- добавлено определение("CURL_HTTP", "Библиотека клиентских URL (cURL)");
+- добавлено определение('XOOPS_COOKIE_DOMAIN_LABEL', 'Домен файлов cookie для веб-сайта');
+- добавлено определение('XOOPS_COOKIE_DOMAIN_HELP', 'Домен для установки файлов cookie. Может быть пустым, полный хост из URL-адреса (www.example.com) или зарегистрированный домен без поддоменов (example.com) для совместного использования между поддоменами (www.example.com и blog.example.com.)');
+- добавлено определение('INTL_SUPPORT', 'Функции интернационализации');
+- добавлено определение('XOOPS_SOURCE_CODE', "XOOPS на GitHub");
+- добавлено определение('XOOPS_INSTALLING', 'Установка');
+- добавлено определение('XOOPS_ERROR_ENCOUNTERED', 'Ошибка');
+- добавлено определение('XOOPS_ERROR_SEE_BELOW', 'Сообщения смотрите ниже.');
+- добавлено определение('MODULES_AVAILABLE', 'Доступные модули');
+- добавлено определение('INSTALL_THIS_MODULE', 'Добавить %s');
+
+htdocs/install/language/english/finish.php
+- изменение, чтобы направлять новых пользователей на xoops.org для получения информации о модулях и темах.
+
+htdocs/language/english/global.php
+- добавлено определение('_UPLOAD', 'Upload');
+- добавлено определение('_SELECTFILES', 'Выбрать файлы');
+- добавлено определение('_DROPFILESHERE', 'Перетащите файлы сюда');
+- добавлено определение('_RETRY', 'Повторить');
+- добавлено define('_OK', 'Ok');
+- добавлено определение('_FORMATPROGRESS', '{percent}% от {total_size}');
+- добавлено определение('_FAILUPLOAD', 'Загрузка не удалась!');
+- добавлено определение('_WAITINGFORRESPONSE', 'Обработка...');
+- добавлено определение('_PAUSED', 'Paused');
+- добавлено определение('_PROCESSINGDROPPEDFILES', 'Обработка удаленных файлов...');
+- добавлено определение('_TYPEERROR', '{файл} имеет недопустимое расширение. Допустимые расширения: {extensions}!');
+- добавлено определение('_SIZEERROR', '{файл} слишком велик, максимальный размер файла — {sizeLimit}!');
+- добавлено определение('_MINSIZEERROR', '{файл} слишком мал, минимальный размер файла — {minSizeLimit}!');
+- добавлено определение('_EMPTYERROR', '{файл} пуст, пожалуйста, выберите файлы еще раз без него!');
+- добавлено определение('_NOFILESERROR', 'Нет файлов для загрузки!');
+- добавлено определение('_TOOMANYITEMSERROR', 'Будет загружено слишком много элементов ({netItems}). Предел количества элементов: {itemLimit}!');
+- добавлено определение('_MAXHEIGHTIMAGEERROR', 'Изображение слишком высокое!');
+- добавлено определение('_MAXWIDTHIMAGEERROR', 'Изображение слишком широкое!');
+- добавлено определение('_MINHEIGHTIMAGEERROR', 'Изображение недостаточно высокое!');
+- добавлено определение('_MINWIDTHIMAGEERROR', 'Изображение недостаточно широкое!');
+- добавлено определение('_RETRYFAILTOOMANYITEMS', 'Повторная попытка не удалась – вы достигли лимита файлов!');
+- добавлено определение('_ONLEAVE', 'Файлы загружаются, если вы выйдете сейчас, загрузка будет отменена!');
+- добавлено определение('_UNSUPPORTEDBROWSERIOS8SAFARI', 'Неустранимая ошибка — этот браузер не разрешает загрузку файлов любого рода из-за серьезных ошибок в iOS8 Safari. Используйте iOS8 Chrome, пока Apple не исправит эти проблемы!');
+
+htdocs/language/english/uploader.php
+- ​​добавлено определение('_ER_UP_INISIZE', 'Загруженный файл превышает директиву upload_max_filesize в php.ini');
+- добавлено определение('_ER_UP_FORMSIZE', 'Загруженный файл превышает директиву MAX_FILE_SIZE, указанную в HTML-форме');
+- добавлено определение('_ER_UP_PARTIAL', 'Загруженный файл был загружен только частично');
+- добавлено определение('_ER_UP_NOFILE', 'Файл не был загружен');
+- добавлено определение('_ER_UP_NOTMPDIR', 'Отсутствует временная папка');
+- добавлено определение('_ER_UP_CANTWRITE', 'Не удалось записать файл на диск');
+- добавлено определение('_ER_UP_EXTENSION', 'Загрузка файла остановлена по расширению. Просмотр phpinfo()');
+- добавлено определение('_ER_UP_UNKNOWN', 'Неизвестная ошибка загрузки');
+
+htdocs/language/english/user.php
+- удалено define('_US_USECOOKIE', 'Сохранить мое имя пользователя в файле cookie в течение 1 года');
+
+htdocs/modules/profile/language/english/admin.php
+- добавлено определение('_PROFILE_AM_CANNOTDEACTIVATEWEBMASTERS', 'Вы не можете деактивировать учетную запись веб-мастера');
+
+htdocs/modules/system/language/english/admin/comments.php
+- добавлено define('_MP_DELETECOUNT', 'Количество участников в группе слишком велико (> 4000) ');
+
+htdocs/modules/system/language/english/admin/userrank.php
+- добавлено определение('_AM_SYSTEM_USERRANK_ERROR', 'Ошибки');
+
+upgrade/language/english/upgrade.php
+- добавлено определение('_LANGUAGE', 'Язык');
+- добавлено определение('_SUPPORT', 'SUPPORT');
+- ​​добавлено определение('_XOOPS_SOURCE_CODE', 'XOOPS на GitHub');
+- добавлено определение('_PATCH_COUNT', 'Наборы патчей');
+- добавлено определение('_USERNAME_PLACEHOLDER', 'Ваше имя пользователя');
+- ​​добавлено определение('_PASSWORD_PLACEHOLDER', 'Ваш пароль');
+- добавлено определение('_CONTINUE', 'Продолжить');
+- добавлено определение('XOOPS_ERROR_ENCOUNTERED', 'Ошибка');
+- добавлено определение('XOOPS_ERROR_SEE_BELOW', 'Сообщения смотрите ниже.');
+
+htdocs/themes/xbootstrap/language/english/main.php
+- добавлено определение("THEME_USER_WELCOME", "Добро пожаловать");
+
+НОВЫЕ ФАЙЛЫ:
+- htdocs/modules/system/themes/transition/language/english/admin.php
+- htdocs/modules/system/themes/transition/language/english/localsupport.php
+
+- обновление/язык/английский/
+*ПРИМЕЧАНИЕ* Код обновления был существенно изменен, поэтому эти файлы следует внимательно просмотреть.
+- все языковые файлы каждого патча перемещены из каталогов патчей в update/language/*.
+  т. е. обновление/upd-2.0.18-to-2.3.0/language/english.php стало
+  обновление/язык/английский/upd-2.0.18-to-2.3.0.php
+
+- обновление/язык/английский/support.php (то же самое, что htdocs/install/language/english/support.php)
+- обновление/язык/английский/welcome.php
+
+===============================
+27.05.2016: Версия 2.5.8
+===============================
+ДОБАВЛЕНО/УДАЛЕНО ОПРЕДЕЛЕНИЯ
+
+/install/language/english/install.php
+/modules/system/language/english/admin/modulesadmin.php
+- добавлено определение('_AM_SYSTEM_MODULES_INSTALL_MORE',"Установить больше модулей");
+
+/modules/system/language/english/admin/users.php
+define('_AM_SYSTEM_USERS_ACTIVATE', 'Активировать пользователя');
+
+/modules/system/language/english/blocks.php
+define('_MB_SYSTEM_BLOCK_HEIGHT',"Высота блока (линии)");
+
+install/language/english/install.php
+define('CHMOD_CHGRP_REPEAT', 'Повторить попытку');
+define('CHMOD_CHGRP_IGNORE', 'Все равно использовать');
+define('CHMOD_CHGRP_ERROR', 'Возможно, установщик не сможет записать файл конфигурации %1$s.<p>PHP записывает файлы под пользователем %2$s и группой %3$s.<p>Тяжело
+
+ИЗМЕНЕННЫЕ ОПРЕДЕЛЕНИЯ
+xoops_lib/modules/protector/language/english/modinfo.php
+define($constpref . '_HIJACK_TOPBITDSC', ...
+
+/modules/system/themes/default/language/english/admin.php
+define('_OXYGEN_CODESVN', 'Репозиторий кода');
+
+install/language/english/install.php
+define('SAVED_MAINFILE', 'Настройки сохранены');
+define('ERR_NEED_WRITE_ACCESS', 'Серверу должен быть предоставлен доступ на запись к следующим файлам и папкам<br />(т.е. <em>chmod 775 имя_каталога</em> на сервере UNIX/LINUX)<br />Если они недоступны или созданы неправильно, создайте их вручную и установите соответствующие разрешения.');
+define('ERR_COPY_MAINFILE', 'Не удалось скопировать файл дистрибутива в %s');
+define('ERR_WRITE_MAINFILE', 'Не удалось записать в %s. Проверьте права доступа к файлу и повторите попытку.');
+define('ERR_READ_MAINFILE', 'Не удалось открыть %s для чтения');
+
+/modules/system/themes/zetadigme/language/english/admin.php
+define('_MD_CODESVN', 'Репозиторий кода');
+
+НОВЫЕ ФАЙЛЫ:
+/language/english/stopwords.php
+/language/english/xmf.php
+
+ОБНОВЛЕНО Пример класса XoopsMailerLocal:
+htdocs/language/english/xoopsmailerlocal.php
+
+===============================
+14.06.2014: Версия 2.5.7 Финальная
+===============================
+ДОБАВЛЕНО/УДАЛЕНО ОПРЕДЕЛЕНИЯ
+
+/install/language/english/install.php
+- добавлено определение('WRITTEN_LICENSE',"Записанный лицензионный ключ XOOPS %s: <strong>%s</strong>");
+
+===============================
+18.03.2014: Версия 2.5.7 RC1
+===============================
+ДОБАВЛЕНО/УДАЛЕНО ОПРЕДЕЛЕНИЯ
+
+/modules/system/language/english/admin.php
+- добавлено определение('_AM_SYSTEM_USAGE',"Использование");
+- добавлено определение('_AM_SYSTEM_ACTIVE',"Active");
+
+
+===============================
+15.04.2012: Версия 2.5.5
+===============================
+ДОБАВЛЕНО/УДАЛЕНО ОПРЕДЕЛЕНИЯ
+
+/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- добавлено определение("_AM_MODULEADMIN_HOME", "Home");
+- добавлено определение("_AM_MODULEADMIN_DASHBOARD", "Панель мониторинга");
+- добавлено определение("_AM_MODULEADMIN_ABOUT", "О программе");
+- добавлено определение("_AM_MODULEADMIN_PERMISSIONS", "Разрешения");
+- ​​добавлено определение("_AM_MODULEADMIN_ABOUT_RELEASEDATE","Выпущено: ");
+- добавлено определение("_AM_MODULEADMIN_ABOUT_AUTHOR","Автор: ");
+- добавлено определение("_AM_MODULEADMIN_ABOUT_CREDITS","Кредиты: ");
+- добавлено определение("_AM_MODULEADMIN_ABOUT_LICENSE","Лицензия: ");
+- добавлено определение("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Имя автора: ");
+- добавлено определение("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Информация об авторе");
+- добавлено определение("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italicpad5'>Этот модуль поддерживается <a class='tooltip' rel='external' href='http://xoops.org/' title='Посетить сообщество XOOPS'>Сообщество XOOPS</a></div>");
+
+/language/english/calendar.php
+- добавлено определение("_CAL_FORMAT","Г-м-д");
+
+/xoops_lib/modules/protector/language/english/modinfo.php
+
+- добавлено определение($constpref."_ADMINHOME","Home");
+- добавлено определение($constpref."_ADMINABOUT","О программе");
+- добавлено определение($constpref.'_STOPFORUMSPAM_ACTION','Остановить спам на форуме');
+- добавлено определение($constpref.'_STOPFORUMSPAM_ACTIONDSC','Проверяет данные POST на наличие спамеров, зарегистрированных в базе данных www.stopforumspam.com. Требуется php CURL lib.');
+
+
+/install/language/english/install.php
+- добавлено определение( "FILTER_FUNCTIONS", "Функции фильтра");
+
+/language/english/global.php
+- добавлено определение('_DBDATESTRING', 'Г-м-д');
+- добавлено определение('_DBTIMESTRING', 'H:i:s');
+- добавлено определение('_DBTIMESTAMPSTRING', 'Г-м-д Ч:и:с');
+
+/language/english/pmsg.php
+- добавлено определение('_MD_PM_READ', 'Уже прочитано');
+
+/modules/system/language/english/admin.php
+- добавлено определение("_AM_SYSTEM_UNINSTALL","Uninstall");
+
+СМОТРИТЕ ТАКЖЕ:
+/modules/profile/docs/lang_diff.txt
+
+===============================
+17.11.2011: Версия 2.5.4
+===============================
+
+/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+_AM_MODULEADMIN_CONFIG_DB
+_AM_MODULEADMIN_CONFIG_ADMIN
+
+===============================
+10.10.2011: Версия 2.5.4 RC
+===============================
+
+НОВЫЕ ФАЙЛЫ:
+modules/pm/language/english/help/help.html
+модули/профиль/язык/английский/help/help.html
+modules/protector/language/english/help/help.html
+
+ДОБАВЛЕНО/УДАЛЕНО ОПРЕДЕЛЕНИЯ
+
+/language/english/pmsg.php
+delete define('_MD_PM_READ', 'Уже прочитано');
+
+/language/english/user.php
+- добавлено определение('_US_SKYPE', 'Skype');
+- добавлено определение('_US_FACEBOOK', 'Facebook');
+
+/modules/pm/language/english/main.php
+- удалено define("_MD_PM_RECEIVE","RECEIVE");
+- удалено define("_MD_PM_POST","POST");
+- удалено define("_MD_PM_READBOX","READBOX");
+- удалено define("_MD_PM_RSAVEBOX","Receive_SAVEBOX");
+- удалено define("_MD_PM_SENTBOX","SENTBOX");
+- удалено define("_MD_PM_PSAVEBOX","Post_SAVEBOX");
+- ​​удалено define("_MD_PM_SAVED","Сохранено успешно");
+- удалено define("_MD_PM_TOC","From: ");
+- удалено define("_MD_PM_UID","Идентификатор отправителя");
+
+/language/english/findusers.php
+- добавлено определение('_MA_USER_FACEBOOK', 'Ссылка на Facebook'); //ДЕЛАТЬ
+- добавлено определение('_MA_USER_SKYPE', 'Skype Link');//ТО ДЕЛАТЬ
+
+/modules/pm/language/english/modinfo.php
+- добавлено определение("_MI_PM_ABOUT", "О программе");
+
+/modules/profile/language/english/admin.php
+- добавлено определение('_PROFILE_AM_ACTION', 'Действие');
+
+/modules/profile/language/english/modinfo.php
+- добавлено определение("_PROFILE_MI_ABOUT", "О программе");
+- добавлено определение("_PROFILE_MI_HOME", "Home");
+
+
+/modules/system/language/english/admin/preferences.php
+- удалено определение("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL","Общие настройки");
+- удалено определение("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS","Настройки информации о пользователе");
+- удалено определение("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER","Метатеги и нижний колонтитул");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_CENSOR","Параметры цензуры слов");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_SEARCH","Параметры поиска");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER","Настройка электронной почты");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION","Параметры аутентификации");*/
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL","A faire");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_USERSETTINGS","A faire");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_METAFOOTER","A faire");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_CENSOR","A faire");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_SEARCH","A faire");
+- ​​удалено define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_MAILER","A faire");
+- удалено define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_AUTHENTICATION","A faire");
+- удалено define("_MD_AM_LOADINGIMG", "Показать загрузку... изображения?");
+- удалено define("_MD_AM_CHNGUTHEME", "Изменить тему всех пользователей");
+
+/modules/system/language/english/admin/users.php
+- ​​добавлено определение("_AM_SYSTEM_USERS_ACCEPT_EMAIL","Принимать электронную почту от администратора");
+
+- удалено define("_AM_SYSTEM_USERS_NAV_MANAGER","Менеджер пользователей");
+- удалено define("_AM_SYSTEM_USERS_USERPOST","Сообщения пользователей");
+- удалено define("_AM_SYSTEM_USERS_STORIES","Stories");
+- удалено define("_AM_SYSTEM_USERS_COMMENTS","Комментарии");
+- удалено определение("_AM_SYSTEM_USERS_PTBBTSDIYT","Нажмите кнопку ниже, чтобы синхронизировать данные, если вы считаете, что приведенная выше информация о сообщениях пользователя не отражает фактический статус");
+- удалено определение("_AM_SYSTEM_USERS_CNGTCOM","Не удалось получить общее количество комментариев");
+- удалено define("_AM_SYSTEM_USERS_CNGTST","Не удалось получить все истории");
+- удалено define("_AM_SYSTEM_USERS_LIST","List");
+- удалено define("_AM_SYSTEM_USERS_USERPOST","Сообщения пользователей");
+- удалено define("_AM_SYSTEM_USERS_STORIES","Stories");
+- удалено define("_AM_SYSTEM_USERS_COMMENTS","Комментарии");
+- удалено определение("_AM_SYSTEM_USERS_PTBBTSDIYT","Нажмите кнопку ниже, чтобы синхронизировать данные, если вы считаете, что приведенная выше информация о сообщениях пользователя не отражает фактический статус");
+- удалено определение("_AM_SYSTEM_USERS_CNGTCOM","Не удалось получить все комментарии");
+- удалено define("_AM_SYSTEM_USERS_CNGTST","Не удалось получить все истории");
+- удалено define("_AM_SYSTEM_USERS_LIST","List");
+
+xoops_lib/modules/protector/language/english/admin.php
+- добавлено определение("_AM_ADV_REGISTERGLOBALS2","и поместите в него строку ниже:");
+
+ИЗМЕНЕННЫЕ ФАЙЛЫ:
+
+/modules/system/language/english/admin/users.php (Мамба)/
+/language/english/mail_template/activated.tpl
+/language/english/mail_template/adminactivate.tpl
+/language/english/mail_template/lostpass1.tpl
+/language/english/mail_template/lostpass2.tpl
+/language/english/mail_template/register.tpl
+/language/english/mail_template/welcome.tpl
+/modules/system/language/english/admin/avatars.php
+/modules/system/language/english/admin/banners.php
+/modules/system/language/english/admin/blocksadmin.php
+/modules/system/language/english/admin/comments.php
+/modules/system/language/english/admin/preferences.php
+/modules/system/language/english/admin/userrank.php
+/modules/system/language/english/admin/users.php
+/modules/system/language/english/help/mailusers.html
+/modules/system/language/english/help/preferences.html
+/modules/system/language/english/admin.php
+/modules/system/language/english/blocks.php
+/modules/system/language/english/modinfo.php
+/modules/system/themes/default/language/english/admin.php
+/modules/system/themes/zetadigme/language/english/admin.php
+/themes/suico/language/english/main.php
+/themes/zetagenesis/language/english/main.php
+
+
+===============================
+05.10.2011: Версия 2.5.4 Бета
+===============================
+- обновлено несколько английских переводов (DCrussader/Mamba)
+- удален язык/английский/calendar.php _CAL_DEF_DATE_FORMAT
+- удален язык/английский/calendar.php _CAL_TT_DATE_FORMAT
+- удалены модули/system/language/english/admin/users.php _AM_SYSTEM_USERS_NAV_MANAGER
+- удалены модули/system/language/english/admin/preferences.php _MD_AM_LOADINGIMG
+- удалены модули/system/language/english/admin/preferences.php _MD_AM_CHNGUTHEME
+- удаленные модули/pm/language/english/admin/main.php _MD_PM_RECEIVE, _MD_PM_POST, _MD_PM_READBOX, _MD_PM_RSAVEBOX, _MD_PM_SENTBOX, _MD_PM_PSAVEBOX, _MD_PM_SAVED, _MD_PM_TOC
+- добавлен /modules/profile/language/english/admin.php _PROFILE_AM_ACTION
+- добавлен /modules/profile/language/english/main.php _PROFILE_MI_ABOUT
+- добавлен /modules/profile/language/english/main.php _PROFILE_MI_HOME
+- добавлен /modules/pm/language/english/modinfo.php _MI_PM_ABOUT
+- добавлены модули/system/language/english/admin/users.php _AM_SYSTEM_USERS_FACEBOOK, _AM_SYSTEM_USERS_SKYPE
+- добавлен язык/английский/user.php _US_SKYPE, _US_FACEBOOK
+
+xoops_lib/modules/protector/language/english/modinfo.php
+- добавлено определение($constpref.'_STOPFORUMSPAM_ACTION','Остановить спам на форуме');
+- добавлено определение($constpref.'_STOPFORUMSPAM_ACTIONDSC','Проверяет данные POST на наличие спамеров, зарегистрированных в базе данных www.stopforumspam.com. Требуется php CURL lib.');
+
+
+
+===============================
+06.09.2011: Версия 2.5.2 RC
+===============================
+ - добавлен язык/английский/misc.php _MSC_CLICK_TO_OPEN_IMAGE, _MSC_RESIZED_IMAGE, _MSC_ORIGINAL_IMAGE
+ - добавлен язык/английский/pmsg.php _MD_PM_SURE_TO_DELETE, _MD_PM_READ
+ - добавлены модули/pm/language/english/admin/main.php _MD_PM_READ, _MD_PM_SUBJECT_ICONS
+ - модули\система/язык/английский/администратор/tplsets.php _AM_SYSTEM_TEMPLATES_SET
+ - удалены модули/system/themes/default/language/english/admin/admin.php _OXYGEN_XOOPSENGINE
+ - удалены модули/system/language/english/admin/blocksadmin.php _AM_SYSTEM_BLOCKS_SAVE
+ - добавлен язык/английский/calendar.php _CAL_DEF_DATE_FORMAT
+ - добавлен язык/английский/calendar.php _CAL_TT_DATE_FORMAT
+
+===============================
+15.03.2011: Версия 2.5.1 RC
+===============================
+
+Добавлены языковые константы:
+  modules/system/language/english/admin/images.php _AM_SYSTEM_IMAGES_URL
+  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XOOPSENGINE
+
+Измененные языковые константы:
+  модули/система/темы/default/language/english/admin/admin.php _OXYGEN_ABOUT_TEXT, _OXYGEN_WEBSITE
+  модули/система/язык/английский/помощник/help_center.html, модулиadmin.html
+
+Удалены языковые константы:
+  модули/система/темы/default/language/english/admin/admin.php _OXYGEN_XGIFTSHOP, _OXYGEN_XDONATIONS, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_KEY, _OXYGEN_LICENSE, _OXYGEN_SOURCEFORGE_TEXT, _OXYGEN_POWERED_BY
+  модули/система/темы/default/language/english/admin/admin.php _OXYGEN_XGIFTSHOP, _OXYGEN_XDONATIONS, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_KEY, _OXYGEN_LICENSE, _OXYGEN_SOURCEFORGE_TEXT, _OXYGEN_POWERED_BY
