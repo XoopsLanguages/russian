@@ -39,7 +39,7 @@ XoopsLanguages/
 
 ---------------------------------------------------------------------------------------------------------
 
-## XOOPS-Languages Archive for [XOOPS CMS 2.5.x](http://xoops.org)
+## XOOPS-Languages Archive for [XOOPS CMS](http://xoops.org)
 
 The place for XOOPS Languages maintained by XOOPS Translation Team.
 
